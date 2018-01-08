@@ -1,1 +1,1 @@
-{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA","file":"main.css","sourcesContent":[]}
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAA,oBAAS;AAET,oBAAS","file":"main.css","sourcesContent":["@tailwind preflight;\n\n@tailwind utilities;"]}

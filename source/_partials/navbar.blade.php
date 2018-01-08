@@ -31,19 +31,19 @@
                 <img src="img/meetups.png" class="w-8" alt="">
             </p>
             <p class="ml-2 lg:ml-0">
-                <a href="#responsive-header" class="no-underline text-black  lg:block mt-4 lg:inline-block lg:mt-0 lg:border-b-2 lg:border-pink mr-4">Camps</a>
+                <a href="/camps" class="no-underline text-black  lg:block mt-4 lg:inline-block lg:mt-0 lg:border-b-2 lg:border-pink mr-4">Camps</a>
             </p>
         </div>
       
-      <a href="#responsive-header" class="no-underline text-black  block mt-4 lg:inline-block lg:mt-0 lg:border-yellow lg:border-b-2 mr-4">
-        Meetups
+      <a href="/magazin" class="no-underline text-black  block mt-4 lg:inline-block lg:mt-0 lg:border-yellow lg:border-b-2 mr-4">
+        Magazin
       </a>
       <a href="#responsive-header" class="no-underline text-black block mt-4 lg:inline-block lg:border-green lg:border-b-2 lg:mt-0">
         Sprints
       </a>
     </div>
     <div>
-      <a href="#" class="no-underline text-black inline-block text-2xl px-4 py-2 leading-none border rounded border-black hover:border-transparent hover:bg-black hover:text-white mt-4 lg:mt-0">Spenden</a>
+      <a href="/spenden" class="no-underline text-black inline-block text-2xl px-4 py-2 leading-none border rounded border-black hover:border-transparent hover:bg-black hover:text-white mt-4 lg:mt-0">Spenden</a>
     </div>
   </div>
 </nav>

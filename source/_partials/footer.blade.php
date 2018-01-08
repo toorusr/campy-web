@@ -44,7 +44,7 @@
         <div class="text-red-light mb-2">Newsletter</div>
         <p class="text-grey-darker leading-normal">Abonniere unseren Newsletter und bekomme. </p>
         <div class="mt-4 flex">
-            <input type="text" class="p-2 border border-grey-light round text-grey-darkest h-auto" placeholder="Your email address">
+            <input type="text" class="p-2 border border-grey-light round text-grey-darkest h-auto" placeholder="Deine E-Mail-Adresse">
             <button class="bg-red-light text-white rounded-sm h-auto p-3">Anmelden</button>
         </div>
     </div>
