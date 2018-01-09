@@ -11,6 +11,18 @@ return [
         'camps' => [
             'path' => 'camps/{-slug}/{date_start|ym}',
             'sort' => 'city'
+        ],
+        'coaches' => [
+            'path' => 'coaches/{-lastname}',
+            'sort' => 'lastname'
+        ],
+        'partners' => [
+            'path' => 'partner/{name}',
+            'sort' => 'name'
+        ],
+        'articles' => [
+            'path' => 'magazin/{-slug}',
+            'sort' => 'publication_date'
         ]
     ],
 ];

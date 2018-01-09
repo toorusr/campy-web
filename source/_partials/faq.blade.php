@@ -1,17 +1,11 @@
-<dl class="text-xl">
-    <dt class="text-xl">
-        Was passiert da?
-    </dt>
-    <dd>
-        4-Tage-Programmier-Camp für Anfänger und Fortgeschrittene + Berufsorientierung
-    </dd>
+<div class="text-2xl font-bold font-mono">FAQ</div>
 
-    
-    <dt>
-        Wer hilft?
-    </dt>
-    <dd>
-        Erfahrene Coaches im Bereich Web, App, Games
+<dl class="font-mono mt-4">
+    <dt class="font-bold">Location</dt>
+    <dd class="mb-4">
+        Lohmühlenstraße 65, 12435 Berlin
     </dd>
-
-</dl>
+    <dt class="font-bold">Unkostenbeitrag</dt>
+    <dd class="mb-4">
+        50€*
+    </dd>

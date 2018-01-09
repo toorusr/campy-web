@@ -15,7 +15,9 @@
     </head>
     <body class="antialiased">
         @include('_partials.navbar')
-        @yield('body')
+        <main>
+            @yield('body')
+        </main>
         @include('_partials.footer')
         @yield('scripts')
     </body>
