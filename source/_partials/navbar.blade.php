@@ -1,5 +1,5 @@
 <nav class="md:flex items-center justify-between flex-wrap bg-white p-6">
-  <div class="flex items-center flex-no-shrink text-black mr-6">
+  <div class="flex items-center justify-center md:justify-start flex-no-shrink text-black mr-6">
     <a href="/">
       <svg class="fill-current text-black w-64" viewBox="0 0 226 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
                     <g>
@@ -20,7 +20,7 @@
                 </svg>
     </a>
   </div>
-  <div class="w-full block flex-grow md:flex md:items-center md:w-auto">
+  <div class="w-full block items-center flex-grow md:flex md:items-center md:w-auto">
     <div class="text-2xl md:flex-grow">
 
       <a href="/camps" class="no-underline text-black inline md:block mt-4 md:inline-block md:mt-0 border-b-2 border-purple mr-4">Camps</a>
@@ -32,8 +32,19 @@
         Initiative
       </a>
     </div>
-    <div>
-      <a href="/spenden" class="no-underline text-black inline-block text-2xl px-4 py-2 leading-none border rounded border-black hover:border-transparent hover:bg-pink hover:text-white mt-4 lg:mt-0">Spenden</a>
+    <div class="hidden md:block">
+      @component('comp_button')
+        @slot('colorback')
+        pink
+        @endslot
+        @slot('colorfront')
+        white
+        @endslot
+        @slot('link')
+        spenden
+        @endslot
+        Spenden
+    @endcomponent
     </div>
   </div>
 </nav>

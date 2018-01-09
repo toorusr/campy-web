@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var elixir = require('laravel-elixir');
+var imageOptimize = require('laravel-elixir-image-optimize');
 var argv = require('yargs').argv;
 var bin = require('./tasks/bin');
 
@@ -10,9 +11,12 @@ elixir(function(mix) {
     var env = argv.e || argv.env || 'local';
     var port = argv.p || argv.port || 3000;
 
-    mix.copy('_redirects.txt', './build_local/_redirects.txt')
+    // mix.imageOptimize('img','img/opt');
+
     mix.sass('main.scss')
         .exec(bin.path() + ' build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
+        .copy('_redirects.txt', './build_production/_redirects.txt');
+
         // .browserSync({
         //     port: port,
         //     server: { baseDir: 'build_' + env },
@@ -20,5 +24,6 @@ elixir(function(mix) {
         //     files: [ 'build_' + env + '/**/*' ]
         //     // files: ['./source/**/*']
         // });
+
 });
 

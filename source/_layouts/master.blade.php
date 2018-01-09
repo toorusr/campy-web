@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,5 +20,7 @@
         </main>
         @include('_partials.footer')
         @yield('scripts')
+        @include('_partials.scripts')
+
     </body>
 </html>
