@@ -7,9 +7,27 @@
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/style.min.css">
         <style>
-            html, body, p {
-                font-family: "Hans Grotesque";
+        @font-face{ 
+            font-family: 'Hans';
+            src: url('/fonts/hans_grotesque_regular.eot');
+            src: url('/fonts/hans_grotesque_regular.eot?#iefix') format('embedded-opentype'),
+                 url('/fonts/hans_grotesque_regular.woff') format('woff'),
+                 url('/fonts/hans_grotesque_regular.ttf') format('truetype');
+             font-weight: 200;
             }
+
+        @font-face{ 
+            font-family: 'Hans';
+            src: url('/fonts/hans_grotesque_bold.eot');
+            src: url('/fonts/hans_grotesque_bold.eot?#iefix') format('embedded-opentype'),
+                 url('/fonts/hans_grotesque_bold.woff') format('woff'),
+                 url('/fonts/hans_grotesque_bold.ttf') format('truetype');
+             font-weight: 600;
+            }
+
+        html,body,p {
+            font-family: 'Hans';
+        }
         </style>
      @yield('styles')
     </head>

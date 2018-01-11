@@ -5,7 +5,7 @@
         <dt class="font-bold">Datum</dt>
         <dd class="mb-4">Donnerstag, 08.02. bis Sonntag 11.02.2018</dd>
         <dt class="font-bold">Uhrzeit</dt>
-        <dd class="mb-4">Jeweils 09:00 bis 21:00 Uhr</dd>
+        <dd class="mb-4">Jeweils 09:00 bis 21:00 Uhr, Sonntag bis 16:00 Uhr</dd>
         <dt class="font-bold">Inhalt</dt>
         <dd class="mb-4">4-Tage-Programmier-Camp für Anfänger und Fortgeschrittene + Berufsorientierung</dd>
         <dt class="font-bold">Betreuung</dt>
