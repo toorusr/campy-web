@@ -7,53 +7,37 @@
 
   <div class="bg-white p-4"> 
 
-    <img src="img/camps/001.jpg" alt="" class="mb-4">
+    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+  class="lazyload mb-4"
+  data-srcset="img/camps/001.jpg" alt="Code+Design Camp" />
 
-  <div class="mb-4"><p class="text-3xl">Die Initiative</p>
-  <p>Die gemeinnützige Code+Design Initiative hat sich zum Ziel gesetzt, Jugendliche für digitale Technologien und Berufe zu begeistern und insbesondere den Anteil an Frauen in diesen Bereichen zu erhöhen. Dafür führt sie Code+Design Camps in verschiedenen Orten durch und gibt ein Magazin mit IT-Themen für Jugendliche heraus.</p>
+<div class="flex">  
 
-@component('_components.button')
-  @slot('colorback')
-  green
-  @endslot
-  @slot('colorfront')
-  white
-  @endslot
-  @slot('link')
-  initiative
-  @endslot
-  Zur Initiative
-@endcomponent
+  <div class="mb-4 ml-4">
+  <div class="text-3xl mb-2"><span class="border-b-2 border-purple">Die Camps</span></div>
+  <p class="mb-4">Auf den Code+Design Camps wollen wir dir und vielen anderen Jugendlichen die Chance geben, an spannenden Hard- und Softwareprojekten zu arbeiten und unter der Anleitung von professionellen Coaches neue Technologien kennenzulernen und deine Fähigkeiten weiterzuentwickeln.</p>
+
+
+
+
+  @component('_components.button')
+    @slot('colorback')
+    purple
+    @endslot
+    @slot('colorfront')
+    white
+    @endslot
+    @slot('link')
+    camps
+    @endslot
+    Alle Camps
+  @endcomponent
 
 </div>
 
-<div class="mb-4 mt-4">
-  <div class="text-3xl">Die Camps</div>
-<p>Auf den Code+Design Camps wollen wir dir und vielen anderen Jugendlichen die Chance geben, an spannenden Hard- und Softwareprojekten zu arbeiten und unter der Anleitung von professionellen Coaches neue Technologien kennenzulernen und deine Fähigkeiten weiterzuentwickeln.</p>
-
-
- </div>
-
-@component('_components.button')
-  @slot('colorback')
-  purple
-  @endslot
-  @slot('colorfront')
-  white
-  @endslot
-  @slot('link')
-  camps
-  @endslot
-  Alle Camps
-@endcomponent
-
-
-@include('_partials.upcoming')
-
-
-<div class="mb-4 mt-4">
-  <div class="text-3xl">Das Magazin</div>
-<p>Mit dem C+D Magazin kannst du dir einen Überblick verschaffen, wie sich unser Berufsleben durch die Digitalisierung verändert, welche Berufsbilder dabei entstehen und welche Zukunftschancen Berufe in der digitalen Wirtschaft bieten. Portraits von Arbeitgebern und Hochschulen helfen dir bei der beruflichen Orientierung.</p>
+<div class="mb-4 ml-4">
+  <div class="text-3xl mb-2"><span class="border-b-2 border-yellow">Das Magazin</span></div>
+<p class="mb-4">Mit dem C+D Magazin kannst du dir einen Überblick verschaffen, wie sich unser Berufsleben durch die Digitalisierung verändert, welche Berufsbilder dabei entstehen und welche Zukunftschancen Berufe in der digitalen Wirtschaft bieten. Portraits von Arbeitgebern und Hochschulen helfen dir bei der beruflichen Orientierung.</p>
 
 @component('_components.button')
   @slot('colorback')
@@ -69,6 +53,38 @@
 @endcomponent
 
 </div>
+
+
+<div class="mb-4 md:flex flex-col">
+    <div>
+      <p class="text-3xl">Die Initiative</p>
+      <p>Die gemeinnützige Code+Design Initiative hat sich zum Ziel gesetzt, Jugendliche für digitale Technologien und Berufe zu begeistern und insbesondere den Anteil an Frauen in diesen Bereichen zu erhöhen. Dafür führt sie Code+Design Camps in verschiedenen Orten durch und gibt ein Magazin mit IT-Themen für Jugendliche heraus.</p>
+    </div>
+
+    @component('_components.button')
+      @slot('colorback')
+      green
+      @endslot
+      @slot('colorfront')
+      white
+      @endslot
+      @slot('link')
+      initiative
+      @endslot
+      Zur Initiative
+    @endcomponent
+
+  </div>
+
+</div>
+
+
+
+
+@include('_partials.upcoming')
+
+
+
 
 <div class="mb-4 mt-4">
   <div class="text-3xl">Die Presse</div>
