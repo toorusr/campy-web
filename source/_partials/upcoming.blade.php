@@ -1,14 +1,20 @@
-<div class="mt-4 border-2 rounded p-4 mb-4">
-    <div class="text-2xl">Die nächsten Camps</div>
-    
-   <ul class="mt-4 list-reset">
-   @foreach ($camps as $camp)
-   @if ($camp->active === 'yes')
-        <li class="mb-2"><a class="text-lg" href="{{ $camp->getUrl() }}">{{  $camp->city }} ({{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }})
+<div class="mt-4 border-2 rounded p-4 mb-4 bg-grey-light">
+    <div class="text-2xl mb-4 text-grey-darkest">Die nächsten Camps</div>
 
-        </a></li>
-    @endif
-    @endforeach
-    </ul>
+    <div class="flex">
+        @foreach ($camps as $camp)
+             @if ($camp->active === 'yes')
+                
+                <div class="flex-1 p-1">
+                    <div class="flex flex-col flex-1 bg-{{ $camp->color }} p-4 rounded">
+                                    <a class="no-underline" href="{{ $camp->getUrl() }}">
+                                        <p class="mb-2 text-xl font-bold no-underline text-white">{{  $camp->city }}</p>
+                                                        <p class="text-white">({{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }})</p> </a>
+                    </div>
+                </div>
+               
+                @endif
+        @endforeach
+    </div>
     
 </div>

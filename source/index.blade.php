@@ -5,17 +5,25 @@
 
   <div class="text-white text-3xl mb-4">Code+Design: Wir begeistern für digitale Berufe!</div>
 
-  <div class="bg-white p-4"> 
+  <div class="bg-white p-6"> 
 
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-  class="lazyload mb-4"
-  data-srcset="img/camps/001.jpg" alt="Code+Design Camp" />
+    @component('_components.img')
+    
+        @slot('src')
+        /img/camps/001.jpg
+        @endslot
+    
+        @slot('alt')
+        Code+Design Camp
+        @endslot
+    
+    @endcomponent
 
-<div class="flex">  
+<div class="md:flex p-4">  
 
-  <div class="mb-4 ml-4">
-  <div class="text-3xl mb-2"><span class="border-b-2 border-purple">Die Camps</span></div>
-  <p class="mb-4">Auf den Code+Design Camps wollen wir dir und vielen anderen Jugendlichen die Chance geben, an spannenden Hard- und Softwareprojekten zu arbeiten und unter der Anleitung von professionellen Coaches neue Technologien kennenzulernen und deine Fähigkeiten weiterzuentwickeln.</p>
+  <div class="mb-4 h-auto">
+  <div class="text-3xl mb-4"><span class="border-b-2 border-purple">Die Camps</span></div>
+  <p class="mb-4 hyphens leading-normal">Auf den Code+Design Camps wollen wir dir und vielen anderen Jugendlichen die Chance geben, an spannenden Hard- und Softwareprojekten zu arbeiten und unter der Anleitung von professionellen Coaches neue Technologien kennenzulernen und deine Fähigkeiten weiterzuentwickeln.</p>
 
 
 
@@ -30,14 +38,17 @@
     @slot('link')
     camps
     @endslot
+    @slot('width')
+    w-64
+    @endslot
     Alle Camps
   @endcomponent
 
 </div>
 
-<div class="mb-4 ml-4">
-  <div class="text-3xl mb-2"><span class="border-b-2 border-yellow">Das Magazin</span></div>
-<p class="mb-4">Mit dem C+D Magazin kannst du dir einen Überblick verschaffen, wie sich unser Berufsleben durch die Digitalisierung verändert, welche Berufsbilder dabei entstehen und welche Zukunftschancen Berufe in der digitalen Wirtschaft bieten. Portraits von Arbeitgebern und Hochschulen helfen dir bei der beruflichen Orientierung.</p>
+<div class="mb-4 md:ml-8">
+  <div class="text-3xl mb-4 "><span class="border-b-2 border-yellow">Das Magazin</span></div>
+<p class="mb-4 leading-normal hyphens">Mit dem C+D Magazin kannst du dir einen Überblick verschaffen, wie sich unser Berufsleben durch die Digitalisierung verändert, welche Berufsbilder dabei entstehen und welche Zukunftschancen Berufe in der digitalen Wirtschaft bieten. Portraits von Arbeitgebern und Hochschulen helfen dir bei der beruflichen Orientierung.</p>
 
 @component('_components.button')
   @slot('colorback')
@@ -49,16 +60,19 @@
   @slot('link')
   magazin
   @endslot
+  @slot('width')
+  w-64
+  @endslot
   Mehr zum Magazin
 @endcomponent
 
 </div>
 
 
-<div class="mb-4 md:flex flex-col">
+<div class="mb-4 ml-8 md:flex flex-col justify-between">
     <div>
-      <p class="text-3xl">Die Initiative</p>
-      <p>Die gemeinnützige Code+Design Initiative hat sich zum Ziel gesetzt, Jugendliche für digitale Technologien und Berufe zu begeistern und insbesondere den Anteil an Frauen in diesen Bereichen zu erhöhen. Dafür führt sie Code+Design Camps in verschiedenen Orten durch und gibt ein Magazin mit IT-Themen für Jugendliche heraus.</p>
+      <p class="text-3xl mb-4 "><a href="/initiative" class="no-underline text-grey-darkest"><span class="border-b-2 border-green">Die Initiative</span></a></p>
+      <p class="leading-normal hyphens">Die gemeinnützige Code+Design Initiative hat sich zum Ziel gesetzt, Jugendliche für digitale Technologien und Berufe zu begeistern und insbesondere den Anteil an Frauen in diesen Bereichen zu erhöhen. Dafür haben wir im letzten Jahr 8 Code+Design Camps in 6 verschiedenen Städten mit über 650 Teilnehmern organisiert. Dieses Jahr wollen wir noch mehr Jugendlichen die Möglichkeit geben eines unserer Events zu besuchen. Deshalb arbeiten wir an weiteren Formaten um die Zeit zwischen den Code+Design Camps zu verkürzen und unsere Reichweite zu vergrößern.</p>
     </div>
 
     @component('_components.button')
@@ -70,6 +84,9 @@
       @endslot
       @slot('link')
       initiative
+      @endslot
+      @slot('width')
+      w-64
       @endslot
       Zur Initiative
     @endcomponent
@@ -87,47 +104,122 @@
 
 
 <div class="mb-4 mt-4">
-  <div class="text-3xl">Die Presse</div>
+  <div class="text-3xl mb-4 mt-8 ml-4"><a href="/stimmen" class="no-underline border-b-2 border-purple text-grey-darkest">Die Stimmen</a></div>
+
+
 
   <div class="md:flex">
-    <div>
-      <div>Focus: In den Ferien programmieren lernen</div>
-      <div>
-        Viele Zukunftsberufe verlangen den Arbeitnehmern Informatikkenntnisse ab. Deswegen müssen gerade junge Menschen diese Kompetenzen so früh wie möglich aneignen und weiterentwickeln. Die Weichen dafür stellt eine gemeinnützige Initiative.
 
-        <a href="http://www.focus.de/finanzen/karriere/arbeit-in-den-ferien-programmieren-lernen_id_6635977.html" target="_blank">Link</a>
+<div>
 
-      </div>
-    </div>
-    <div class="mt-4 md:mt-0 md:ml-2">
-      <div>Planet Beruf: Berufsorientierung in Feriencamps</div>
-      <div>
-        In Design- und Programmiercamps können Jugendliche unter Anleitung von professionellen Coaches neue Technologien kennenlernen und ihre digitalen Skills weiterentwickeln.
+  @component('_components.card')
 
-        <a href="http://planet-beruf.de/eltern/feature-navigation/news/meldung/?tx_ttnews%5Btt_news%5D=6437&cHash=072f0bdf6c99f861cd81e33a8067f657" target="_blank">Link</a>
-      </div>
-    </div>
+    @slot('src')
+    https://pbs.twimg.com/profile_images/847373919468179456/Zrp-86HU_400x400.jpg
+    @endslot
 
-    <div class="mt-4 md:mt-0 md:ml-2">
-      <div>Einstieg Informatik: </div>
-      <div>Soft- und Hardware, Coding und Design – die Code+Design Camps bringen beides zusammen. Begleitet von erfahrenen Entwicklern und Designern können SchülerInnen an eigenen Projektideen arbeiten.</div>
-      <a href="http://www.einstieg-informatik.de/index.php?article_id=1249" target="_blank"></a>
-    </div>
+    @slot('link')
+    http://www.focus.de/finanzen/karriere/arbeit-in-den-ferien-programmieren-lernen_id_6635977.html
+    @endslot
+
+    @slot('medium')
+    Focus
+    @endslot
+
+    @slot('channel')
+    www.focus.de
+    @endslot
+
+    @slot('published_at')
+    Montag, 13.02.2017, 04:35
+    @endslot
+
+    @slot('ml')
+    @endslot
+
+    @slot('mr')
+    @endslot
+
+    Viele Zukunftsberufe verlangen den Arbeitnehmern Informatikkenntnisse ab. Deswegen müssen gerade junge Menschen diese Kompetenzen so früh wie möglich aneignen und weiterentwickeln. Die Weichen dafür stellt eine gemeinnützige Initiative.
+
+@endcomponent
+
+</div>
+
+<div class="md:ml-4">
+
+  @component('_components.card')
+
+    @slot('src')
+    https://pbs.twimg.com/profile_images/1332189243/logo_pb_400x400.jpg
+    @endslot
+
+    @slot('link')
+    http://planet-beruf.de/eltern/feature-navigation/news/meldung/?tx_ttnews%5Btt_news%5D=6437&cHash=072f0bdf6c99f861cd81e33a8067f657
+    @endslot
+
+    @slot('medium')
+    Planet Beruf
+    @endslot
+
+    @slot('channel')
+    planet-beruf.de
+    @endslot
+
+    @slot('published_at')
+    Donnerstag, 09.02.2017, 09:45
+    @endslot
+
+    @slot('ml')
+    @endslot
+
+    @slot('mr')
+    @endslot
+
+    In Design- und Programmiercamps können Jugendliche unter Anleitung von professionellen Coaches neue Technologien kennenlernen und ihre digitalen Skills weiterentwickeln.
+
+@endcomponent
+
+</div>
+
+<div class="md:ml-4">
+
+  @component('_components.card')
+
+    @slot('src')
+    https://pbs.twimg.com/profile_images/734677911282798592/VYZcvOSk_400x400.jpg
+    @endslot
+
+    @slot('link')
+    http://www.einstieg-informatik.de/index.php?article_id=1249
+    @endslot
+
+    @slot('medium')
+    Einstieg Informatik
+    @endslot
+
+    @slot('channel')
+    einstieg-informatik.de
+    @endslot
+
+    @slot('published_at')
+    Mittwoch, 10.01.2018, 12:45
+    @endslot
+
+    @slot('ml')
+    @endslot
+
+    @slot('mr')
+    @endslot
+
+    Soft- und Hardware, Coding und Design – die Code+Design Camps bringen beides zusammen. Begleitet von erfahrenen Entwicklern und Designern können SchülerInnen an eigenen Projektideen arbeiten.
+
+@endcomponent
+
+</div>
 
 
   </div>
-  @component('_components.button')
-  @slot('colorback')
-  pink
-  @endslot
-  @slot('colorfront')
-  white
-  @endslot
-  @slot('link')
-  presse
-  @endslot
-  Mehr Presse
-@endcomponent
 
 </div>
 

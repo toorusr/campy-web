@@ -10,7 +10,7 @@ return [
     'collections' => [
         'camps' => [
             'path' => 'camps/{-slug}/{date_start|ym}',
-            'sort' => 'city'
+            'sort' => 'date_start'
         ],
         'coaches' => [
             'path' => 'coaches/{-lastname}',
@@ -19,6 +19,10 @@ return [
         'partners' => [
             'path' => 'partner/{name}',
             'sort' => 'name'
+        ],
+        'testimonials' => [
+            'path' => 'stimmen/{date|ym}/{-slug}',
+            'sort' => 'date|ym',
         ],
         'articles' => [
             'path' => 'magazin/{-slug}',

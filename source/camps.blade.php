@@ -10,11 +10,11 @@
         <div class="md:flex">
     
             <div class="md:w-3/5">
-                <div class="text-2xl mb-2">Was ist das C+D Camp?</div>
+                <div class="text-2xl mb-4">Was ist das C+D Camp?</div>
                     
-                        <p>Ein Code+Design Camp ist eine sehr gute Möglichkeit für junge Interessierte (15-20 Jahre) einen genaueren Einblick in die Berufswelt Code und Design zu bekommen. Nicht nur Neulinge, sondern auch schon Fortgeschrittene kommen hierbei auf ihre Kosten in einem Camp voller neuer Erfahrungen, sozialer Kontakte, fachlicher Kompetenz und einer Menge Spaß. Ob man sich nun mit programmieren oder designen beschäftigt ist dir natürlich selbst überlassen. Oder hast du doch eher Lust auf ein Hardware-Projekt?</p>
+                        <p class="text-lg leading-normal">Ein Code+Design Camp ist eine sehr gute Möglichkeit für junge Interessierte (15-20 Jahre) einen genaueren Einblick in die Berufswelt Code und Design zu bekommen. Nicht nur Neulinge, sondern auch schon Fortgeschrittene kommen hierbei auf ihre Kosten in einem Camp voller neuer Erfahrungen, sozialer Kontakte, fachlicher Kompetenz und einer Menge Spaß. Ob man sich nun mit programmieren oder designen beschäftigt ist dir natürlich selbst überlassen. Oder hast du doch eher Lust auf ein Hardware-Projekt?</p>
             </div>
-            <div class="md:w-2/5 md:ml-4 mt-4 md:mt-0">
+            <div class="md:w-2/5 md:ml-4 mt-4 mb-4 md:mt-0">
                 <div id="plyr-youtube" class="w-full" data-type="youtube" data-video-id="xGk1PpIbisU"></div>
                 {{-- <img src="/img/camps/002.jpg" alt=""> --}}
             </div>
@@ -24,12 +24,25 @@
         @include('_partials.upcoming')
 
 
-        <div class="md:flex mt:8">
-            <div class="md:w-2/5"><img src="/img/camps/002.jpg" alt=""></div>
-            <div class="md:w-3/5 md:ml-4">
-                <div class="text-2xl mb-2">Was passiert auf dem Camp?</div>
+        <div class="md:flex mt-8">
+            <div class="md:w-2/5">
 
-                <p>Das Camp findet im sog. Hackathon-Format statt. Am ersten Tag geht es um die Team und Projektfindung. Zusammen mit deinem Team arbeitest du am zweiten und dritten Tag an eurem Projekt. Unterstützung bekommt ihr dabei von erfahrenen Coaches und anderen Teilnehmern, die sich schon etwas besser auskennen. Am letzten Tag präsentiert ihr die Ergebnisse eures Projektes vor euren Eltern und Pressevertretern.</p>
+                @component('_components.img')
+
+                    @slot('src')
+                    /img/camps/002.jpg
+                    @endslot
+
+                    @slot('alt')
+                    Jugendliche schauen auf Monitor
+                    @endslot
+
+                @endcomponent
+            </div>
+            <div class="md:w-3/5 md:ml-4">
+                <div class="text-2xl mb-4">Was passiert auf dem Camp?</div>
+
+                <p class="text-lg leading-normal">Das Camp findet im sog. Hackathon-Format statt. Am ersten Tag geht es um die Team und Projektfindung. Zusammen mit deinem Team arbeitest du am zweiten und dritten Tag an eurem Projekt. Unterstützung bekommt ihr dabei von erfahrenen Coaches und anderen Teilnehmern, die sich schon etwas besser auskennen. Am letzten Tag präsentiert ihr die Ergebnisse eures Projektes vor euren Eltern und Pressevertretern.</p>
             </div>
         </div>
 

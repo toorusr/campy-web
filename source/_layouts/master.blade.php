@@ -29,6 +29,11 @@
         html,body,p {
             font-family: 'Hans';
         }
+        .hyphens {
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            hyphens: auto;
+        }
         </style>
      @yield('styles')
     </head>

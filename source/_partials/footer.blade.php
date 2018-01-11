@@ -1,17 +1,17 @@
 <div class="block bg-white p-8 mt-8 text-lg">
     <div class="sm:flex mb-4">
   <div class="sm:w-1/2 h-auto">
-      <div class="mb-2 "><span class="border-b-2 border-pink">Code+Design</span></div>
+      <div class="mb-2 "><span class="border-b-2 border-green">Code+Design</span></div>
       <ul class="list-reset leading-normal">
-          <li class="hover:text-pink text-grey-darker">Initiative</li>
-{{--           <li class="hover:text-pink text-grey-darker">Ansatz</li>
-          <li class="hover:text-pink text-grey-darker">Personen</li> --}}
-          <li class="hover:text-pink text-grey-darker"><a href="/partner" class="no-underline hover:text-pink text-grey-darker" class="no-underline hover:text-pink text-grey-darker">Partner</a></li>
-          <li class="hover:text-pink text-grey-darker"><a href="/spenden" class="no-underline hover:text-pink text-grey-darker" class="no-underline hover:text-pink text-grey-darker">Spenden</a></li>
-          <li class="hover:text-pink text-grey-darker">Presse</li>
-          <li class="hover:text-pink text-grey-darker">Videos</li>
-          <li class="hover:text-pink text-grey-darker">Impressum</li>
-          <li class="hover:text-pink text-grey-darker">Datenschutz</li>
+          <li class="hover:text-green text-grey-darker"><a href="/initiative" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Initiative</a></li>
+{{--           <li class="hover:text-green text-grey-darker">Ansatz</li>
+          <li class="hover:text-green text-grey-darker">Personen</li> --}}
+          <li class="hover:text-green text-grey-darker"><a href="/partner" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Partner</a></li>
+          <li class="hover:text-green text-grey-darker"><a href="/spenden" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Spenden</a></li>
+          <li class="hover:text-green text-grey-darker"><a href="/stimmen" class="no-underline hover:text-green text-grey-darker">Stimmen</a></li>
+{{--           <li class="hover:text-green text-grey-darker">Videos</li>
+ --}}          <li class="hover:text-green text-grey-darker">Impressum</li>
+          <li class="hover:text-green text-grey-darker">Datenschutz</li>
       </ul>
   </div>
   <div class="sm:w-1/2 h-auto sm:mt-0 mt-8">

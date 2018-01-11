@@ -5,17 +5,29 @@
 
     <div class="text-3xl mb-4">Das Code+Design Magazin</div>
 
-   <div class="p-4 bg-white">
+   <div class="p-8 bg-white">
        
-    <p>Mit dem Code+Design Magazin sollen sich junge Menschen einen Überblick darüber verschaffen können, wie sich das Berufsleben durch die Digitalisierung verändert, welche Berufsbilder dabei entstehen und welche Zukunftschancen Berufe in der digitalen Wirtschaft bieten.</p>
+    <p class="text-xl">Mit dem Code+Design Magazin sollen sich junge Menschen einen Überblick darüber verschaffen können, wie sich das Berufsleben durch die Digitalisierung verändert, welche Berufsbilder dabei entstehen und welche Zukunftschancen Berufe in der digitalen Wirtschaft bieten.</p>
 
-    <div class="mt-4"><img src="/img/magazin/magazin-001.jpg" alt=""></div>
+    <div class="mt-4">
+
+@component('_components.img')
+
+    @slot('src')
+    /img/magazin/magazin-001.jpg
+    @endslot
+
+    @slot('alt')
+    Das Magazin
+    @endslot
+
+@endcomponent
 
 
     <div class="mt-4">
         <div class="text-2xl font-bold">Ausgabe 1</div>
 
-        <div>Die neuen Rockstars: Neun Vorbilder zeigen, worauf es ankommt, um Coder*in zu werden
+        <div class="text-lg">Die neuen Rockstars: Neun Vorbilder zeigen, worauf es ankommt, um Coder*in zu werden
 Einblicke in unbekannte Berufe: Was macht eigentlich eine UI-Designerin?
 Irgendwas mit Computer: Berufe für Coder*innen kurz erklärt
 In fünf Schritten zur eigenen App</div>
