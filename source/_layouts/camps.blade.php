@@ -184,3 +184,8 @@
 @endif
 
 @endsection
+
+
+@section('title')
+Camp | {{ $page->city }} ({{ date('d.m.', $page->date_start) }} - {{ date('d.m.y', $page->date_end) }})
+@endsection

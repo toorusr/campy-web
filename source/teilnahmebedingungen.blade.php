@@ -43,3 +43,7 @@
 </main>
 
 @endsection
+
+@section('title')
+Teilnahmebedingungen
+@endsection

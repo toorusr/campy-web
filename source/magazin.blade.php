@@ -80,3 +80,7 @@ In fünf Schritten zur eigenen App</div>
 </main>
 
 @endsection
+
+@section('title')
+Magazin
+@endsection

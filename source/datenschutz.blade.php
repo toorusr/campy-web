@@ -89,3 +89,7 @@ Diese Seite nutzt aus Gründen der Sicherheit und zum Schutz der Übertragung ve
 </main>
 
 @endsection
+
+@section('title')
+Datenschutz
+@endsection

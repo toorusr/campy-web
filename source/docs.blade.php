@@ -69,3 +69,7 @@ browser-sync start -s -f . --no-notify --https
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.9.0/themes/prism.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.9.0/plugins/line-numbers/prism-line-numbers.min.css" />
 @endsection
+
+@section('title')
+Docs
+@endsection

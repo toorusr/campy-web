@@ -226,3 +226,7 @@
 </main>
 
 @endsection
+
+@section('title')
+Zuhause
+@endsection

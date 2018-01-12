@@ -52,3 +52,7 @@ Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unt
 </main>
 
 @endsection
+
+@section('title')
+Impressum
+@endsection

@@ -64,3 +64,7 @@
 @section('styles')
 <link rel="stylesheet" href="/css/plyr.css">
 @endsection
+
+@section('title')
+Camps
+@endsection

@@ -59,3 +59,7 @@
 </main>
 
 @endsection
+
+@section('title')
+Initiative
+@endsection
