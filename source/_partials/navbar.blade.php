@@ -27,6 +27,8 @@
         @slot('link')
         spenden
         @endslot
+        @slot('width')
+        @endslot
         Spenden
     @endcomponent
     </div>

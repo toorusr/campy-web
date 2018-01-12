@@ -1,7 +1,7 @@
 ---
 extends: _layouts.partners
 name: eco
-logo: partner-paistudio.png
+logo: eco.svg
 tier: sponsor
 camps: koe1706
 ---

@@ -44,6 +44,8 @@
 
                                              @slot('mb')
                                              @endslot
+
+                                             @yield('content')
                              
                                              {{ $testimonial->content }}
                              

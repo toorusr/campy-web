@@ -24,7 +24,7 @@
                   <li>Business Angel</li></ul>
      </div>
 
-     <div class="flex-1 bg-green-lighter p-4 rounded md:ml-4"><p class="text-xl">Thomas Bachem</p><p>Vorstand</p>
+     <div class="flex-1 bg-green-lighter p-4 rounded md:ml-4"><p class="text-xl">Manuel Dolderer</p><p>Vorstand</p>
          <ul class="mt-4 list-reset"><li>Wissenschaftler</li>
                   <li>Ökonom</li>
                   <li>Edupreneur</li></ul>
@@ -40,7 +40,7 @@
          <ul class="mt-4 list-reset">
          <ul class="list-reset"><li></li>
                   <li></li>
-                  <li>Ökonom</li></ul>
+                  <li></li></ul>
      </div>
       
 

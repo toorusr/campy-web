@@ -1,13 +1,32 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8">
+<main class="p-8 bg-green">
 
-   <ul>
+   <div class="flex flex-wrap bg-white p-8">
        @foreach ($partners as $partner)
-            <li><a href="{{ $partner->getUrl() }}">{{  $partner->name }}</a></li>
+            <div class="flex-1 flex flex-col items-center">
+
+                @component('_components.img')
+                
+                    @slot('src')
+                    /img/partner/{{ $partner->logo }}
+                    @endslot
+                
+                    @slot('alt')
+                    {{ $partner->name }}
+                    @endslot
+                
+                @endcomponent
+
+                
+                <a href="{{ $partner->getUrl() }}" target="_blank">{{  $partner->name }}</a>
+
+                @yield('content')
+                
+            </div>
         @endforeach
-   </ul>
+   </div>
 </main>
 
 @endsection

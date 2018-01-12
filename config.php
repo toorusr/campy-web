@@ -21,8 +21,8 @@ return [
             'sort' => 'name'
         ],
         'testimonials' => [
-            'path' => 'stimmen/{date|ym}/{-slug}',
-            'sort' => 'date|ym',
+            'path' => 'stimmen/{published_at|ym}/{-slug}',
+            'sort' => '-published_at',
         ],
         'articles' => [
             'path' => 'magazin/{-slug}',

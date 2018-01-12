@@ -6,4 +6,6 @@
 
 <img src="/img/{{ $page->logo}}" alt="">
 
+<p>@yield('test')</p>
+
 @endsection

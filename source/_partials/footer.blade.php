@@ -43,10 +43,11 @@
     <div class="sm:w-1/2 sm:mt-0 mt-8 h-auto">
         <div>
             <div class="mb-2"><span class="border-b-2 border-red">Newsletter</span></div>
-            <p class="text-grey-darker leading-normal">Abonniere unseren Newsletter und bekomme. </p>
+            <form name="newsletter" action="/danke" netlify>
+            <label class="text-grey-darker leading-normal">Abonniere unseren Newsletter und bekomme.</label>
             <div class="mt-4 flex">
-                <input type="text" class="p-2 border border-grey-light round text-grey-darkest h-auto" placeholder="Deine E-Mail-Adresse">
-                <button class="bg-red-light text-white rounded-sm h-auto p-3">Anmelden</button>
+                <input name="email" type="text" class="p-2 border border-grey-light round text-grey-darkest h-auto" placeholder="Deine E-Mail-Adresse">
+                                <button type="submit" class="bg-red-light text-white rounded-sm h-auto p-3">Anmelden</button></form>
             </div>
         </div>
         <div class="mt-4 flex" id="social">
