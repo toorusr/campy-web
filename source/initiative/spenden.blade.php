@@ -1,10 +1,11 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8 bg-pink lg:flex">
+<main class="p-8 bg-pink ">
 
-<div id="form" class="lg:w-1/2 w-full bg-white p-4">
-                <div class="text-3xl uppercase mt-8 font-mono font-bold tracking-wide mb-4">Spenden</div>
+  <div class="text-white text-3xl mb-4">Spenden</div>
+
+<div class="flex"><div id="form" class="lg:w-1/2 w-full bg-white p-4">
 
                 <div class="text-xl">Wir sind ein gemeinnütziger Verein und können unsere Zwecke nur mit eurer Hilfe umsetzen: Jugendliche für digitale Berufe begeistern, vor allem Mädchen und Jugendliche aus schwierigen sozialen Herkünften.</div>
 
@@ -50,7 +51,7 @@
     <div id="betterplace_donation_iframe">
         <strong><a href="https://www.betterplace.org/de/projects/59504-code-design-jugendliche-fur-digitale-berufe-begeistern/donations/new">Jetzt Spenden für „Code+Design: Jugendliche für digitale Berufe begeistern“ bei unserem Partner betterplace.org</a></strong>
     </div>
-</div>
+</div></div>
 
 
 

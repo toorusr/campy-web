@@ -10,7 +10,7 @@
     @component('_components.img')
     
         @slot('src')
-        /img/camps/001.jpg
+        /img/camps/001b.jpg
         @endslot
     
         @slot('alt')
