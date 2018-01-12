@@ -1,4 +1,4 @@
-<div class="flex-1 rounded border px-6 py-4 max-w-md h-full {{ $ml }} {{ $mr }} m-{{ $m }} mb-{{ $mb }}">
+<div class="flex-1 rounded border px-6 py-4 max-w-md h-full {{ $ml or '' }} {{ $mr or '' }} m-{{ $m or '' }} mb-{{ $mb or '' }}">
   <div class="flex items-center">
       <img src="{{ $src }}" class="h-12 w-12 rounded-full" />
       <div class="flex flex-col ml-4">

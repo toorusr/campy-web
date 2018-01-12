@@ -10,7 +10,7 @@
           <li class="hover:text-green text-grey-darker"><a href="/spenden" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Spenden</a></li>
           <li class="hover:text-green text-grey-darker"><a href="/stimmen" class="no-underline hover:text-green text-grey-darker">Stimmen</a></li>
 {{--           <li class="hover:text-green text-grey-darker">Videos</li>
- --}}          <li class="hover:text-green text-grey-darker">Impressum</li>
+ --}}          <li class="hover:text-green text-grey-darker"><a href="/impressum" class="no-underline hover:text-green text-grey-darker">Impressum</a></li>
           <li class="hover:text-green text-grey-darker">Datenschutz</li>
       </ul>
   </div>
@@ -31,11 +31,11 @@
 
   </div>
   <div class="sm:w-1/2 h-auto sm:mt-0 mt-8">
-            <div class="mb-2"><a href="/magazin" class="text-grey-darkest no-underline hover:text-yellow border-b-2 border-yellow">Magazin</a></div>
+            <div class="mb-2"><a href="/magazin" class="text-grey-darkest no-underline border-b-2 border-yellow">Magazin</a></div>
       <ul class="list-reset leading-normal">
-          <li class="hover:text-yellow text-grey-darker"><a href="/files/code-design-magazine-001.pdf" target="_blank" class="text-grey-darker no-underline"><svg xmlns="http://www.w3.org/2000/svg" class="stroke-current w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Download</a></li>
-          <li class="hover:text-yellow text-grey-darker">Artikel</li>
-          <li class="hover:text-yellow text-grey-darker">Mediadaten</li>
+          <li class="text-grey-darker"><a href="/files/code-design-magazine-001.pdf" target="_blank" class="text-grey-darker no-underline hover:text-yellow-dark"><svg xmlns="http://www.w3.org/2000/svg" class="stroke-current w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> Download</a></li>
+          <li class="hover:text-yellow text-grey-darker"><a href="/magazin/bestellen" class="no-underline hover:text-yellow-dark text-grey-darker">Bestellen</a></li>
+          {{-- <li class="hover:text-yellow text-grey-darker">Mediadaten</li> --}}
       </ul>
 
 
@@ -43,7 +43,7 @@
     <div class="sm:w-1/2 sm:mt-0 mt-8 h-auto">
         <div>
             <div class="mb-2"><span class="border-b-2 border-red">Newsletter</span></div>
-            <form name="newsletter" action="/danke" netlify>
+            <form name="newsletter" action="/newsletter/danke" netlify>
             <label class="text-grey-darker leading-normal">Abonniere unseren Newsletter und bekomme.</label>
             <div class="mt-4 flex">
                 <input name="email" type="text" class="p-2 border border-grey-light round text-grey-darkest h-auto" placeholder="Deine E-Mail-Adresse">
