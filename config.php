@@ -18,11 +18,17 @@ return [
         ],
         'partners' => [
             'path' => 'partner/{name}',
+            'hasTier' => function ($page, $tier) {
+                return collect(explode(',', $page->tier))->contains($tier);
+            },
+            'hasCamp' => function ($page, $camps) {
+                return collect(explode(',', $page->camps))->contains($camps);
+            },
             'sort' => 'name'
         ],
         'testimonials' => [
             'path' => 'stimmen/{published_at|ym}/{-slug}',
-            'sort' => '-published_at',
+            'sort' => '-published_at'
         ],
         'articles' => [
             'path' => 'magazin/{-slug}',

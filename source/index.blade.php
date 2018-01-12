@@ -19,7 +19,7 @@
     
     @endcomponent
 
-<div class="md:flex p-4">  
+<div class="lg:flex p-4">  
 
   <div class="mb-4 h-auto">
   <div class="text-3xl mb-4"><span class="border-b-2 border-purple">Die Camps</span></div>
@@ -46,7 +46,7 @@
 
 </div>
 
-<div class="mb-4 md:ml-8">
+<div class="mb-4 lg:ml-8">
   <div class="text-3xl mb-4 "><span class="border-b-2 border-yellow">Das Magazin</span></div>
 <p class="mb-4 leading-normal hyphens">Mit dem C+D Magazin kannst du dir einen Überblick verschaffen, wie sich unser Berufsleben durch die Digitalisierung verändert, welche Berufsbilder dabei entstehen und welche Zukunftschancen Berufe in der digitalen Wirtschaft bieten. Portraits von Arbeitgebern und Hochschulen helfen dir bei der beruflichen Orientierung.</p>
 
@@ -69,7 +69,7 @@
 </div>
 
 
-<div class="mb-4 ml-8 md:flex flex-col justify-between">
+<div class="mb-4 lg:ml-8 md:flex flex-col justify-between">
     <div>
       <p class="text-3xl mb-4 "><a href="/initiative" class="no-underline text-grey-darkest"><span class="border-b-2 border-green">Die Initiative</span></a></p>
       <p class="leading-normal hyphens">Die gemeinnützige Code+Design Initiative hat sich zum Ziel gesetzt, Jugendliche für digitale Technologien und Berufe zu begeistern und insbesondere den Anteil an Frauen in diesen Bereichen zu erhöhen. Dafür haben wir im letzten Jahr 8 Code+Design Camps in 6 verschiedenen Städten mit über 650 Teilnehmern organisiert. Dieses Jahr wollen wir noch mehr Jugendlichen die Möglichkeit geben eines unserer Events zu besuchen. Deshalb arbeiten wir an weiteren Formaten um die Zeit zwischen den Code+Design Camps zu verkürzen und unsere Reichweite zu vergrößern.</p>

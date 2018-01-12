@@ -2,10 +2,10 @@
 extends: _layouts.partners
 name: Sevenval
 logo: sevenval.png
-section: content
+strength: 90
 tier: partner
 camps: ber1710,koe1706
-website: sevenval.com/de
+website: https://sevenval.com/de
 instagram:
 twitter:
 facebook:

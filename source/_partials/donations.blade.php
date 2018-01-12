@@ -9,7 +9,7 @@
             white
         @endslot
         @slot('link')
-        spenden
+        initiative/spenden
         @endslot
         Spenden
     @endcomponent

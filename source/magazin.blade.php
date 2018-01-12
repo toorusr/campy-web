@@ -25,7 +25,7 @@
 
 
     <div class="mt-4">
-        <div class="text-2xl font-bold">Ausgabe 1</div>
+        <div class="text-2xl font-bold">2016/2017 - Ausgabe 1</div>
 
         <div class="text-lg">Die neuen Rockstars: Neun Vorbilder zeigen, worauf es ankommt, um Coder*in zu werden
 Einblicke in unbekannte Berufe: Was macht eigentlich eine UI-Designerin?

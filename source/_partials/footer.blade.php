@@ -6,9 +6,9 @@
           <li class="hover:text-green text-grey-darker"><a href="/initiative" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Initiative</a></li>
 {{--           <li class="hover:text-green text-grey-darker">Ansatz</li>
           <li class="hover:text-green text-grey-darker">Personen</li> --}}
-          <li class="hover:text-green text-grey-darker"><a href="/partner" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Partner</a></li>
-          <li class="hover:text-green text-grey-darker"><a href="/spenden" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Spenden</a></li>
-          <li class="hover:text-green text-grey-darker"><a href="/stimmen" class="no-underline hover:text-green text-grey-darker">Stimmen</a></li>
+          <li class="hover:text-green text-grey-darker"><a href="/initiative/partner" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Partner</a></li>
+          <li class="hover:text-green text-grey-darker"><a href="/initiative/spenden" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Spenden</a></li>
+          <li class="hover:text-green text-grey-darker"><a href="/initiative/stimmen" class="no-underline hover:text-green text-grey-darker">Stimmen</a></li>
 {{--           <li class="hover:text-green text-grey-darker">Videos</li>
  --}}          <li class="hover:text-green text-grey-darker"><a href="/impressum" class="no-underline hover:text-green text-grey-darker">Impressum</a></li>
           <li class="hover:text-green text-grey-darker"><a href="/datenschutz" class="no-underline hover:text-green text-grey-darker">Datenschutz</a></li>

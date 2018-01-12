@@ -25,7 +25,7 @@
         white
         @endslot
         @slot('link')
-        spenden
+        /initiative/spenden
         @endslot
         @slot('width')
         @endslot

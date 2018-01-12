@@ -2,10 +2,10 @@
 extends: _layouts.partners
 name: PaiStudio
 logo: paistudio.png
-section: test
+strength: 89
 tier: partner
-camps: ber1710
-website: paistudio.com
+camps: ber1710,ber1802
+website: https://paistudio.com
 instagram:
 twitter:
 facebook:

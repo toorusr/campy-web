@@ -99,24 +99,40 @@
 
 <div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Partner</div>
 
-<div class="bg-white p-4 flex">
-  <div class="flex-1">
-    @foreach($partners as $partner)
+<div class="bg-white p-8 mt-8">
 
-    
-@if (strpos($partner->camps, 'ber1710') !== false)
-  <div class="text-center">
-    <a href="https://{{ $partner->website }}" target="_blank"><img src="/img/{{ $partner->logo }}"><br/>
-      {{ $partner->name }}</a>
-  </div>
-@endif
-@endforeach
-  </div>
+  <div class="flex flex-wrap ">
+            @foreach ($partners->filter->hasCamp($page->id) as $partner)
+                   <div class="p-4"><div class="flex flex-col items-center">
+                   
+                                   <div class="h-32 flex flex-col justify-center">
+                                   <a href="{{ $partner->website}}">
+                                    @component('_components.img')
+                                                                                                  
+                                      @slot('src')
+                                      /img/partner/{{ $partner->logo }}
+                                      @endslot
+                                  
+                                      @slot('alt')
+                                      {{ $partner->name }}
+                                      @endslot
+      
+                                      @slot('width')
+                                      w-32
+                                      @endslot
+                                                                      
+                                   @endcomponent
+                                  </a>
+                                   </div>
 
-
-
-  
-</div>
+                                   @if($page->long)
+                                   {{ $partner->long }}
+                                   @endif
+                                                                         
+                    </div>
+                </div>
+            @endforeach
+</div></div>
 
 @endsection
 
