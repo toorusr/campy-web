@@ -11,7 +11,7 @@
           <li class="hover:text-green text-grey-darker"><a href="/stimmen" class="no-underline hover:text-green text-grey-darker">Stimmen</a></li>
 {{--           <li class="hover:text-green text-grey-darker">Videos</li>
  --}}          <li class="hover:text-green text-grey-darker"><a href="/impressum" class="no-underline hover:text-green text-grey-darker">Impressum</a></li>
-          <li class="hover:text-green text-grey-darker">Datenschutz</li>
+          <li class="hover:text-green text-grey-darker"><a href="/datenschutz" class="no-underline hover:text-green text-grey-darker">Datenschutz</a></li>
       </ul>
   </div>
   <div class="sm:w-1/2 h-auto sm:mt-0 mt-8">
