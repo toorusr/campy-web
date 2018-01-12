@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8 bg-purple text-xl">
+<main class="p-2 sm:p-4 md:p-8 bg-purple text-xl">
 
   <div class="text-white text-3xl mb-4">Code+Design: Wir begeistern für digitale Berufe!</div>
 

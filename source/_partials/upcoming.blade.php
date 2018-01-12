@@ -1,7 +1,7 @@
 <div class="mt-4 border-2 rounded p-4 mb-4 bg-grey-light">
     <div class="text-2xl mb-4 text-grey-darkest">Die nächsten Camps</div>
 
-    <div class="flex">
+    <div class="md:flex">
         @foreach ($camps as $camp)
              @if ($camp->active === 'yes')
                 
