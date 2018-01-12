@@ -4,7 +4,7 @@ name: PaiStudio
 logo: paistudio.png
 strength: 89
 tier: partner
-camps: ber1710,ber1802
+camps: ber1710
 website: https://paistudio.com
 instagram:
 twitter:
