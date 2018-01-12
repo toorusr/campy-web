@@ -163,6 +163,13 @@
     border: 0 !important;
   }
 
+  #hsForm_5133d262-3f8c-4bc7-8323-3c7f52507dc8 > div > div.actions > input {
+    font-size: 16px !important;
+    background-image: none !important;
+    text-shadow: none;
+    padding: 12px !important;
+  }
+
 </style>
 @endif
 

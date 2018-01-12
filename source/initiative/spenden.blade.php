@@ -78,4 +78,8 @@ iframe * {
     font-family: "Hans Grotesque";
 }
 
+#new_donation_process > fieldset > div.iframe-donation-headline {
+  display: none !important;
+}
+
 </style>
