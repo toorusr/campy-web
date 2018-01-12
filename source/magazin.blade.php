@@ -54,6 +54,23 @@ In fünf Schritten zur eigenen App</div>
 
         @endcomponent
 
+        @component('_components.button')
+            @slot('colorback')
+            yellow
+            @endslot
+            @slot('colorfront')
+            white
+            @endslot
+            @slot('link')
+            magazin/bestellen
+            @endslot
+            @slot('width')
+            @endslot
+
+            Kostenlos bestellen
+            
+        @endcomponent
+
         {{-- <a href="/{{ $link }}" class="no-underline text-black inline-block text-2xl px-4 py-2 leading-none border rounded border-black hover:border-transparent hover:bg-{{ $colorback }} hover:text-{{ $colorfront }} mt-4 lg:mt-0">{{ $slot }}</a> --}}
 
     </div>
