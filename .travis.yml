@@ -1,8 +1,15 @@
 sudo: required
 language: php
-services:
-  - docker
+php:
+  - "7.2"
 before_install:
   - git clone https://github.com/CodeDesignInitiative/cdweb1801 codedesign
+  - cd codedesign
+  - apt-get update; apt-get install apt-utils gnupg2 -y > /dev/null 2>&1
+  - curl -sL https://deb.nodesource.com/setup_8.x | bash -; apt-get install -y nodejs > /dev/null 2>&1
+  - php -r "readfile('https://getcomposer.org/installer');" | php
+  - php composer.phar install
+  - npm i -g yarn gulp netlify-cli; yarn; gulp
+
 script:
-  - docker build -e $NETLIFY_TOKEN -t codedesigninitiative/cdweb1801 . 
+  - netlify -t $NETLIFY_TOKEN deploy --site-id sharp-goldstine-eda64e -p build_local
