@@ -5,8 +5,8 @@ php:
 before_install:
   - git clone https://github.com/CodeDesignInitiative/cdweb1801 codedesign
   - cd codedesign
-  - apt-get update; apt-get install apt-utils gnupg2 -y > /dev/null 2>&1
-  - curl -sL https://deb.nodesource.com/setup_8.x | bash -; apt-get install -y nodejs > /dev/null 2>&1
+  - sudo apt-get update; apt-get install apt-utils gnupg2 -y > /dev/null 2>&1
+  - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -; apt-get install -y nodejs > /dev/null 2>&1
   - php -r "readfile('https://getcomposer.org/installer');" | php
   - php composer.phar install
   - npm i -g yarn gulp netlify-cli; yarn; gulp
