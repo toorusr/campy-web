@@ -1,0 +1,8 @@
+sudo: required
+language: php
+services:
+  - docker
+before_install:
+  - git clone https://github.com/CodeDesignInitiative/cdweb1801 codedesign
+script:
+  - docker build -e $NETLIFY_TOKEN -t codedesigninitiative/cdweb1801 . 
