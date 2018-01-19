@@ -1,6 +1,8 @@
-<div class="border-2 rounded p-4 md:flex">
-    <div id="thursday">
-      <p class="font-bold mb-4 md:text-center text-xl">Donnerstag, 08.02.</p>
+
+<div class="mt-8 text-2xl font-bold">Zeitablauf</div>
+<div class="mt-8 border-2 rounded p-4 lg:flex lg:flex-wrap">
+    <div id="thursday" class="w-1/2 p-8">
+      <p class="font-bold mb-4 md:text-center text-xl">Donnerstag</p>
       <table>
         <tr>
           <td class="p-1"><span class="font-bold">09:00</span>
@@ -69,8 +71,8 @@
         </tr>
       </table>
     </div>
-    <div id="friday" class="md:ml-8 mt-8 md:mt-0">
-      <p class="font-bold mb-4 md:text-center text-xl">Freitag, 09.02.</p>
+    <div id="friday" class="w-1/2 p-8 mt-8 md:mt-0">
+      <p class="font-bold mb-4 md:text-center text-xl">Freitag</p>
       <table>
         <tr>
           <td class="p-1 "><span class="font-bold">09:00</span>
@@ -139,8 +141,8 @@
         </tr>
       </table>
     </div>
-    <div id="saturday" class="md:ml-8 mt-8 md:mt-0">
-      <p class="font-bold mb-4 md:text-center text-xl">Samstag, 10.02.</p>
+    <div id="saturday" class="w-1/2 p-8 mt-8 md:mt-0">
+      <p class="font-bold mb-4 md:text-center text-xl">Samstag</p>
       <table>
         <tr>
           <td class="p-1 "><span class="font-bold">09:00</span>
@@ -209,8 +211,8 @@
         </tr>
       </table>
     </div>
-    <div id="sunday" class="md:ml-8 mt-8 md:mt-0">
-      <p class="font-bold mb-4 md:text-center text-xl">Sonntag, 11.02.</p>
+    <div id="sunday" class="w-1/2 p-8 mt-8 md:mt-0">
+      <p class="font-bold mb-4 md:text-center text-xl">Sonntag</p>
       <table>
         <tr>
           <td class="p-1 "><span class="font-bold">09:00</span>

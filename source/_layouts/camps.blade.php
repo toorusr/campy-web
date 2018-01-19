@@ -75,12 +75,9 @@
         @endslot
 
 
-        {{-- {{ $from }} bis {{ $to }}, also in den {{ $holidays }} , findet das Code+Design Camp  in {{ $city }} statt. Auch in {{ $city }} sollen Jugendlichen die Chance haben, {{ $days }} intensive Tage lang an spannenden Hard- und Software-Projekten zu arbeiten und unter der Anleitung von professionellen Coaches neue Technologien kennenzulernen und ihre Fähigkeiten weiterzuentwickeln. Alle interessierten Jugendlichen zwischen 15 und 20 Jahren sind willkommen, für die Teilnahme ist keine Programmiererfahrung notwendig.</p>
-
-<p>Das Camp findet im sog. Hackathon-Format statt. Die Teilnehmer stellen am ersten Tag ihre Projektideen vor, weitere interessierte Teilnehmer schließen sich einem Projekt ihrer Wahl an. Bis zur Abschlusspräsentation am letzten Tag werden in den einzelnen Gruppen Konzepte, Prototypen und teilweise auch fertige Produkte entwickelt. Die Coaches sind erfahrene Profis aus der {{ $city }} --}}
-
-
     @endcomponent
+
+    @include('_partials.timetable')
 
     @yield('content')   
   </div>
