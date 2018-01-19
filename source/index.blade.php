@@ -104,7 +104,7 @@
 
 
 <div class="mb-4 mt-4">
-  <div class="text-3xl mb-4 mt-8 ml-4"><a href="/stimmen" class="no-underline border-b-2 border-purple text-grey-darkest">Die Stimmen</a></div>
+  <div class="text-3xl mb-4 mt-8 ml-4"><a href="/initiative/stimmen" class="no-underline border-b-2 border-purple text-grey-darkest">Die Stimmen</a></div>
 
 
 
