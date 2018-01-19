@@ -1,7 +1,7 @@
 <div class="mt-4">
-    <div class="text-2xl font-bold font-mono">FAQ</div>
+    <div class="text-2xl font-bold">FAQ</div>
 
-    <dl class="font-mono mt-4">
+    <dl class="mt-4 text-lg">
         <dt class="font-bold">Datum</dt>
         <dd class="mb-4">{{ $from }} bis {{ $to }}</dd>
         <dt class="font-bold">Uhrzeit</dt>
