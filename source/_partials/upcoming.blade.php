@@ -9,7 +9,11 @@
                     <div class="flex flex-col flex-1 bg-{{ $camp->color }} p-4 rounded">
                                     <a class="no-underline" href="{{ $camp->getUrl() }}">
                                         <p class="mb-2 text-xl font-bold no-underline text-white">{{  $camp->city }}</p>
-                                                        <p class="text-white">({{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }})</p> </a>
+                                                        <p class="text-white">({{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }})<br/>
+                                                            {{ $camp->holidays }}
+                                                        </p> 
+                                                        
+                                                    </a>
                     </div>
                 </div>
                
