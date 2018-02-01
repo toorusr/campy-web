@@ -11,6 +11,7 @@ before_install:
   - php -r "readfile('https://getcomposer.org/installer');" | php
   - php composer.phar install
   - npm i -g yarn gulp netlify-cli; yarn; gulp --e=production
+  - cp _redirects build_production/_redirects
 
 script:
   - netlify -t $NETLIFY_TOKEN deploy --site-id sharp-goldstine-eda64e -p build_production
