@@ -94,12 +94,53 @@
 
 </div>
 
+<div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Kooperationspartner</div>
+
+<div class="bg-white p-8 mt-8">
+
+  <div class="flex flex-wrap ">
+            @foreach ($partners->filter->hasCamp($page->id) as $partner)
+
+            @if($partner->tier == 'gold')
+                   <div class="p-4"><div class="flex flex-col items-center">
+                   
+                                   <div class="h-64 flex flex-col justify-center">
+                                   <a href="{{ $partner->website}}">
+                                    @component('_components.img')
+                                                                                                  
+                                      @slot('src')
+                                      /img/partner/{{ $partner->logo }}
+                                      @endslot
+                                  
+                                      @slot('alt')
+                                      {{ $partner->name }}
+                                      @endslot
+      
+                                      @slot('width')
+                                      w-64
+                                      @endslot
+                                                                      
+                                   @endcomponent
+                                  </a>
+                                   </div>
+
+                                   @if($page->long)
+                                   {{ $partner->long }}
+                                   @endif
+                                                                         
+                    </div>
+                </div>
+            @endif
+            @endforeach
+</div></div>
+
 <div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Partner</div>
 
 <div class="bg-white p-8 mt-8">
 
   <div class="flex flex-wrap ">
             @foreach ($partners->filter->hasCamp($page->id) as $partner)
+                   @if ($partner->tier == 'patron' )
                    <div class="p-4"><div class="flex flex-col items-center">
                    
                                    <div class="h-32 flex flex-col justify-center">
@@ -128,6 +169,7 @@
                                                                          
                     </div>
                 </div>
+                @endif
             @endforeach
 </div></div>
 
