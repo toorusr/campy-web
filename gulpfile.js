@@ -15,7 +15,8 @@ elixir(function(mix) {
 
     mix.sass('main.scss')
         .exec(bin.path() + ' build ' + env, ['./source/*', './source/**/*', '!./source/_assets/**/*'])
-        .copy('_redirects.txt', './build_production/_redirects.txt');
+        .copy('_redirects', './build_local/_redirects')
+        .copy('_redirects', './build_production/_redirects');
 
         // .browserSync({
         //     port: port,
