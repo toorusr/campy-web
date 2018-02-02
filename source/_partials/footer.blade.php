@@ -21,7 +21,7 @@
       <ul class="list-reset leading-normal">
           @foreach ($camps as $camp)
              @if ($camp->active === 'yes')
-                  <li class="hover:text-purple text-grey-darker"><a href="/camps/berlin/1802/" class="no-underline hover:text-purple text-grey-darker">{{  $camp->city }}, {{ date('d.', $camp->date_start) }}-{{ date('d.m.y', $camp->date_end) }}</a></li>
+                  <li class="hover:text-purple text-grey-darker"><a href="{{  $camp->getUrl() }}" class="no-underline hover:text-purple text-grey-darker">{{  $camp->city }}, {{ date('d.', $camp->date_start) }}-{{ date('d.m.y', $camp->date_end) }}</a></li>
             @endif
           @endforeach
       </ul>
