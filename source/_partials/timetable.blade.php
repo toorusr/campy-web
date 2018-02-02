@@ -1,8 +1,8 @@
 
-<div class="mt-8 text-2xl font-bold">Zeitablauf</div>
+<div class="mt-8 text-2xl font-bold">Ablauf</div>
 <div class="mt-8 border-2 rounded p-4 lg:flex lg:flex-wrap">
-    <div id="thursday" class="w-1/2 p-8">
-      <p class="font-bold mb-4 md:text-center text-xl">Donnerstag</p>
+    <div id="thursday" class={{ $width }} p-4">
+      <p class="font-bold mb-4 md:text-center text-xl">Tag 1</p>
       <table>
         <tr>
           <td class="p-1"><span class="font-bold">09:00</span>
@@ -71,8 +71,8 @@
         </tr>
       </table>
     </div>
-    <div id="friday" class="w-1/2 p-8 mt-8 md:mt-0">
-      <p class="font-bold mb-4 md:text-center text-xl">Freitag</p>
+    <div id="friday" class={{ $width }} p-4 mt-8 md:mt-0">
+      <p class="font-bold mb-4 md:text-center text-xl">Tag 2</p>
       <table>
         <tr>
           <td class="p-1 "><span class="font-bold">09:00</span>
@@ -141,8 +141,8 @@
         </tr>
       </table>
     </div>
-    <div id="saturday" class="w-1/2 p-8 mt-8 md:mt-0">
-      <p class="font-bold mb-4 md:text-center text-xl">Samstag</p>
+    <div id="saturday" class={{ $width }} p-4 mt-8 md:mt-0">
+      <p class="font-bold mb-4 md:text-center text-xl">Tag 3</p>
       <table>
         <tr>
           <td class="p-1 "><span class="font-bold">09:00</span>
@@ -207,12 +207,12 @@
         <tr>
           <td class="p-1"><span class="font-bold">21:00</span>
           </td>
-                    <td class="p-1">Entertainment-Abend <span class="text-grey-dark">(bis 24:00 Uhr)</td>
+                    <td class="p-1">Entertainment-Abend <span class="text-grey-dark">(bis max. 24:00 Uhr)</td>
         </tr>
       </table>
     </div>
-    <div id="sunday" class="w-1/2 p-8 mt-8 md:mt-0">
-      <p class="font-bold mb-4 md:text-center text-xl">Sonntag</p>
+    <div id="sunday" class={{ $width }} p-4 mt-8 md:mt-0">
+      <p class="font-bold mb-4 md:text-center text-xl">Tag 4</p>
       <table>
         <tr>
           <td class="p-1 "><span class="font-bold">09:00</span>

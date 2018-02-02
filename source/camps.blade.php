@@ -25,7 +25,7 @@
 
 
         <div class="md:flex mt-8">
-            <div class="md:w-2/5">
+            <div class="md:w-1/3">
 
                 @component('_components.img')
 
@@ -39,12 +39,45 @@
 
                 @endcomponent
             </div>
-            <div class="md:w-3/5 md:ml-4">
+
+            <div class="md:w-1/3">
+
+                @component('_components.img')
+
+                    @slot('src')
+                    /img/camps/004.jpg
+                    @endslot
+
+                    @slot('alt')
+                    Jugendliche begutachten Raspberry Pi
+                    @endslot
+
+                @endcomponent
+            </div>
+
+            <div class="md:w-1/3">
+
+                @component('_components.img')
+
+                    @slot('src')
+                    /img/camps/005.jpg
+                    @endslot
+
+                    @slot('alt')
+                    Mädchen arbeiten am Computer
+                    @endslot
+
+                @endcomponent
+            </div>
+
+            {{-- <div class="md:w-3/5 md:ml-4">
                 <div class="text-2xl mb-4">Was passiert auf dem Camp?</div>
 
                 <p class="text-lg leading-normal">Das Camp findet im sog. Hackathon-Format statt. Am ersten Tag geht es um die Team und Projektfindung. Zusammen mit deinem Team arbeitest du am zweiten und dritten Tag an eurem Projekt. Unterstützung bekommt ihr dabei von erfahrenen Coaches und anderen Teilnehmern, die sich schon etwas besser auskennen. Am letzten Tag präsentiert ihr die Ergebnisse eures Projektes vor euren Eltern und Pressevertretern.</p>
-            </div>
+            </div> --}}
         </div>
+
+        @include('_partials.timetable', ['width' => 'w-1/4'])
 
     </div>
 
