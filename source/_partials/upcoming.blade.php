@@ -3,8 +3,9 @@
 
     <div class="md:flex">
         @foreach ($camps as $camp)
-             @if ($camp->active === 'yes')
-                
+             @if ($camp->active === 'yes' and $loop->iteration < 5)
+
+              
                 <div class="flex-1 p-1">
                     <div class="flex flex-col flex-1 bg-grey-darkest p-4 rounded">
                                     <a class="no-underline" href="{{ $camp->getUrl() }}">
