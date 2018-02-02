@@ -17,13 +17,21 @@
   </div>
   <div class="md:w-1/2 h-auto md:mt-0 mt-8">
       <div class="mb-2 "><span class="border-b-2 border-purple text-grey-darkest">Aktuelle Camps</span></div>
+
       <ul class="list-reset leading-normal">
+          @foreach ($camps as $camp)
+             @if ($camp->active === 'yes')
+                  <li class="hover:text-purple text-grey-darker"><a href="/camps/berlin/1802/" class="no-underline hover:text-purple text-grey-darker">{{  $camp->city }}, {{ date('d.', $camp->date_start) }}-{{ date('d.m.y', $camp->date_end) }}</a></li>
+            @endif
+          @endforeach
+      </ul>
+      {{-- <ul class="list-reset leading-normal">
           <li class="hover:text-purple text-grey-darker"><a href="/camps/berlin/1802/" class="no-underline hover:text-purple text-grey-darker">Berlin, 08.-11.02.2018</a></li>
           <li class="hover:text-purple text-grey-darker"><a href="/camps/hamburg/1803/" class="no-underline hover:text-purple text-grey-darker">Hamburg, 08.-11.03.2018</a></li>
           <li class="hover:text-purple text-grey-darker"><a href="/camps/duesseldorf/1803/" class="no-underline hover:text-purple text-grey-darker">Düsseldorf, 16.-18.03.2018</a></li>
           <li class="hover:text-purple text-grey-darker"><a href="/teilnahmebedingungen" class="no-underline hover:text-purple text-grey-darker">Teilnahmebedingungen</a></li>
 
-      </ul>
+      </ul> --}}
 
     <div class="text-purple-light mb-2 mt-4">Vergangene Camps</div>
       <ul class="list-reset leading-normal">
