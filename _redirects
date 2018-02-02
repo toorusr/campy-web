@@ -1,5 +1,7 @@
 # Redirects from what the browser requests to what we serve
-/home              /
-/blog/my-post.php  /blog/my-post
-/news              /blog
-/google            https://www.google.com
+/coach-infos*           https://docs.google.com/presentation/d/1x0Ik5OG6bGKkiQiew-ijjaZlQEEQgyQm3NFTq5fc88w/present?slide=id.p3
+/berlin*                /camps/berlin/1802
+/hamburg*               /camps/hamburg/1803
+/duesseldorf*           /camps/duesseldorf/1803
+/düsseldorf*           /camps/duesseldorf/1803
+/camp                  /camps
