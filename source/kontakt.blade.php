@@ -90,3 +90,7 @@
 </main>
 
 @endsection
+
+@section('title')
+Kontakt
+@endsection
