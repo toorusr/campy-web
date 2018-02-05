@@ -22,6 +22,8 @@ cd codedesign
 composer install
 npm install
 gulp watch
+# new terminal tab
+cd build_local
 browser-sync start -s -f . --no-notify --https
 ```
 
