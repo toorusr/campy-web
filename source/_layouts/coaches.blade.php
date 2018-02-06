@@ -22,17 +22,49 @@
             
             @if($page->website <> '')
             <dt class="font-bold">Website</dt>
-            <dd class="mb-4">{{$page->website}}</dd>
+            <a class="no-underline text-blue" href="{{$page->website}}>
+                <dd class="mb-4">{{$page->website}}</dd>
+            </a>
+            @endif
+            
+            @if($page->phone <> '')
+            <dt class="font-bold">Phone</dt>
+            <dd class="mb-4">{{$page->phone}}</dd>
+            @endif
+            
+            @if($page->email <> '')
+            <dt class="font-bold">E-Mail</dt>
+            <a class="no-underline text-blue" href="mailto:{{$page->email}}">
+                <dd class="mb-4">{{$page->email}}</dd>
+            </a>
             @endif
             
             @if($page->twitter <> '')
             <dt class="font-bold">Twitter</dt>
-            <dd class="mb-4">&#64;{{$page->twitter}}</dd>
+            <a class="no-underline text-blue" href="https://twitter.com/{{$page->twitter}}">
+                <dd class="mb-4">&#64;{{$page->twitter}}</dd>
+            </a>
+            @endif
+            
+            @if($page->facebook <> '')
+            <dt class="font-bold">Facebook</dt>
+            <a class="no-underline text-blue" href="https://www.facebook.com/{{$page->facebook}}">
+                <dd class="mb-4">{{$page->facebook}}</dd>
+            </a>
+            @endif
+            
+            @if($page->youtube <> '')
+            <dt class="font-bold">YouTube</dt>
+            <a class="no-underline text-blue" href="https://www.youtube.com/user/{{$page->youtube}}">
+                <dd class="mb-4">{{$page->youtube}}</dd>
+            </a>
             @endif
             
             @if($page->github <> '')
             <dt class="font-bold">Github</dt>
-            <dd class="mb-4">{{$page->github}}</dd>
+            <a class="no-underline text-blue" href="https://github.com/{{$page->github}}">
+                <dd class="mb-4">{{$page->github}}</dd>
+            </a>
             @endif
         </dl>
     </div>
