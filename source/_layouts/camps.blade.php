@@ -55,11 +55,11 @@
         @endslot
 
         @slot('from')
-        08.02.18
+        {{ date('d.m.y', $page->date_start) }}
         @endslot
 
         @slot('to')
-        11.02.18
+        {{ date('d.m.y', $page->date_end) }}
         @endslot
 
         @slot('city')
