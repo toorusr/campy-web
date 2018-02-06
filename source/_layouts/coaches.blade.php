@@ -19,12 +19,21 @@
         <dl class="mt-4 text-lg">
             <dt class="font-bold">Name</dt>
             <dd class="mb-4">{{$page->firstname}} {{$page->lastname}}</dd>
+            
+            @if($page->website <> '')
             <dt class="font-bold">Website</dt>
             <dd class="mb-4">{{$page->website}}</dd>
+            @endif
+            
+            @if($page->twitter <> '')
             <dt class="font-bold">Twitter</dt>
             <dd class="mb-4">&#64;{{$page->twitter}}</dd>
+            @endif
+            
+            @if($page->github <> '')
             <dt class="font-bold">Github</dt>
             <dd class="mb-4">{{$page->github}}</dd>
+            @endif
         </dl>
     </div>
 
