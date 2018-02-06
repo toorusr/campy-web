@@ -94,6 +94,39 @@
 
 </div>
 
+<div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Coaches</div>
+
+<div class="bg-white p-8 mt-8">
+    <div class="flex flex-wrap ">
+        @foreach ($coaches->filter->hasCamp($page->id) as $coach)
+            <div class="p-4">
+                <div class="flex flex-col items-center">
+                    <div class="h-64 flex flex-col justify-center">
+                        <a href="{{ $coach->website}}">
+                            @component('_components.img')
+                                                                                          
+                                @slot('src')
+                                /img/coaches/{{ $coach->image }}
+                                @endslot
+                              
+                                @slot('alt')
+                                {{ $coach->firstname }} {{ $coach->lastname}}
+                                @endslot
+  
+                                @slot('width')
+                                w-32
+                                @endslot
+                                                              
+                            @endcomponent
+                        </a>
+                    </div>                       
+                    {{ $coach->firstname }} {{ $coach->lastname}}                     
+                </div>
+            </div>
+        @endforeach
+    </div>
+</div>
+
 <div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Kooperationspartner</div>
 
 <div class="bg-white p-8 mt-8">

@@ -14,7 +14,10 @@ return [
         ],
         'coaches' => [
             'path' => 'coaches/{-lastname}',
-            'sort' => 'lastname'
+            'sort' => 'lastname',
+            'hasCamp' => function ($page, $camps) {
+                return collect(explode(',', $page->camps))->contains($camps);
+            }
         ],
         'partners' => [
             'path' => 'partner/{name}',
