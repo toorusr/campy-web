@@ -12,6 +12,10 @@ return [
             'path' => 'camps/{-slug}/{date_start|ym}',
             'sort' => 'date_start'
         ],
+        'blogs' => [
+            'path' => 'blogs/{published_at|ym}',
+            'sort' => '-published_at'
+        ],
         'coaches' => [
             'path' => 'coaches/{-lastname}',
             'sort' => 'lastname',
