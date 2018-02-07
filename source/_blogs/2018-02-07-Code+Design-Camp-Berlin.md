@@ -4,8 +4,8 @@ caption: Code+Design Camp Berlin
 lead: Ein Code+Design Camp ist eine sehr gute Möglichkeit für junge Interessierte (15-20 Jahre) einen genaueren Einblick in die Berufswelt Code und Design zu bekommen. Nicht nur Neulinge, sondern auch schon Fortgeschrittene kommen hierbei auf ihre Kosten in einem Camp voller neuer Erfahrungen, sozialer Kontakte, fachlicher Kompetenz und einer Menge Spaß. Ob man sich nun mit programmieren oder designen beschäftigt ist dir natürlich selbst überlassen. Oder hast du doch eher Lust auf ein Hardware-Projekt?
 youtube: xGk1PpIbisU
 image: /img/header01.jpg
-publication_date: 06.02.2018
-author: Julius Kiekbusch
+author: Code+Design Initiative
+published_at: 07.02.2018
 section: content
 ---
 

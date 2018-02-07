@@ -3,7 +3,7 @@
 @section('body')
 
 <main class="p-8 bg-yellow">
-    <div class="text-black text-3xl mb-4">Blog: {{$page->caption}} <small>von {{$page->author}} am {{ $page->publication_date}}</small></div>
+    <div class="text-black text-3xl mb-4">{{$page->caption}} <small>von {{$page->author}} am {{ $page->published_at}}</small></div>
         <div class="bg-white p-4">
             <div class="md:flex mb-4" style="margin-bottom: 10px;">
                 <div class="md:w-3/5">

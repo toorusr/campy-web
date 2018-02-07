@@ -13,7 +13,7 @@ return [
             'sort' => 'date_start'
         ],
         'blogs' => [
-            'path' => 'blogs/{published_at|ym}',
+            'path' => 'blogs/{-filename}',
             'sort' => '-published_at'
         ],
         'coaches' => [
