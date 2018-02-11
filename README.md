@@ -4,7 +4,7 @@ This website is built using a static web page generator. It is generated offline
 
 - Static Site Generator: [Jigsaw (PHP, Laravel)](https://jigsaw.tighten.co)
 - Hosting: [Netlify](https://netlify.com)
-- Git: [Gitlab](https://gitlab.com)
+- Git: [Github](https://github.com)
 - CSS Framework: [Tailwind CSS (Utility-First)](https://tailwindcss.com)
 - Media Player: [Plyr (JavaScript)](https://plyr.io/)
 
