@@ -12,7 +12,7 @@
         <dd class="mb-4">Nein. Du musst dich selbst darum kümmern. Wir bieten nur eine Bettenbörse an, wo ihr Schlafplätze anbieten und finden könnt. Eine Vermittlung können wir euch aber nicht garantieren.</dd>
 
         <dt class="font-bold">Wie laut wird es auf dem Camp?</dt>
-        <dd class="mb-4">Gehe besser davon aus, dass es auf dem Camp laut und hektisch wird. Bringe dir Kopfhörer mit, über die du Musik, <a href="calmyleon.com" target="_blank">beruhigende Geräusche</a>  oder Rauschen hörst. Bei manchen Camps haben wir in der Location auch ruhigere Ecken. Das können wir aber nicht garantieren.</dd>
+        <dd class="mb-4">Gehe besser davon aus, dass es auf dem Camp laut und hektisch wird. Bringe dir Kopfhörer mit, über die du Musik, <a href="https://calmyleon.com" target="_blank">beruhigende Geräusche</a> oder <a href="https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php" target="_blank">Rauschen</a>  hörst. Bei manchen Camps haben wir in der Location auch ruhigere Ecken. Das können wir aber nicht garantieren.</dd>
         
     </dl>
 
