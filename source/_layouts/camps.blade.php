@@ -77,6 +77,8 @@
 
     @endcomponent
 
+    @include('_partials.faq')
+
     @include('_partials.timetable', ['width' => 'w-1/2'])
 
     @yield('content')   
@@ -94,7 +96,7 @@
 
 </div>
 
-<div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Kooperationspartner</div>
+{{-- <div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Kooperationspartner</div>
 
 <div class="bg-white p-8 mt-8">
 
@@ -132,16 +134,16 @@
                 </div>
             @endif
             @endforeach
-</div></div>
+</div></div> --}}
 
-<div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Sponsoren</div>
+<div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Förderer</div>
 
 <div class="bg-white p-8 mt-8">
 
   <div class="flex flex-wrap ">
             @foreach ($partners->filter->hasCamp($page->id) as $partner)
 
-            @if($partner->tier == 'silver')
+            @if($partner->tier == 'silver' or $partner->tier == 'gold' or $partner->tier == 'bronze')
                    <div class="p-4"><div class="flex flex-col items-center">
                    
                                    <div class="h-64 flex flex-col justify-center">
