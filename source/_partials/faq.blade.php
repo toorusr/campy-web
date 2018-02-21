@@ -1,33 +1,19 @@
 <div class="mt-4">
-    <div class="text-2xl font-bold font-mono">FAQ</div>
+    <div class="text-2xl font-bold">Weitere Fragen</div>
 
-    <dl class="font-mono mt-4">
-        <dt class="font-bold">Datum</dt>
-        <dd class="mb-4">Donnerstag, 08.02. bis Sonntag 11.02.2018</dd>
-        <dt class="font-bold">Uhrzeit</dt>
-        <dd class="mb-4">Jeweils 09:00 bis 21:00 Uhr, Sonntag bis 16:00 Uhr</dd>
-        <dt class="font-bold">Inhalt</dt>
-        <dd class="mb-4">4-Tage-Programmier-Camp für Anfänger und Fortgeschrittene + Berufsorientierung</dd>
-        <dt class="font-bold">Betreuung</dt>
-        <dd class="mb-4">Erfahrene Coaches im Bereich Web, App, Games</dd>
-        <dt class="font-bold">Location</dt>
-        <dd class="mb-4">Wird noch bekannt gegeben</dd>
-        <dt class="font-bold"></dt>
-        <dd class="mb-4"></dd>
-        <dt class="font-bold">Location</dt>
-        <dd class="mb-4">
-            Lohmühlenstraße 65, 12435 Berlin
-        </dd>
-        <dt class="font-bold">Unkostenbeitrag</dt>
-        <dd class="mb-4">
-            50€*
-        </dd>
-        <dt class="font-bold">Inklusive Versorgung</dt>
-        <dd class="mb-4">Jeden Tag Frühstück, Mittag- und Abendessen</dd>
-        <dt class="font-bold">Laptopausleihe</dt>
-        <dd class="mb-4">Bei Bedarf: 50€ Unkostenbeitrag (Windows-Laptop)</dd>
-        <dt class="font-bold"></dt>
-        <dd class="mb-4"></dd>
+    <dl class="mt-4 text-lg">
+        <dt class="font-bold">Wie alt darf mein eigener Laptop sein?</dt>
+        <dd class="mb-4">Älter als 7 Jahre sollte er nicht sein. Richtwert: Hat der Laptop einen USB3-Anschluss, ist er geeignet</dd>
+
+        <dt class="font-bold">Welches Betriebssystem haben die Leihrechner?</dt>
+        <dd class="mb-4">Die Leihrechner laufen meist auf Windows 10. Selten haben wir auch Linux-Rechner. Macs sind in der Leihe leider zu teuer.</dd>
+
+        <dt class="font-bold">Organisiert Code+Design auch meine Übernachtung?</dt>
+        <dd class="mb-4">Nein. Du musst dich selbst darum kümmern. Wir bieten nur eine Bettenbörse an, wo ihr Schlafplätze anbieten und finden könnt. Eine Vermittlung können wir euch aber nicht garantieren.</dd>
+
+        <dt class="font-bold">Wie laut wird es auf dem Camp?</dt>
+        <dd class="mb-4">Gehe besser davon aus, dass es auf dem Camp laut und hektisch wird. Bringe dir Kopfhörer mit, über die du Musik, <a href="calmyleon.com" target="_blank">beruhigende Geräusche</a>  oder Rauschen hörst. Bei manchen Camps haben wir in der Location auch ruhigere Ecken. Das können wir aber nicht garantieren.</dd>
+        
     </dl>
 
 </div>
