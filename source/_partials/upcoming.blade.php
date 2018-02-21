@@ -3,7 +3,7 @@
 
     <div class="md:flex">
         @foreach ($camps as $camp)
-             @if ($camp->active === 'yes' and $loop->iteration < 5)
+             @if ($camp->active === 'yes')
 
               
                 <div class="flex-1 p-1">
