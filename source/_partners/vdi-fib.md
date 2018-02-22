@@ -3,7 +3,7 @@ extends: _layouts.partners
 name: VDI/VDI-FiB
 logo: vdi-fib.png
 section: test
-tier: sponsor
+tier: bronze
 camps: due1803
 website: https://www.vdi.de/ueber-uns/vdi-vor-ort/bezirksvereine/niederrheinischer-bezirksverein/arbeitskreise/frauen-im-ingenieurberuf/
 instagram:
