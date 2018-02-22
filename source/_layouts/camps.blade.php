@@ -182,7 +182,7 @@
 
   <div class="flex flex-wrap ">
             @foreach ($partners->filter->hasCamp($page->id) as $partner)
-                   @if ($partner->tier == 'patron' )
+                   @if ($partner->tier == 'patron' or $partner->tier == 'partner' )
                    <div class="p-4"><div class="flex flex-col items-center">
                    
                                    <div class="h-32 flex flex-col justify-center">
