@@ -79,6 +79,8 @@
 
     @include('_partials.faq')
 
+    @include('_partials.update')
+
     @include('_partials.timetable', ['width' => 'w-1/2'])
 
     @yield('content')   
