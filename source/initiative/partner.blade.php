@@ -41,8 +41,8 @@
         <p class="text-2xl mt-8">Sponsoren</p>
 
 
-        <div class="flex flex-wrap ">
-            @foreach ($partners->filter->hasTier('sponsor')->sortByDesc('strength') as $partner)
+        <div class="flex flex-wrap mb-4">
+            @foreach ($partners->filter->hasTier('gold')->sortByDesc('strength') as $partner)
                    <div class="p-4"><div class="flex flex-col items-center">
                    
                                    <div class="h-32 flex flex-col justify-center">
@@ -68,6 +68,63 @@
                                </div></div>
             @endforeach
         </div>
+        <div class="flex flex-wrap mb-4">
+            @foreach ($partners->filter->hasTier('silver')->sortByDesc('strength') as $partner)
+                   <div class="p-4"><div class="flex flex-col items-center">
+                   
+                                   <div class="h-32 flex flex-col justify-center">
+                                    <a href="{{ $partner->website }}" href="_blank">
+                                   @component('_components.img')
+                                                               
+                                       @slot('src')
+                                       /img/partner/{{ $partner->logo }}
+                                       @endslot
+                                   
+                                       @slot('alt')
+                                       {{ $partner->name }}
+                                       @endslot
+       
+                                       @slot('width')
+                                       w-32
+                                       @endslot
+                                   
+                                   @endcomponent
+                                   </a>
+                                   </div>
+                                                                         
+                               </div></div>
+            @endforeach
+        </div>
+
+        <div class="flex flex-wrap mb-4">
+            @foreach ($partners->filter->hasTier('bronze')->sortByDesc('strength') as $partner)
+                   <div class="p-4"><div class="flex flex-col items-center">
+                   
+                                   <div class="h-32 flex flex-col justify-center">
+                                    <a href="{{ $partner->website }}" href="_blank">
+                                   @component('_components.img')
+                                                               
+                                       @slot('src')
+                                       /img/partner/{{ $partner->logo }}
+                                       @endslot
+                                   
+                                       @slot('alt')
+                                       {{ $partner->name }}
+                                       @endslot
+       
+                                       @slot('width')
+                                       w-32
+                                       @endslot
+                                   
+                                   @endcomponent
+                                   </a>
+                                   </div>
+                                                                         
+                               </div></div>
+            @endforeach
+        </div>
+
+
 
         <hr class="border-b-4">
 
