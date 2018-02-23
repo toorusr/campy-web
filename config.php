@@ -30,6 +30,10 @@ return [
             'path' => 'stimmen/{published_at|ym}/{-slug}',
             'sort' => '-published_at'
         ],
+        'updates' => [
+            'path' => 'updates/{camp}/{published_at|ym}/{-slug}',
+            'sort' => '-published_at'
+        ],
         'articles' => [
             'path' => 'magazin/{-slug}',
             'sort' => 'publication_date'
