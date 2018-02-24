@@ -12,6 +12,10 @@ before_install:
   - php composer.phar install
   - npm i -g yarn gulp netlify-cli; yarn; gulp --e=production
   - cp _redirects build_production/_redirects
+cache:
+  directories:
+    - $HOME/.cache/yarn
+    - $HOME/.composer/cache/files
 
 script:
   - netlify -t $NETLIFY_TOKEN deploy --site-id sharp-goldstine-eda64e -p build_production
