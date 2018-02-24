@@ -24,7 +24,7 @@ If you want to develop a feature or fix a bug, you need to run a local copy of t
 Here is how to do that.
 
 ```bash    
-git clone 
+git clone git@github.com:CodeDesignInitiative/cdweb1801.git
 cd codedesign
 composer install
 npm install
