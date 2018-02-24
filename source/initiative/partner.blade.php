@@ -198,3 +198,7 @@
 </main>
 
 @endsection
+
+@section('title')
+Partner
+@endsection

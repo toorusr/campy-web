@@ -104,3 +104,7 @@
 </main>
 
 @endsection
+
+@section('title')
+Magazin
+@endsection

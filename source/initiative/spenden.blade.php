@@ -59,6 +59,10 @@
 
 @endsection
 
+@section('title')
+Spenden
+@endsection
+
 @section ('styles')
 <style>
 
