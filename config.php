@@ -12,9 +12,16 @@ return [
             'path' => 'camps/{-slug}/{date_start|ym}',
             'sort' => 'date_start'
         ],
+        'blogs' => [
+            'path' => 'blogs/{-filename}',
+            'sort' => '-published_at'
+        ],
         'coaches' => [
             'path' => 'coaches/{-lastname}',
-            'sort' => 'lastname'
+            'sort' => 'lastname',
+            'hasCamp' => function ($page, $camps) {
+                return collect(explode(',', $page->camps))->contains($camps);
+            }
         ],
         'partners' => [
             'path' => 'partner/{name}',

@@ -64,3 +64,7 @@
 </main>
 
 @endsection
+
+@section('title')
+Stimmen
+@endsection
