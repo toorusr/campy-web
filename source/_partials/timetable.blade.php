@@ -1,5 +1,6 @@
 
 <div class="mt-8 text-2xl font-bold">Ablauf</div>
+<div>(Nur zur Orientierung, am Beispiel eines 4-Tages-Camps. Weicht ab!) </div>
 <div class="mt-8 border-2 rounded p-4 lg:flex lg:flex-wrap">
     <div id="thursday" class={{ $width }} p-4">
       <p class="font-bold mb-4 md:text-center text-xl">Tag 1</p>

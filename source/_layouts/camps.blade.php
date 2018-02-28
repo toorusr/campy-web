@@ -45,6 +45,10 @@
         {{ date('d.m.y', $page->date_end) }}
         @endslot
 
+        @slot('days')
+        {{ $page->days }}
+        @endslot
+
 
     @endcomponent
 
