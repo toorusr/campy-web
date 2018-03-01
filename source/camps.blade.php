@@ -77,6 +77,8 @@
             </div> --}}
         </div>
 
+        @include('_partials.interest')
+
         @include('_partials.timetable', ['width' => 'w-1/4'])
 
     </div>
