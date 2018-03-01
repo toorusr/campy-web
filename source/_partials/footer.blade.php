@@ -55,7 +55,7 @@
             <form name="newsletter-double-opt-in" action="/newsletter/bestaetigen" netlify>
             <label class="text-grey-darker leading-normal">Abonniere unseren Newsletter und bekomme unsere Neuigkeiten ins Postfach.</label>
             <div class="mt-4 flex">
-                <input name="email" type="text" class="p-2 border border-grey-light round text-grey-darkest h-auto" placeholder="Deine E-Mail-Adresse">
+                <input name="email" type="email" class="p-2 border border-grey-light round text-grey-darkest h-auto" placeholder="Deine E-Mail-Adresse">
                                 <button type="submit" class="bg-red-light text-white rounded-sm h-auto p-3">Anmelden</button></form>
             </div>
         </div>
