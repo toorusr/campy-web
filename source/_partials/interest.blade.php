@@ -1,26 +1,26 @@
 <div class="bg-grey-light p-4 rounded">
     <h3 class="mb-4">Interesse dabeizusein?</h3>
-<form class="w-full" name="camp-interest" method="POST" netlify-honeypot="cookie" netlify>
+<form class="w-full" name="interest" method="POST" netlify-honeypot="cookie" netlify>
   <div class="flex flex-wrap -mx-3 mb-2">
     <div class="flex-1 px-3 mb-6 md:mb-0">
       <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-city">
         Vorname
       </label>
-      <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" name="firstname" id="firstname" type="text" placeholder="Simone">
+      <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" name="firstname" type="text" placeholder="Simone">
       <input type="text" name="cookie" hidden>
     </div>
     <div class="flex-1 px-3 mb-6 md:mb-0">
       <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-zip">
         Email
       </label>
-      <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" name="email" id="email" type="email" placeholder="robot@simonegiertz.com">
+      <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" name="email" type="email" placeholder="robot@simonegiertz.com">
     </div>
     <div class="flex-1 px-3 mb-6 md:mb-0">
       <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="city">
         Stadt
       </label>
       <div class="relative">
-        <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded" name="city" id="city">
+        <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded" name="city">
           <option value="ber">Berlin</option>
           <option value="due">Düsseldorf</option>
           <option value="koe">Köln</option>
