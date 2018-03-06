@@ -52,10 +52,11 @@
     <div class="md:w-1/2 md:mt-0 mt-8 h-auto">
         <div>
             <div class="mb-2"><span class="border-b-2 border-red">Newsletter</span></div>
-            <form name="newsletter-double-opt-in" action="/newsletter/bestaetigen" netlify>
+            <form name="newsletter-double-opt-in" action="/newsletter/bestaetigen" netlify-honeypot="ene" netlify>
             <label class="text-grey-darker leading-normal">Abonniere unseren Newsletter und bekomme unsere Neuigkeiten ins Postfach.</label>
             <div class="mt-4 flex">
                 <input name="email" type="email" class="p-2 border border-grey-light round text-grey-darkest h-auto" placeholder="Deine E-Mail-Adresse">
+                <input type="text" name="ene" hidden>
                                 <button type="submit" class="bg-red-light text-white rounded-sm h-auto p-3">Anmelden</button></form>
             </div>
         </div>
