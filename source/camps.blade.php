@@ -13,12 +13,30 @@
                 <div class="text-2xl mb-4">Was ist das C+D Camp?</div>
                     
                         <p class="text-lg leading-normal">Ein Code+Design Camp ist eine sehr gute Möglichkeit für junge Interessierte (15-20 Jahre) einen genaueren Einblick in die Berufswelt Code und Design zu bekommen. Nicht nur Neulinge, sondern auch schon Fortgeschrittene kommen hierbei auf ihre Kosten in einem Camp voller neuer Erfahrungen, sozialer Kontakte, fachlicher Kompetenz und einer Menge Spaß. Ob man sich nun mit programmieren oder designen beschäftigt ist dir natürlich selbst überlassen. Oder hast du doch eher Lust auf ein Hardware-Projekt?</p>
+
+                        <p class="text-2xl mt-8 mb-2">Auf einen Blick</p>
+
+                        <ul class="-ml-4 leading-normal text-lg">
+                            <li>Zwischen 3 und 5 Tagen</li>
+                            <li>Für 50-150 Jugendliche</li>
+                            <li>Zwischen 15-20</li>
+                            <li>Aus eigenen Ideen digitale Produkte machen</li>
+                            <li>Im Team wie in Technologiefirmen arbeiten</li>
+                            <li>Design, Programmieren und Produktmanagement erleben</li>
+                            <li>Seit 2016 schon 10 Camps in ganz Deutschland</li>
+                        </ul>
+
+                        <div class="mt-8 text-xl leading-loose">
+            <div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Programmier- & Designcamp</div><div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Für Jugendliche zwischen 15 und 20</div><div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Deine Ideen</div><div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Hard- & Software</div><div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Projekte</div><div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Für Einsteiger & Profis</div><div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Berufsorientierung</div><div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Präsentationen</div><div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Teamarbeit</div><div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Neue Freunde finden</div><div class="mr-4 bg-purple-lighter p-2 rounded mt-2 inline-block">Coaches aus der Praxis</div>
+        </div>
             </div>
             <div class="md:w-2/5 md:ml-4 mt-4 mb-4 md:mt-0">
                 <div id="plyr-youtube" class="w-full" data-type="youtube" data-video-id="xGk1PpIbisU"></div>
                 {{-- <img src="/img/camps/002.jpg" alt=""> --}}
             </div>
         </div>
+
+        
     
     
         @include('_partials.upcoming')
