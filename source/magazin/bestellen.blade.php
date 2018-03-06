@@ -9,7 +9,7 @@
 
     <div class="ml-8 text-2xl">Magazin kostenlos bestellen!</div>
        
-    <form name="magazin-bestellung" action="/magazin/bestellt" netlify>
+    <form name="magazin-bestellung" action="/magazin/bestellt" netlify-honeypot="hene" netlify>
         
 <div class="rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
     <div class="-mx-3 md:flex mb-6">
@@ -18,6 +18,7 @@
                 Vorname
             </label>
             <input class="appearance-none block w-full bg-grey-lighter text-grey-darker rounded py-3 px-4 mb-3" id="grid-first-name" type="text" placeholder="Grace" name="vorname" required>
+            <input type="text" name="hene" hidden>
         </div>
         <div class="md:w-1/2 px-3">
             <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-last-name" required>
