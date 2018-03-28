@@ -4,7 +4,7 @@
 
 
 
-<div class="p-8 bg-{{ $page->color }} @if ($page->active === 'no') border-t-4 border-pink @endif">
+<div class="p-8 bg-prime @if ($page->active === 'no') border-t-4 border-pink @endif">
   @if ($page->active === 'no')
 <div class="text-pink-lighter">
     Dieses Camp ist leider schon vorbei…
@@ -217,6 +217,14 @@
     padding: 12px !important;
   }
 
+</style>
+@endif
+
+@if ($page->color)
+<style>
+  .bg-prime {
+    background-color: {{ $page->color }};
+  }
 </style>
 @endif
 
