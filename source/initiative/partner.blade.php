@@ -4,7 +4,7 @@
 <main class="p-8 bg-green">
 
 
-   <div class="bg-white p-8">
+   <div class="bg-white rounded p-8">
 
         <p class="text-2xl mt-8">Förderer</p>
 

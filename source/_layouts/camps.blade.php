@@ -14,7 +14,7 @@
 
 
 <div class="md:flex mt-4">
-  <div class="md:w-1/2 bg-white p-4">
+  <div class="md:w-1/2 bg-white rounded p-4">
 
     <header>
       @if ($page->youtube)
@@ -89,7 +89,7 @@
 
     @yield('content')   
   </div>
-  <div class="md:w-1/2 bg-white p-4 md:ml-4 mt-4 md:mt-0">
+  <div class="md:w-1/2 bg-white rounded p-4 md:ml-4 mt-4 md:mt-0">
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 <script>
   hbspt.forms.create({
@@ -104,7 +104,7 @@
 
 <div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Förderer</div>
 
-<div class="bg-white p-8 mt-8">
+<div class="bg-white rounded p-8 mt-8">
 
   <div class="flex flex-wrap ">
             @foreach ($partners->filter->hasCamp($page->id) as $partner)
@@ -144,7 +144,7 @@
 
 <div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Partner</div>
 
-<div class="bg-white p-8 mt-8">
+<div class="bg-white rounded p-8 mt-8">
 
   <div class="flex flex-wrap ">
             @foreach ($partners->filter->hasCamp($page->id) as $partner)

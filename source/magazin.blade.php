@@ -5,7 +5,7 @@
 
     <div class="text-3xl mb-4">Das Code+Design Magazin</div>
 
-   <div class="p-8 bg-white">
+   <div class="p-8 rounded bg-white">
        
     <p class="text-xl">Mit dem Code+Design Magazin sollen sich junge Menschen einen Überblick darüber verschaffen können, wie sich das Berufsleben durch die Digitalisierung verändert, welche Berufsbilder dabei entstehen und welche Zukunftschancen Berufe in der digitalen Wirtschaft bieten.</p>
 

@@ -5,7 +5,7 @@
 
     <div class="text-white text-3xl mb-4">Die Code+Design Camps</div>
 
-    <div class="bg-white p-4">
+    <div class="bg-white rounded p-4">
 
         <div class="md:flex">
     

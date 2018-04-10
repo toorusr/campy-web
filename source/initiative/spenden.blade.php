@@ -5,7 +5,7 @@
 
   <div class="text-white text-3xl mb-4">Spenden</div>
 
-<div class="flex"><div id="form" class="lg:w-1/2 w-full bg-white p-4">
+<div class="flex"><div id="form" class="lg:w-1/2 w-full rounded bg-white p-4">
 
                 <div class="text-xl">Wir sind ein gemeinnütziger Verein und können unsere Zwecke nur mit eurer Hilfe umsetzen: Jugendliche für digitale Berufe begeistern, vor allem Mädchen und Jugendliche aus schwierigen sozialen Herkünften.</div>
 

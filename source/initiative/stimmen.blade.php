@@ -5,7 +5,7 @@
 
     <div class="text-3xl mb-4 text-white">Stimmen zu Code+Design</div>
 
-   <div class="p-8 bg-white">
+   <div class="p-8 rounded bg-white">
 
     
        

@@ -3,7 +3,7 @@
 @section('body')
 <main class="p-8 bg-purple text-lg">
 
-   <div class="bg-white p-4 flex leading-normal"><section class="w-2/3 mr-4"><div class="text-2xl">Teilnahmebedingungen</div><p>Es gibt einige Punkte, auf die wir Dich im Vorfeld des Code+Design Camps deutlich hinweisen wollen. Wir erwarten von allen Teilnehmern, dass sie diese Hinweise lesen und auf dem Camp einhalten.</p>
+   <div class="bg-white p-4 rounded flex leading-normal"><section class="w-2/3 mr-4"><div class="text-2xl">Teilnahmebedingungen</div><p>Es gibt einige Punkte, auf die wir Dich im Vorfeld des Code+Design Camps deutlich hinweisen wollen. Wir erwarten von allen Teilnehmern, dass sie diese Hinweise lesen und auf dem Camp einhalten.</p>
    <ul>
    <li>Anweisungen der Organisatoren und Coaches wird Folge geleistet. Solltest Du Dich daneben benehmen, wirst Du vom Code+Design Camp ausgeschlossen.</li>
    <li>
