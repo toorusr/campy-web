@@ -2,7 +2,7 @@
 
     <h2 class="mb-4" id="updates">Updates</h2>
     
-    <div class="bg-grey-lighter p-4 text-xl">
+    <div class="bg-grey-lighter rounded p-4 text-xl">
       
       <dl class="mt-4 text-lg">
       @foreach ($updates as $update)

@@ -35,7 +35,7 @@ pagination:
         
         <!-- Start: Articles -->
     @foreach($pagination->items as $blog)
-        <div class="bg-white p-4 mt-4 mb-4">
+        <div class="bg-white p-4 rounded mt-4 mb-4">
             <div class="md:flex items-center">
                 <div class="md:w-2/5">
                     @if($blog->youtube <> '')

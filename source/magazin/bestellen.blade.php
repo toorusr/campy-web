@@ -5,7 +5,7 @@
 
     <div class="text-3xl mb-4">Das Code+Design Magazin</div>
 
-   <div class="p-8 bg-white">
+   <div class="p-8 rounded bg-white">
 
     <div class="ml-8 text-2xl">Magazin kostenlos bestellen!</div>
        
