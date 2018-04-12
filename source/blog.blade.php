@@ -51,12 +51,21 @@ pagination:
 					<div class="text-2md mb-4 back md:ml-4 mt-4 md:mt-0"><small class="text-grey">{{$blog->author}} | {{ $blog->published_at}}</small></div>
                     <p class="text-lg mb-4 leading-normal md:ml-4 mt-4 md:mt-0">{{$blog->lead}}</p>
 					<div class="hidden md:block md:ml-4 mt-4 md:mt-0">
-					  @component('_components.button')
+					  @component('_components.blog-button')
 						@slot('colorback')
 						purple
 						@endslot
 						@slot('colorfront')
 						white
+						@endslot
+						@slot('maincolor')
+						transparent
+						@endslot
+						@slot('textcolor')
+						black
+						@endslot
+						@slot('bordercolor')
+						black
 						@endslot
 						@slot('link')
 						{{$blog->getUrl()}}
