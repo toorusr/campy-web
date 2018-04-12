@@ -8,6 +8,7 @@
           <li class="hover:text-green text-grey-darker">Personen</li> --}}
           <li class="hover:text-green text-grey-darker"><a href="/initiative/partner" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Partner</a></li>
           <li class="hover:text-green text-grey-darker"><a href="/initiative/spenden" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Spenden</a></li>
+		  <li class="hover:text-green text-grey-darker"><a href="/blog" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Blog</a></li>
           <li class="hover:text-green text-grey-darker"><a href="/initiative/stimmen" class="no-underline hover:text-green text-grey-darker">Stimmen</a></li>
           <li class="hover:text-green text-grey-darker"><a href="/kontakt" class="no-underline hover:text-green text-grey-darker">Kontakt</a></li>
 {{--           <li class="hover:text-green text-grey-darker">Videos</li>
