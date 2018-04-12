@@ -12,7 +12,7 @@
       <a href="/magazin" class="no-underline text-black inline block mt-4 md:inline-block md:mt-0 border-yellow border-b-2 mr-4 p-1">
         Magazin
       </a>
-      <a href="/initiative" class="no-underline text-black inline block mt-4 md:inline-block border-green border-b-2 md:mt-0 p-1">
+      <a href="/initiative" class="no-underline text-black inline block mt-4 md:inline-block border-green border-b-2 md:mt-0 mr-4 p-1">
         Initiative
       </a>
     </div>
