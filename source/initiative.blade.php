@@ -112,8 +112,8 @@
 								<ul class="mt-4 list-reset">
 								
 									<li>Bildungsstratege</li>
-									<li>IT-Berater</li>
-									<li>Ökonom</li></ul>
+									<li>Dramaturgin</li>
+									<li>Synchronsprecherin</li></ul>
 							
 						</div>
 						<div class="md:w-1/2">
