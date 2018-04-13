@@ -16,26 +16,21 @@
    
    <div class="md:flex w-full">
    
-		<div class="md:w-1/4">
+		<div class="md:w-1/5">
 			
-				<div class="flex-1 bg-green-lighter p-4 rounded mb-4">
+				<div class="flex-1 h-full bg-green-lighter p-4 rounded md:mr-1 mb-4">
 				
-					<div class="md:flex w-full h-full items-center">
+					<div class="w-full h-full items-center">
 			
-						<div class="md:w-1/2">
-				
-							<p class="text-xl">Thomas Bachem</p><p>Vorstand</p>
-								 <ul class="mt-4 list-reset">
-								  
-									<li>Tech Entrepreneur</li>
-									<li>Software Entwickler</li>
-									<li>Business Angel</li></ul>
-							
+						<div class="items-center">
+						
+							<img src="/img/team/tom.jpg" class="w-auto p-2 rounded-full" />
+						
 						</div>
-						<div class="md:w-1/2">
-						
-							<img src="https://pbs.twimg.com/profile_images/892642698636783617/1_Qke1kR_400x400.jpg" class="h-48 w-48 rounded-full" />
-						
+						<div class="h-full items-center">
+				
+							<p class="text-xl md:pt-4">Thomas Bachem</p><p>Vorstand</p>
+							
 						</div>
 				
 					</div>
@@ -44,26 +39,21 @@
 		
 		</div>
 		
-		<div class="md:w-1/4">
+		<div class="md:w-1/5">
 		
-			<div class="flex-1 bg-green-lighter p-4 rounded md:ml-4 mb-4">
+			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-1 mb-4">
 				
-					<div class="md:flex w-full h-full items-center">
+					<div class="w-full h-full items-center">
 			
-						<div class="md:w-1/2">
-				
-							<p class="text-xl">Manuel Dolderer</p><p>Vorstand</p>
-								<ul class="mt-4 list-reset">
-								
-									<li>Wissenschaftler</li>
-									<li>Ökonom</li>
-									<li>Edupreneur</li></ul>
-							
+						<div class="items-center">
+						
+							<img src="/img/team/manuel.jpg" class="w-auto p-2 rounded-full" />
+						
 						</div>
-						<div class="md:w-1/2">
-						
-							<img src="https://pbs.twimg.com/profile_images/892642698636783617/1_Qke1kR_400x400.jpg" class="h-48 w-48 rounded-full" />
-						
+						<div class="h-full items-center">
+				
+							<p class="text-xl md:pt-4">Manuel Dolderer</p><p>Vorstand</p>
+							
 						</div>
 				
 					</div>
@@ -72,26 +62,21 @@
 			
 		</div>
 		
-		<div class="md:w-1/4">
+		<div class="md:w-1/5">
 		
-			<div class="flex-1 bg-green-lighter p-4 rounded md:ml-4 mb-4">
+			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-2 mb-4">
 				
-					<div class="md:flex w-full h-full items-center">
+					<div class="w-full h-full items-center">
 			
-						<div class="md:w-1/2">
-				
-							<p class="text-xl">Martin Betz</p><p>Geschäftsführer</p>
-								<ul class="mt-4 list-reset">
-								
-									<li>Bildungsstratege</li>
-									<li>IT-Berater</li>
-									<li>Ökonom</li></ul>
-							
+						<div class="items-center">
+						
+							<img src="/img/team/martin.jpg" class="w-auto p-2 rounded-full" />
+						
 						</div>
-						<div class="md:w-1/2">
-						
-							<img src="https://pbs.twimg.com/profile_images/892642698636783617/1_Qke1kR_400x400.jpg" class="h-48 w-48 rounded-full" />
-						
+						<div class="h-full items-center">
+				
+							<p class="text-xl md:pt-4">Martin Betz</p><p>Geschäftsführer</p>
+							
 						</div>
 				
 					</div>
@@ -100,26 +85,44 @@
 			 
 		</div>
 		
-		<div class="md:w-1/4">
+		<div class="md:w-1/5">
 
-			<div class="flex-1 bg-green-lighter p-4 rounded md:ml-4 mb-4">
+			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-2 mb-4">
 				
-					<div class="md:flex w-full h-full items-center">
+					<div class="w-full h-full items-center">
 			
-						<div class="md:w-1/2">
+						<div class="items-center">
+						
+							<img src="/img/team/anna.jpg" class="w-auto p-2 rounded-full" />
+						
+						</div>
+						<div class="h-full items-center">
 				
-							<p class="text-xl">Anna Brückner</p><p>Projektleiterin</p>
-								<ul class="mt-4 list-reset">
-								
-									<li>Bildungsstratege</li>
-									<li>Dramaturgin</li>
-									<li>Synchronsprecherin</li></ul>
+							<p class="text-xl md:pt-4">Anna Brückner</p><p>Projektleiterin</p>
 							
 						</div>
-						<div class="md:w-1/2">
+				
+					</div>
+				
+				</div>
+	 
+		</div>
+		
+		<div class="md:w-1/5">
+
+			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-2 mb-4">
+				
+					<div class="w-full h-full items-center">
+			
+						<div class="items-center-center">
 						
-							<img src="https://pbs.twimg.com/profile_images/892642698636783617/1_Qke1kR_400x400.jpg" class="h-48 w-48 rounded-full" />
+							<img src="/img/team/ina.jpg" class="w-auto p-2 rounded-full" />
 						
+						</div>
+						<div class="h-full items-center">
+				
+							<p class="text-xl md:pt-4">Ina Wagner</p><p>Projektkoordinatorin</p>
+							
 						</div>
 				
 					</div>
