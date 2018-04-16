@@ -18,7 +18,7 @@
    
 		<div class="md:w-1/5">
 			
-				<div class="flex-1 h-full bg-green-lighter p-4 rounded md:mr-1 mb-4">
+				<div class="flex-1 h-full bg-grey-lighter p-4 rounded md:mr-1 mb-4">
 				
 					<div class="w-full h-full">
 			
@@ -41,7 +41,7 @@
 		
 		<div class="md:w-1/5">
 		
-			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-1 mb-4">
+			<div class="flex-1 h-full bg-grey-lighter p-4 rounded md:ml-1 mb-4">
 				
 					<div class="w-full h-full">
 			
@@ -64,7 +64,7 @@
 		
 		<div class="md:w-1/5">
 
-			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-2 mb-4">
+			<div class="flex-1 h-full bg-grey-lighter p-4 rounded md:ml-2 mb-4">
 				
 					<div class="w-full h-full">
 			
@@ -87,7 +87,7 @@
 		
 		<div class="md:w-1/5">
 		
-			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-2 mb-4">
+			<div class="flex-1 h-full bg-grey-lighter p-4 rounded md:ml-2 mb-4">
 				
 					<div class="w-full h-full">
 			
@@ -110,7 +110,7 @@
 		
 		<div class="md:w-1/5">
 
-			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-2 mb-4">
+			<div class="flex-1 h-full bg-grey-lighter p-4 rounded md:ml-2 mb-4">
 				
 					<div class="w-full h-full">
 			
