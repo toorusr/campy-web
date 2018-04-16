@@ -29,7 +29,7 @@
 						</div>
 						<div class="h-full items-center">
 				
-							<p class="text-xl md:pt-4">Thomas Bachem</p><p>Vorstand</p>
+							<p class="text-xl md:pt-4">Thomas Bachem</p><p class="hyphens">Vorstand</p>
 							
 						</div>
 				
@@ -52,7 +52,7 @@
 						</div>
 						<div class="h-full items-center">
 				
-							<p class="text-xl md:pt-4">Manuel Dolderer</p><p>Vorstand</p>
+							<p class="text-xl md:pt-4">Manuel Dolderer</p><p class="hyphens">Vorstand</p>
 							
 						</div>
 				
@@ -75,7 +75,7 @@
 						</div>
 						<div class="h-full items-center">
 				
-							<p class="text-xl md:pt-4">Martin Betz</p><p>Geschäftsführer</p>
+							<p class="text-xl md:pt-4">Martin Betz</p><p class="hyphens">Geschäftsführer</p>
 							
 						</div>
 				
@@ -98,7 +98,7 @@
 						</div>
 						<div class="h-full items-center">
 				
-							<p class="text-xl md:pt-4">Anna Brückner</p><p>Projektleiterin</p>
+							<p class="text-xl md:pt-4">Anna Brückner</p><p class="hyphens">Projektleiterin</p>
 							
 						</div>
 				
@@ -121,7 +121,7 @@
 						</div>
 						<div class="h-full items-center">
 				
-							<p class="text-xl md:pt-4">Ina Wagner</p><p>Projektkoordinatorin</p>
+							<p class="text-xl md:pt-4">Ina Wagner</p><p class="hyphens">Projektkoordinatorin</p>
 							
 						</div>
 				
