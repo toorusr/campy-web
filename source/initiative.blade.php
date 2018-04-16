@@ -24,7 +24,7 @@
 			
 						<div class="items-center">
 						
-							<img src="/img/team/tom.jpg" class="w-auto p-2 rounded-full" />
+							@component('_components.img') @slot('src') /img/team/tom.jpg @endslot @slot('width') w-auto @endslot @slot('rounded') rounded-full @endslot @slot('alt') Tom Bachem @endslot @endcomponent
 						
 						</div>
 						<div class="h-full items-center">
@@ -47,7 +47,7 @@
 			
 						<div class="items-center">
 						
-							<img src="/img/team/manuel.jpg" class="w-auto p-2 rounded-full" />
+							@component('_components.img') @slot('src') /img/team/manuel.jpg @endslot @slot('width') w-auto @endslot @slot('rounded') rounded-full @endslot @slot('alt') Manuel Dolderer @endslot @endcomponent
 						
 						</div>
 						<div class="h-full items-center">
@@ -70,7 +70,7 @@
 			
 						<div class="items-center">
 						
-							<img src="/img/team/martin.jpg" class="w-auto p-2 rounded-full" />
+							@component('_components.img') @slot('src') /img/team/martin.jpg @endslot @slot('width') w-auto @endslot @slot('rounded') rounded-full @endslot @slot('alt') Martin Betz @endslot @endcomponent
 						
 						</div>
 						<div class="h-full items-center">
@@ -93,7 +93,7 @@
 			
 						<div class="items-center">
 						
-							<img src="/img/team/anna.jpg" class="w-auto p-2 rounded-full" />
+							@component('_components.img') @slot('src') /img/team/anna.jpg @endslot @slot('width') w-auto @endslot @slot('rounded') rounded-full @endslot @slot('alt') Anna Brückner @endslot @endcomponent
 						
 						</div>
 						<div class="h-full items-center">
@@ -116,7 +116,7 @@
 			
 						<div class="items-center-center">
 						
-							<img src="/img/team/ina.jpg" class="w-auto p-2 rounded-full" />
+							@component('_components.img') @slot('src') /img/team/ina.jpg @endslot @slot('width') w-auto @endslot @slot('rounded') rounded-full @endslot @slot('alt') Ina Wagner @endslot @endcomponent
 						
 						</div>
 						<div class="h-full items-center">
