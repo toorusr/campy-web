@@ -63,6 +63,29 @@
 		</div>
 		
 		<div class="md:w-1/5">
+
+			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-2 mb-4">
+				
+					<div class="w-full h-full">
+			
+						<div class="flex flex-row items-center justify-center">
+						
+							@component('_components.img') @slot('src') /img/team/ina.jpg @endslot @slot('width') w-auto @endslot @slot('rounded') rounded-full @endslot @slot('alt') Ina Wagner @endslot @endcomponent
+						
+						</div>
+						<div class="h-full text-center">
+				
+							<p class="text-xl md:pt-4">Ina Wagner</p><p class="hyphens">Projektkoordinatorin</p>
+							
+						</div>
+				
+					</div>
+				
+				</div>
+	 
+		</div>
+		
+		<div class="md:w-1/5">
 		
 			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-2 mb-4">
 				
@@ -99,29 +122,6 @@
 						<div class="h-full text-center">
 				
 							<p class="text-xl md:pt-4">Anna Brückner</p><p class="hyphens">Projektleiterin</p>
-							
-						</div>
-				
-					</div>
-				
-				</div>
-	 
-		</div>
-		
-		<div class="md:w-1/5">
-
-			<div class="flex-1 h-full bg-green-lighter p-4 rounded md:ml-2 mb-4">
-				
-					<div class="w-full h-full">
-			
-						<div class="flex flex-row items-center justify-center">
-						
-							@component('_components.img') @slot('src') /img/team/ina.jpg @endslot @slot('width') w-auto @endslot @slot('rounded') rounded-full @endslot @slot('alt') Ina Wagner @endslot @endcomponent
-						
-						</div>
-						<div class="h-full text-center">
-				
-							<p class="text-xl md:pt-4">Ina Wagner</p><p class="hyphens">Projektkoordinatorin</p>
 							
 						</div>
 				
