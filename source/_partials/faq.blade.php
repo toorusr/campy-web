@@ -29,7 +29,7 @@
         <dd class="mb-4">Die Leihrechner laufen meist auf Windows 10. Selten haben wir auch Linux-Rechner. Macs sind in der Leihe leider zu teuer.</dd>
 
         <dt class="font-bold">Organisiert Code+Design auch meine Übernachtung?</dt>
-        <dd class="mb-4">Nein. Du musst dich selbst darum kümmern. Wir bieten nur eine Bettenbörse an, wo ihr Schlafplätze anbieten und finden könnt. Eine Vermittlung können wir euch aber nicht garantieren.</dd>
+        <dd class="mb-4">Nein. Du musst dich leider selbst darum kümmern. Wir bieten dir an, dich in unserem Chat mit anderen Teilnehmern auszutauschen und euch gegenseitig zu helfen. Leider gibt es immer viel mehr Leute, die eine Unterkunft suchen, als solche, die einen Schlafplatz anbieten. Wir empfehlen deshalb unter "Updates" ein Hostel in der Nähe, in dem dann auch viele Teilnehmer unterkommen.</dd>
 
         <dt class="font-bold">Wie laut wird es auf dem Camp?</dt>
         <dd class="mb-4">Gehe besser davon aus, dass es auf dem Camp laut und hektisch wird. Bringe dir Kopfhörer mit, über die du Musik, <a href="https://calmyleon.com" target="_blank">beruhigende Geräusche</a> oder <a href="https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php" target="_blank">Rauschen</a>  hörst. Bei manchen Camps haben wir in der Location auch ruhigere Ecken. Das können wir aber nicht garantieren.</dd>
