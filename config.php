@@ -14,7 +14,7 @@ return [
         ],
         'blogs' => [
             'path' => 'blogs/{-filename}',
-            'sort' => '-published_at'
+            'sort' => 'published_at'
         ],
         'coaches' => [
             'path' => 'coaches/{-lastname}',

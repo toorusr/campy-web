@@ -72,7 +72,7 @@
                     <p class="text-xl text-justify mb-8 text-lg md:ml-4 mt-4 md:mt-0">{{$page->lead}}</p>
 					<div class="lead-normal text-md text-justify leading-normal ml-4 mt-4 md:mt-0">{!! $page->getContent() !!}</div>
                 </div>
-                <div class="md:flex md:w-2/5 md:ml-4 mt-4 md:mt-0 items-center">
+                <div class="md:flex md:w-2/5 md:ml-4 mt-4 md:mt-0 items-start">
 					<div class="w-full">
 						@if($page->youtube <> '')
 							<div id="plyr-youtube" class="w-full" data-type="youtube" data-video-id="{{$page->youtube}}"></div>
