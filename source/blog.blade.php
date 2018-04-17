@@ -48,7 +48,7 @@ pagination:
                 </div>
                 <div class="md:w-3/5 md:ml-4 mt-4 mb-4 md:mt-0">
 					<div class="text-4xl back md:ml-4 mt-4 md:mt-0"><a class="no-underline text-black" href="{{$blog->getUrl()}}">{{$blog->caption}} </a></div>
-					<div class="text-2md mb-4 back md:ml-4 mt-4 md:mt-0"><small class="text-grey">{{$blog->author}} | {{ $blog->published_at}}</small></div>
+					<div class="text-2md mb-4 back md:ml-4 mt-4 md:mt-0"><small class="text-grey">{{$blog->author}} |  {{ date('d-m-Y', $blog->published_at) }}</small></div>
                     <p class="text-lg mb-4 leading-normal md:ml-4 mt-4 md:mt-0">{{$blog->lead}}</p>
 					<div class="md:block md:ml-4 mt-4 md:mt-0">
 					  @component('_components.blog-button')
