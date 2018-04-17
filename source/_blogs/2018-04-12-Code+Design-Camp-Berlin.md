@@ -5,7 +5,7 @@ lead: Ein Code+Design Camp ist eine sehr gute Möglichkeit für junge Interessie
 youtube: xGk1PpIbisU
 image: /img/header01.jpg
 author: Code+Design Initiative
-published_at: 07.02.2018
+published_at: 2018-02-07
 section: content
 ---
 
