@@ -57,6 +57,9 @@
             <label class="text-grey-darker leading-normal">Abonniere unseren Newsletter und bekomme unsere Neuigkeiten ins Postfach.</label>
             <div class="mt-4 flex">
                 <input name="email" type="email" class="p-2 border border-grey-light round text-grey-darkest h-auto" placeholder="Deine E-Mail-Adresse">
+                <div data-netlify-recaptcha></div>
+              </div>
+              <div>
                 <input type="text" name="ene" hidden>
                                 <button type="submit" class="bg-red-light text-white rounded-sm h-auto p-3">Anmelden</button></form>
             </div>
