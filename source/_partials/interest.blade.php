@@ -38,6 +38,7 @@
         </div>
       </div>
     </div>
+    <div data-netlify-recaptcha></div>
     <div class="self-end">
        <button class="px-3 mb-6 md:mb-0  py-3 text-grey-darkest mr-4 rounded bg-grey  hover:bg-grey-dark">Senden</button> 
     </div>
