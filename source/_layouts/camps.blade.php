@@ -57,6 +57,10 @@
         {{ $page->costlaptop }}
         @endslot
 
+        @slot('meals')
+        {{ $page->meals }}
+        @endslot
+
 
     @endcomponent
 
