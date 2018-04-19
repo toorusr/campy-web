@@ -16,12 +16,12 @@
         <dd class="mb-4"></dd>
         <dt class="font-bold">Unkostenbeitrag</dt>
         <dd class="mb-4">
-            50€*
+            {{ $cost }}
         </dd>
         <dt class="font-bold">Inklusive Versorgung</dt>
         <dd class="mb-4">Jeden Tag Frühstück, Mittag- und Abendessen</dd>
         <dt class="font-bold">Laptopausleihe</dt>
-        <dd class="mb-4">Bei Bedarf: 50€ Unkostenbeitrag (Windows-Laptop)</dd>
+        <dd class="mb-4">Bei Bedarf: {{ $costlaptop }} Unkostenbeitrag (Windows-Laptop)</dd>
         <dt class="font-bold"></dt>
         <dd class="mb-4"></dd>
     </dl>
