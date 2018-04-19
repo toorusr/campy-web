@@ -49,6 +49,14 @@
         {{ $page->days }}
         @endslot
 
+        @slot('cost')
+        {{ $page->cost }}
+        @endslot
+
+        @slot('costlaptop')
+        {{ $page->costlaptop }}
+        @endslot
+
 
     @endcomponent
 
