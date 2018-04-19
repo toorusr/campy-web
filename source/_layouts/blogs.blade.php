@@ -68,7 +68,7 @@
             <div class="md:flex mb-4" style="margin-bottom: 10px;">
                 <div class="md:w-3/5 mr-4">
 					<div class="text-5xl back md:ml-4 mt-4 md:mt-0"><a class="no-underline text-black" href="{{$page->getUrl()}}">{{$page->caption}} </a></div>
-					<div class="text-4md mb-4 back md:ml-4 mt-4 md:mt-0"><small class="text-black">{{$page->author}} | {{ $page->published_at}}</small></div>
+					<div class="text-4md mb-4 back md:ml-4 mt-4 md:mt-0"><small class="text-black">{{$page->author}} | {{ date('d-m-Y', $blog->published_at) }}</small></div>
                     <p class="text-xl text-justify mb-8 text-lg md:ml-4 mt-4 md:mt-0">{{$page->lead}}</p>
 					<div class="lead-normal text-md text-justify leading-normal ml-4 mt-4 md:mt-0">{!! $page->getContent() !!}</div>
                 </div>
