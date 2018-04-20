@@ -2,6 +2,38 @@
     <div class="text-2xl font-bold">Weitere Fragen</div>
 
     <dl class="mt-4 text-lg">
+
+        <dt class="font-bold">Wie kann ich mit meiner Überweisung meine Teilnahme verbindlich machen?</dt>
+        <dd class="mb-4">
+            <br>
+            <p><em>Betrag:</em> {{ $cost }}<br />
+            <em>Empfänger:</em> Code+Design e.V. <br />
+            <em>Bank:</em> Sparkasse Berlin <br />
+            <em>IBAN:</em> DE24100500000190607629 <br />
+            <em>BIC:</em> BELADEBEXXX <br />
+            <em>Zweck:</em> Unkostenbeitrag Vorname Nachname {{ $campid }}  </p> 
+            <br>
+
+            <p>Wenn du auch einen Laptop ausleihen willst, sende bitte eine weitere Überweisung (für unsere Buchführung macht es das viel einfacher):</p>
+
+            <br>
+            <p><em>Betrag:</em> {{ $costlaptop }} <br />
+            <em>Empfänger:</em> Code+Design e.V. <br />
+            <em>Bank:</em> Sparkasse Berlin <br />
+            <em>IBAN:</em> DE24100500000190607629 <br />
+            <em>BIC:</em> BELADEBEXXX <br />
+            <em>Zweck:</em> Unkosten Laptop Leihe Vorname Nachname {{ $campid }} </p> 
+            <br>
+
+<em>Hinweis:</em> 
+
+<ul>
+<li>Wenn du angegeben hast, dass du die Unkosten gerade nicht zahlen kannst, musst du natürlich nichts tun</li>
+
+<li>Wir bestätigen die Überweisung nicht. Wenn du nichts von uns hörst, ist deine Anmeldung bestätigt und alles in Ordnung</li>
+</ul>
+        </dd>
+
         <dt class="font-bold">Bis wann muss ich meine Unkosten bezahlt haben?</dt>
         <dd class="mb-4">
 

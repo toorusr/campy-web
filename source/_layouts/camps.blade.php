@@ -93,7 +93,7 @@
 
     @endcomponent
 
-    @include('_partials.faq')
+    @include('_partials.faq', ['cost' => $page->cost, 'costlaptop' => $page->costlaptop, 'campid' => $page->id])
 
     @include('_partials.update')
 
