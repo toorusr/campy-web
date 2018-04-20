@@ -53,6 +53,10 @@
     <div class="md:w-1/2 md:mt-0 mt-8 h-auto">
         <div>
             <div class="mb-2"><span class="border-b-2 border-red">Newsletter</span></div>
+            <form name="best-newsletter" class="hidden">
+              <input type="text" class="hidden">
+              <button type="submit" class="hidden"></button>
+            </form>
             <form name="newsletter-double-opt-in" action="/newsletter/bestaetigen" netlify-honeypot="ene" netlify>
             <label class="text-grey-darker leading-normal">Abonniere unseren Newsletter und bekomme unsere Neuigkeiten ins Postfach.</label>
             <div class="mt-4 flex">
