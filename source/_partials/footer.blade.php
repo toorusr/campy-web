@@ -57,15 +57,21 @@
               <input type="text" class="hidden">
               <button type="submit" class="hidden"></button>
             </form>
-            <form name="newsletter-double-opt-in" action="/newsletter/bestaetigen" netlify-honeypot="ene" netlify>
-            <label class="text-grey-darker leading-normal">Abonniere unseren Newsletter und bekomme unsere Neuigkeiten ins Postfach.</label>
-            <div class="mt-4 flex">
-                <input name="email" type="email" class="p-2 border border-grey-light round text-grey-darkest h-auto" placeholder="Deine E-Mail-Adresse">
-                <div data-netlify-recaptcha></div>
-              </div>
-              <div>
-                <input type="text" name="ene" hidden>
-                                <button type="submit" class="bg-red-light text-white rounded-sm h-auto p-3">Anmelden</button></form>
+            <div>
+              <p>Klicke einfach auf den Link und schicke die Mail ab. Dann bekommst du unseren Newsletter.</p><br>
+             <script type="text/javascript" language="javascript">
+
+ML="o.cC\"bsf2l0yn@g&p%B;iDtea?r:6ud>/=3NHw jm<h";
+MI="YHVZJG7Q4XHD9F0KZG990=20NG1NG6D><I6M5WG2FQSGU69GFFGJA8:H50<<DGJG<?HX@C50N;QTH990A83A8:D2ZA8:XA3RABL2ZFGA8:>GJ<GA8:NG<A8:30NGA8BEG6D><A8:SGU69GFFGJA8:H50<<DGJG<4OSGU69GFFGJVH50<<DGJG<YPHO";
+OT="";
+for(j=0;j<MI.length;j++){
+OT+=ML.charAt(MI.charCodeAt(j)-48);
+}document.write(OT);
+//
+</script>
+
+
+
             </div>
         </div>
         <div class="mt-4 flex" id="social">
