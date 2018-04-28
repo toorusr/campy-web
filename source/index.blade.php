@@ -39,4 +39,4 @@
             </div>
         </div>
 </main>
-@endsection @section('title') Zuhause @endsection
+@endsection @section('title') Home @endsection
