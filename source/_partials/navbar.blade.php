@@ -7,12 +7,12 @@
   <div class="w-full block items-center justify-center flex-grow md:flex  md:items-center md:w-auto">
     <div class="text-2xl md:flex-grow text-center md:text-left">
 
-      <a href="/camps" class="no-underline text-black inline md:block mt-4 md:inline-block md:mt-0 border-b-2 border-purple mr-4 p-1">Camps</a>
+      <a href="/camps" class="no-underline text-black inline md:block mt-4 md:inline-block md:mt-0 border-b-2 border-purple mr-4 p-7">Camps</a>
       
-      <a href="/magazin" class="no-underline text-black inline block mt-4 md:inline-block md:mt-0 border-yellow border-b-2 mr-4 p-1">
+      <a href="/magazin" class="no-underline text-black inline block mt-4 md:inline-block md:mt-0 border-yellow border-b-2 mr-4 p-7">
         Magazin
       </a>
-      <a href="/initiative" class="no-underline text-black inline block mt-4 md:inline-block border-green border-b-2 md:mt-0 mr-4 p-1">
+      <a href="/initiative" class="no-underline text-black inline block mt-4 md:inline-block border-green border-b-2 md:mt-0 mr-4 p-7">
         Initiative
       </a>
     </div>
