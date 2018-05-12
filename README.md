@@ -14,9 +14,9 @@ This is a community website, you are welcome to contribute.
 
 To run the site locally, you need the following tools:
 
-- `Node` and `NPM`
+- `Git`
 - `Composer`
-- `BrowserSync`
+- `Browser of your choice`
 
 ## How to run site locally?
 
@@ -25,13 +25,11 @@ Here is how to do that.
 
 ```bash    
 git clone git@github.com:CodeDesignInitiative/cdweb1801.git
-cd codedesign
+cd cdweb1801
 composer install
-npm install
-gulp watch
-# new terminal tab
-cd build_local
-browser-sync start -s -f . --no-notify --https
+./vendor/bin/jigsaw build production
+cd build_production
+# open the index.html in browser
 ```
 
 Most probably your browser will protest and say that the site is insecure. In Chrome just type `badidea` and proceed, in Firefox ignore all warnings and visit page.
