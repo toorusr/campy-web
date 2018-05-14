@@ -19,7 +19,7 @@
                         <ul class="-ml-4 leading-normal text-lg">
                             <li>Zwischen 3 und 5 Tagen</li>
                             <li>Für 50-150 Jugendliche</li>
-                            <li>Zwischen 15-20</li>
+                            <li>Teilnehmer zwischen 15-20 Jahre alt</li>
                             <li>Aus eigenen Ideen digitale Produkte machen</li>
                             <li>Im Team wie in Technologiefirmen arbeiten</li>
                             <li>Design, Programmieren und Produktmanagement erleben</li>
