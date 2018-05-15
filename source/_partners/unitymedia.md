@@ -5,7 +5,7 @@ logo: unitymedia.jpg
 website: https://www.unitymedia.de/
 tier: gold
 strength: 100
-camps: koe1706,ffm1708,stu1707
+camps: koe1706,ffm1708,stu1707,koe1805
 short:
 ---
 
