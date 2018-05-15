@@ -30,7 +30,19 @@
         @slot('width')
         @endslot
         Spenden
-    @endcomponent
+      @endcomponent
+      @component('_components.button')
+        @slot('colorback')
+        blue
+	@endslot
+	@slot('colorfront')
+	white
+	@endslot
+	@slot('link')
+	archiv
+	@endslot
+	Archiv
+      @endcomponent	
     </div>
   </div>
 </nav>

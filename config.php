@@ -44,6 +44,10 @@ return [
         'articles' => [
             'path' => 'magazin/{-slug}',
             'sort' => 'publication_date'
-        ]
+    	],
+	'archiv' => [
+	    'path' => 'archiv/{-slug}',
+	    'sort' => 'date_start'
+	]
     ],
 ];
