@@ -39,7 +39,7 @@
           <li class="hover:text-purple-light text-grey-darker"><a href="/camps/berlin/1710" class="no-underline hover:text-purple text-grey-darker">Berlin Oktober 2017</a></li>
       </ul>
 
-    <div class="text-blue-light mb-2 mt-4"><span class="border-b-2 border-blue text-grey-darkest">Philosophy</span></div>
+    <div class="text-blue-light mb-2 mt-4"><span class="border-b-2 border-blue text-grey-darkest">Philosophie</span></div>
     <ul class="list-reset leading-normal">
       <li class="hover:text-blue-light text-grey-darker"><a href="/camps/philosophy" class="text-grey-darker no-underline hover:text-blue">Lesen</a></li>
     </ul>
