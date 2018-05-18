@@ -3,8 +3,6 @@ extends: _layouts.philosophy
 section: philosophy_content
 ---
 
-### Philosophie
-
 - Auf dem Camp sollen die Jugendlichen die **Arbeit der Zukunft schon heute erleben**
 - Wie die Arbeit der Zukunft unserer Meinung nach aussieht:
   - **im wild gemischten Team mit verschiedensten Hintergründen, an Problemen, an Projekten arbeiten, die man selbst auswählt.**
@@ -26,7 +24,9 @@ section: philosophy_content
 - **Im Austausch mit der Praxis**: Die Coaches bringen viel Erfahrung im Entwickeln von digitalen Produkten und der Arbeit in Teams mit - durch enge Zusammenarbeit werden
 - **Aus dem normalen Kontext nehmen**: Die Camps finden bewusst außerhalb der Schule, dem Klassenverband und dem Lernalltag statt. In inspirierendem und geschütztem Raum lernt sich leichter.
 
+
 ### Pädagogisches Konzept
+
 
 - Das Camp ist ein **geschützter Raum: Experimentieren und Scheitern** ist möglich
 - **Jugendliche ernst nehmen**: Jugendliche haben eigene Themen und Probleme und brauchen nicht noch mehr Erwachsene, die ihnen sagen, was sie zu tun haben ("Du musst programmieren lernen")
@@ -40,7 +40,9 @@ section: philosophy_content
 - **Team- und Technikskills gleich wichtig**: In der Projektarbeit geht es gleichermaßen darum, sich technische Fähigkeiten anzueignen wie darum, verschiedene Teamskills zu erwerben: Präsentieren, Moderieren, Planen, Konflikte lösen, Mit Druck und Enttäuschungen umgehen, Probleme lösen
 - **Workshops nach Bedarf**: Die Teilnehmer bestimmen zusammen, zu welchen Themen sie Input durch Coaches oder erfahrene Teilnehmer brauchen. Sofern möglich, werden diese Workshops dann angeboten
 
+
 ### Warum Firmen mitmachen sollten
+
 
 - Das gesamte **pädagogische Konzept** ist 1:1 für Coaches und Firmen gültig, die am Camp teilnehmen
 - **Camp** ist **Vorbild** für **Firmen-Kultur der Zukunft**
