@@ -41,7 +41,7 @@
 
     <div class="text-blue-light mb-2 mt-4"><span class="border-b-2 border-blue text-grey-darkest">Philosophie</span></div>
     <ul class="list-reset leading-normal">
-      <li class="hover:text-blue-light text-grey-darker"><a href="/camps/philosophy" class="text-grey-darker no-underline hover:text-blue">Lesen</a></li>
+      <li class="hover:text-blue-light text-grey-darker"><a href="/camps/philosophie" class="text-grey-darker no-underline hover:text-blue">Lesen</a></li>
     </ul>
   </div>
   <div class="md:w-1/2 h-auto md:mt-0 mt-8">
