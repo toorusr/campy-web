@@ -31,11 +31,11 @@ composer install
 cd build_production
 # open the index.html in browser
 ```
+*Most probably your browser will protest and say that the site is insecure. In Chrome just type `badidea` and proceed, in Firefox ignore all warnings and visit page.*
 
-To automaticaly build the site when you make changes you can use [the silversearcher tool](https://github.com/ggreer/the_silver_searcher) and [entr](http://entrproject.org/).
+#### Autobuild
+To automatically build the site when you make changes you can use [the silver searcher](https://github.com/ggreer/the_silver_searcher) tool and [entr](http://entrproject.org/).
 ```bash
 # open another terminal and navigate to the cdweb1801 directory
 ag -l | entr ./vendor/bin/jigsaw build production
 ```
-
-Most probably your browser will protest and say that the site is insecure. In Chrome just type `badidea` and proceed, in Firefox ignore all warnings and visit page.
