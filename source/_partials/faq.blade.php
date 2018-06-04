@@ -1,5 +1,5 @@
 <div class="mt-4">
-    <div class="text-2xl font-bold">Weitere Fragen</div>
+    <div class="text-2xl font-bold">Häufige Fragen</div>
 
     <dl class="mt-4 text-lg">
 
