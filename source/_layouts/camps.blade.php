@@ -14,7 +14,7 @@
 
 
 <div class="md:flex mt-4">
-  <div class="md:w-1/2 bg-white rounded p-4">
+  <div class="md:w-2/3 bg-white rounded p-4">
 
     <header>
       @if ($page->youtube)
@@ -93,22 +93,23 @@
 
     @endcomponent
 
+    @include('_partials.campy')
+
+    @include('_partials.timetable', ['width' => 'w-1/2'])
+
+  </div>
+  <div class="md:w-1/3 bg-white rounded p-4 md:ml-4 mt-4 md:mt-0">
+    
+    <div class="mb-4">@include('_partials.campy')</div>
+
+
     @include('_partials.faq', ['cost' => $page->cost, 'costlaptop' => $page->costlaptop, 'campid' => $page->id])
 
     @include('_partials.update')
 
-    @include('_partials.timetable', ['width' => 'w-1/2'])
+    
 
-    @yield('content')   
-  </div>
-  <div class="md:w-1/2 bg-white rounded p-4 md:ml-4 mt-4 md:mt-0">
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-<script>
-  hbspt.forms.create({
-    portalId: '2730872',
-    formId: '{{  $page->form }}'
-  });
-</script>
+    @yield('content')
 
   </div>
 
