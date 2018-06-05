@@ -2,8 +2,10 @@
     <div class="text-2xl mb-4 text-grey-darkest">Die nächsten Camps</div>
 
     <div class="md:flex">
-        @foreach ($camps as $camp)
-             @if ($camp->active === 'yes')
+
+        @foreach ($camps->where('active', 'yes')->take(3) as $camp)
+             
+             
 
               
                 <div class="flex-1 p-1">
@@ -18,7 +20,6 @@
                     </div>
                 </div>
                
-                @endif
         @endforeach
     </div>
     
