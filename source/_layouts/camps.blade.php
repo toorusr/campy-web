@@ -97,14 +97,18 @@
   @yield('content')
 @endif
 
+    @if ($page->active === 'yes')
     @include('_partials.campy')
+    @endif
 
     @include('_partials.timetable', ['width' => 'w-1/2'])
 
   </div>
   <div class="md:w-1/3 bg-white rounded p-4 md:ml-4 mt-4 md:mt-0">
     
-    <div class="mb-4">@include('_partials.campy')</div>
+    <div class="mb-4">@if ($page->active === 'yes')
+    @include('_partials.campy')
+    @endif</div>
 
 
     @include('_partials.faq', ['cost' => $page->cost, 'costlaptop' => $page->costlaptop, 'campid' => $page->id])
