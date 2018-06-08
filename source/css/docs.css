@@ -1,0 +1,96 @@
+/* Giving documentation markdowns or longer texts a style. */
+
+.docs {
+  padding-bottom: 1rem;
+}
+.docs h2 {
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+.docs h2 + p {
+  margin-top: 2rem;
+}
+.docs h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.docs h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: -0.2em;
+  color: #8f4dbf;
+}
+.docs h4 a {
+  font-weight: 300;
+}
+.docs h4 a:hover {
+  text-decoration: none;
+}
+.docs p {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.docs a {
+  color: #8f4dbf;
+}
+.docs a:hover,
+.docs a:focus {
+  color: #67328d;
+}
+.docs blockquote {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.25rem 1rem;
+  color: rgba(72, 71, 72, 0.6);
+  border-left: 0.25rem solid #d4d0d6;
+}
+.docs blockquote > p {
+  margin: 0;
+}
+.docs pre + blockquote {
+  margin-top: 2rem;
+}
+.docs code {
+  display: inline-block;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  font-size: 0.875rem;
+  background-color: #efedf0;
+}
+.docs pre {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  line-height: 1.75;
+  background-color: #f7f4ee;
+}
+.docs pre > code {
+  display: inline;
+  padding: 0;
+  background: none;
+}
+.docs ol,
+.docs ul {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+.docs ol {
+  list-style-type: decimal;
+}
+.docs ul {
+  list-style-type: disc;
+}
+.docs li {
+  margin-bottom: 0.5rem;
+}
+.docs img {
+  max-width: 100%;
+}
+.docs hr {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin: 2rem 0;
+}
