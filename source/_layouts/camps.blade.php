@@ -24,6 +24,7 @@
         @endif
     </header>
 
+
     @component('_components.camps.facts')
         @slot('location')
         {{ $page->location }}
@@ -64,7 +65,7 @@
 
     @endcomponent
 
-
+@if ($page->teaser === 'yes')
     @component('_components.camps.teaser')
         @slot('location')
         {{ $page->location }}
@@ -92,6 +93,9 @@
 
 
     @endcomponent
+@else
+  @yield('content')
+@endif
 
     @include('_partials.campy')
 
