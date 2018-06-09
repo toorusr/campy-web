@@ -44,6 +44,9 @@ return [
         'articles' => [
             'path' => 'magazin/{-slug}',
             'sort' => 'publication_date'
+        ],
+        'projects' => [
+            'path' => 'projekt/{-camp}/{-slug}'
         ]
     ],
 ];
