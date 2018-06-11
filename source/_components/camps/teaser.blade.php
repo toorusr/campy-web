@@ -4,6 +4,6 @@
 
 <p class="text-lg hyphens mb-6 leading-normal">In das Camp integriert ist ein Berufsorientierungsworkshop, der den Jugendlichen helfen soll, sich aus erster Hand über Berufsbilder und Ausbildungswege in der Digitalwirtschaft zu informieren.</p>
 
-<p class="text-lg hyphens mb-6 leading-normal">Um allen interessierten Jugendlichen die Teilnahme zu ermöglichen, wird das Camp von Sponsoren finanziert. Die Teilnehmerinnen und Teilnehmer werden verpflegt und bekommen die notwendige Hardware gestellt – als Teilnahmegebühr wird lediglich ein kleiner Kostenbeitrag in Höhe von 50 Euro erhoben.</p>
+<p class="text-lg hyphens mb-6 leading-normal">Um allen interessierten Jugendlichen die Teilnahme zu ermöglichen, wird das Camp von Sponsoren finanziert. Die Teilnehmerinnen und Teilnehmer werden verpflegt und bekommen die notwendige Hardware gestellt – als Teilnahmegebühr wird lediglich ein kleiner Kostenbeitrag erhoben.</p>
 
 <p class="text-lg hyphens leading-normal">Veranstaltet wird das Camp von der <a href="/initiative">gemeinnützigen Code+Design Initiative e.V.</a>, die es sich zum Ziel gesetzt hat, Jugendliche für digitale Technologien und Berufe zu begeistern und insbesondere den Anteil an Frauen in diesen Bereichen zu erhöhen.</p>
