@@ -1,32 +1,43 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8 bg-purple">
-
+<main class="p-8 bg-green">
     <div class="text-3xl mb-4 text-white">Coaches</div>
-
-   <div class="p-8 bg-white">
-    <div class="flex flex-wrap ">
-        @foreach ($coaches as $coach)
-            <div class="w-full md:w-1/2 p-1">
-                <div class="flex-1 rounded border px-6 py-4 max-w-md h-full {{ $ml or '' }} {{ $mr or '' }} m-{{ $m or '' }} mb-{{ $mb or '' }}">
-                    <div class="md:flex">
-                        <div class="md:w-1/6">
-                            <img src="/img/coaches/{{ $coach->image }}" class="rounded"/>
-                        </div>
-                        <div class="md:w-5/6 md:ml-4 mt-4 mb-4 md:mt-0">
-                            <div class="text-2xl mb-4"><a class="text-black" href="/coaches/{{ $coach->lastname }}">{{ $coach->firstname }} {{ $coach->lastname }}</a></div>
-                            <p class="text-lg leading-normal">{{ $coach->bio }}</p>
-                        
-                        </div>
-                    </div>
-                </div>
-            </div>
-        @endforeach
+    <div class="p-8 rounded bg-white">
+        <div class="flex flex-wrap">
+            @foreach ($coaches as $coach)
+                <div class="w-full md:w-1/2 p-1">
+                    @component('_components.person_card')
+                         @slot('image')
+                            {{ $coach->image }}
+                         @endslot
+                         @slot('section')
+                            {{ $coach->section }}
+                         @endslot
+                         @slot('firstname')
+                            {{ $coach->firstname }}
+                         @endslot
+                         @slot('lastname')
+                            {{ $coach->lastname }}
+                         @endslot
+                         @slot('bio')
+                            {{ $coach->bio }}
+                         @endslot
+                         @slot('website')
+                            {{ $coach->website }}
+                         @endslot
+                         @slot('github')
+                            {{ $coach->github }}
+                         @endslot
+                         @slot('twitter')
+                            {{ $coach->twitter }}
+                         @endslot
+                     @endcomponent
+                  </div>
+            @endforeach
+        </div>
     </div>
-    </div>
-    </div>
-    </div>
+</main>
 @endsection
 
 @section('title')
