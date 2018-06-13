@@ -8,7 +8,6 @@ pagination:
 
 @section('body')
 <main class="p-8 bg-purple">
-
     <div class="text-white text-3xl mb-4">Blog: <small class="text-grey">
         <!-- Start: Pagination -->
         @if ($previous = $pagination->previous)
@@ -31,8 +30,7 @@ pagination:
         <!-- End: Pagination -->
     </div>
 
-        
-        
+
         <!-- Start: Articles -->
     @foreach($pagination->items as $blog)
         <div class="bg-white p-4 rounded mt-4 mb-4">
@@ -80,17 +78,13 @@ pagination:
         </div>
     @endforeach
         <!-- End: Articles -->
-
-
 </main>
-
 @endsection
 
 @section('scripts')
 <script src="https://cdn.plyr.io/2.0.18/plyr.js"></script>
     <script>
         plyr.setup("#plyr-youtube");
-
     </script>
 @endsection
 
