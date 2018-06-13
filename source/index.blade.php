@@ -3,7 +3,7 @@
     <div class="text-white text-3xl mb-4">Code+Design: Wir begeistern für digitale Berufe!</div>
     <div class="bg-white rounded p-6">
         @component('_components.img') @slot('src') /img/header03.jpg @endslot @slot('alt') Code+Design Camp @endslot @endcomponent
-        
+
         <div class="lg:flex p-4">
             <div class="mb-4 h-auto lg:w-1/3">
                 <div class="text-3xl mb-4"><a href="/camps" class="no-underline text-grey-darkest"><span class="border-b-2 border-purple">Die Camps</span></a></div>
@@ -24,19 +24,7 @@
             </div>
         </div>
         @include('_partials.upcoming')
-        <div class="mb-4 mt-4">
-            <div class="text-3xl mb-4 mt-8 ml-4"><a href="/initiative/stimmen" class="no-underline border-b-2 border-purple text-grey-darkest">Die Stimmen</a></div>
-            <div class="md:flex">
-                <div>
-                    @component('_components.card') @slot('src') https://pbs.twimg.com/profile_images/847373919468179456/Zrp-86HU_400x400.jpg @endslot @slot('link') http://www.focus.de/finanzen/karriere/arbeit-in-den-ferien-programmieren-lernen_id_6635977.html @endslot @slot('medium') Focus @endslot @slot('channel') www.focus.de @endslot @slot('published_at') Montag, 13.02.2017, 04:35 @endslot @slot('ml') @endslot @slot('mr') @endslot Viele Zukunftsberufe verlangen den Arbeitnehmern Informatikkenntnisse ab. Deswegen müssen gerade junge Menschen diese Kompetenzen so früh wie möglich aneignen und weiterentwickeln. Die Weichen dafür stellt eine gemeinnützige Initiative. @endcomponent
-                </div>
-                <div class="md:ml-4">
-                    @component('_components.card') @slot('src') https://pbs.twimg.com/profile_images/1332189243/logo_pb_400x400.jpg @endslot @slot('link') http://planet-beruf.de/eltern/feature-navigation/news/meldung/?tx_ttnews%5Btt_news%5D=6437&cHash=072f0bdf6c99f861cd81e33a8067f657 @endslot @slot('medium') Planet Beruf @endslot @slot('channel') planet-beruf.de @endslot @slot('published_at') Donnerstag, 09.02.2017, 09:45 @endslot @slot('ml') @endslot @slot('mr') @endslot In Design- und Programmiercamps können Jugendliche unter Anleitung von professionellen Coaches neue Technologien kennenlernen und ihre digitalen Skills weiterentwickeln. @endcomponent
-                </div>
-                <div class="md:ml-4">
-                    @component('_components.card') @slot('src') https://pbs.twimg.com/profile_images/734677911282798592/VYZcvOSk_400x400.jpg @endslot @slot('link') http://www.einstieg-informatik.de/index.php?article_id=1249 @endslot @slot('medium') Einstieg Informatik @endslot @slot('channel') einstieg-informatik.de @endslot @slot('published_at') Mittwoch, 10.01.2018, 12:45 @endslot @slot('ml') @endslot @slot('mr') @endslot Soft- und Hardware, Coding und Design – die Code+Design Camps bringen beides zusammen. Begleitet von erfahrenen Entwicklern und Designern können SchülerInnen an eigenen Projektideen arbeiten. @endcomponent
-                </div>
-            </div>
-        </div>
+        @include('_partials.testimonials')
+    </div>
 </main>
 @endsection @section('title') Home @endsection

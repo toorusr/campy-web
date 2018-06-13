@@ -1,22 +1,33 @@
 # Redirects from what the browser requests to what we serve
+
+# coaches
 /coach-infos*           https://docs.google.com/presentation/d/1x0Ik5OG6bGKkiQiew-ijjaZlQEEQgyQm3NFTq5fc88w/present?slide=id.p3
+/camps/coach            /coach      
+
+# camps
+/camp			/camps
 /berlin*                /camps/berlin/1802
 /hamburg*               /camps/hamburg/1803
 /duesseldorf*           /camps/duesseldorf/1803
 /d%C3%BCsseldorf*       /camps/duesseldorf/1803
 /koeln*                 /camps/koeln/1805
-/k%C3%B6ln		/camps/koeln/1805
-/video/berlin-ostern-17 http://drive.google.com/open?id=0B9VFy06nCNOfZU1mQmJiMTdFVEk
-/video/youtuber-ffm     http://www.youtube.com/watch?v=0U2EhyTTQMM
-/video/koeln-17         http://www.youtube.com/watch?v=4gQ6fqpkyZk
+/k%C3%B6ln*		/camps/koeln/1805
+/camps/camp-in-koeln-2018*	/camps/koeln/1805
+/camps/camp-hamburg-1803*   	/camps/hamburg/1803
+/camps/camp-duesseldorf-1803* 	/camps/duesseldorf/1803
+
+# videos
+/video/berlin-ostern-17 https://drive.google.com/open?id=0B9VFy06nCNOfZU1mQmJiMTdFVEk
+/video/youtuber-ffm     https://www.youtube.com/watch?v=0U2EhyTTQMM
+/video/koeln-17         https://www.youtube.com/watch?v=4gQ6fqpkyZk
+/video/k%C3%B6ln-17     https://www.youtube.com/watch?v=4gQ6fqpkyZk
+
+# ambassador
 /botschafter-bewerbung  http://goo.gl/forms/5ZjXujflQJliZiXM2
 /ich-bin-botschafterin  http://goo.gl/forms/5ZjXujflQJliZiXM2
-/camps/coach            /coach      
-/camp                   /camps
+
+# other
 /blogs                  /blog
 /tools                  https://docs.google.com/document/d/1TvD8SAAfE6PgBgcxp3OzTDcEI69_fFNBCf2aoisjJxc/edit?usp=sharing
+/chat  			 https://join.slack.com/t/code-design-camp/shared_invite/enQtMjk3MTg0NzQ2MjI5LWVlOGJjYzNjMDZmYzRiYmYwMzc3ZmQ5ZTQyMTM1YWEzZmVjMjAzNGM3NDE4MjBlZDE0OThiZTZjMzkxNDk2ZmQ
 
-/camps/camp-in-koeln-2018*   /camps/koeln/1805
-/camps/camp-hamburg-1803*   /camps/hamburg/1803
-/camps/camp-duesseldorf-1803*       /camps/duesseldorf/1803
-/chat   https://join.slack.com/t/code-design-camp/shared_invite/enQtMjk3MTg0NzQ2MjI5LWVlOGJjYzNjMDZmYzRiYmYwMzc3ZmQ5ZTQyMTM1YWEzZmVjMjAzNGM3NDE4MjBlZDE0OThiZTZjMzkxNDk2ZmQ

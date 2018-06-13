@@ -24,6 +24,21 @@
             </div>
             <div class="md:w-2/5 md:ml-4 mt-4 mb-4 md:mt-0">
                 <div id="plyr-youtube" class="w-full" data-type="youtube" data-video-id="xGk1PpIbisU"></div>
+
+                <p class="text-2xl mt-8 mb-2">Kommende Camps</p>
+                <ul class="-ml-4 leading-normal text-lg">
+    @foreach ($camps->where('active', 'yes') as $camp)
+    <li><a href="{{ $camp->getUrl() }}">{{ $camp->city }}, {{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }}</a></li>
+    @endforeach
+</ul>
+                        
+
+                <p class="text-2xl mt-8 mb-2">Vergangene Camps</p>
+                <ul class="-ml-4 leading-normal text-lg">
+    @foreach ($camps->where('active', 'no') as $camp)
+    <li><a href="{{ $camp->getUrl() }}">{{ $camp->city }}, {{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }}</a></li>
+    @endforeach
+</ul> 
                 {{-- <img src="/img/camps/002.jpg" alt=""> --}}
             </div>
         </div>
