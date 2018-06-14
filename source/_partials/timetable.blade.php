@@ -1,5 +1,18 @@
+<div class="mt-8 text-2xl font-bold">Was auf einem Code+Design Camp passiert</div>
 
-<div class="mt-8 text-2xl font-bold">Ablauf</div>
+<ul class="mt-2 leading-normal">
+  <li>Kreativübungen</li>
+  <li>Ideen finden und entwickeln</li>
+  <li>Pitch-Training und Ideen-Pitch</li>
+  <li>Teamarbeit</li>
+  <li>Workshops</li>
+  <li>Impulsvorträge</li>
+  <li>Präsentationen</li>
+  <li>Viele gleichgesinnte Jugendliche, die etwas bewegen wollen!</li>
+  <li>Kontakte mit erfahrenen Praktikern und Firmen</li>
+</ul>
+
+{{-- <div class="mt-8 text-2xl font-bold">Ablauf</div>
 <div>(Nur zur Orientierung, am Beispiel eines 4-Tages-Camps. Weicht ab!) </div>
 <div class="mt-8 border-2 rounded p-4 lg:flex lg:flex-wrap">
     <div id="thursday" class={{ $width }} p-4">
@@ -257,4 +270,4 @@
         </tr>
       </table>
     </div>
-  </div>
+  </div> --}}
