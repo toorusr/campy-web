@@ -12,5 +12,5 @@
 @endsection
 
 @section('title')
-Philosophy
+Philosophie
 @endsection
