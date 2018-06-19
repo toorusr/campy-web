@@ -93,5 +93,5 @@ pagination:
 @endsection
 
 @section('title')
-Camps
+Blog
 @endsection
