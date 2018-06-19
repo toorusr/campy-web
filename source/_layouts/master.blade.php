@@ -25,17 +25,18 @@
         <meta name="twitter:description" content="@yield('twitter:description')"> <!-- Same description as in line 14 ? -->
         <meta name="twitter:image" content="@yield('twitter:image')">
         <!-- End: Twitter Card -->
-        
+
         <!-- Start: Other meta -->
         <meta name="description" content="@yield('description')">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
+        @yield('meta')
         <!-- End: Other meta -->
 
         <!-- Start: Styles -->
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
         <style>
-            @font-face{ 
+            @font-face{
                 font-family: 'Hans';
                 src: url('/fonts/hans_grotesque_regular.eot');
                 src: url('/fonts/hans_grotesque_regular.eot?#iefix') format('embedded-opentype'),
@@ -62,19 +63,19 @@
 				-ms-hyphens: auto;
                 hyphens: auto;
             }
+            @yield('styles')
         </style>
-        @yield('styles')
         <!-- End: Styles -->
-        
+
     </head>
     <body class="antialiased">
-    
+
         @include('_partials.navbar')
         <main>
             @yield('body')
         </main>
         @include('_partials.footer')
-        
+
         <!-- Start: Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/lazysizes@4.0.1/lazysizes.min.js"></script>
         @include('_partials.scripts')
