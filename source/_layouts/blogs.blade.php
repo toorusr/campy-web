@@ -97,7 +97,7 @@
     </script>
 @endsection
 
-@section('styles')
+@section('meta')
 <link rel="stylesheet" href="/css/plyr.css">
 @endsection
 

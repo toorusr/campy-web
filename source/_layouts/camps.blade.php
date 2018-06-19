@@ -208,7 +208,7 @@
 
 
 
-@section('styles')
+@section('meta')
 
 @if ($page->youtube)
 <link rel="stylesheet" href="/css/plyr.css">
