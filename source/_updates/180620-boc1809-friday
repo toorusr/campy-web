@@ -2,7 +2,7 @@
 extends: _layouts.update
 published_at: 2018-06-20
 slug: friday
-camp: boc1808
+camp: boc1809
 question: 'Wie läuft der erste Tag(Freitag) ab?'
 ---
 
