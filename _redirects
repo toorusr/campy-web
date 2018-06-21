@@ -2,7 +2,7 @@
 
 # coaches
 /coach-infos*           https://docs.google.com/presentation/d/1x0Ik5OG6bGKkiQiew-ijjaZlQEEQgyQm3NFTq5fc88w/present?slide=id.p3
-/camps/coach            /coach      
+/camps/coach            /coach
 
 # camps
 /camp			/camps
@@ -23,11 +23,10 @@
 /video/k%C3%B6ln-17     https://www.youtube.com/watch?v=4gQ6fqpkyZk
 
 # ambassador
-/botschafter-bewerbung  http://goo.gl/forms/5ZjXujflQJliZiXM2
-/ich-bin-botschafterin  http://goo.gl/forms/5ZjXujflQJliZiXM2
+/botschafter-bewerbung  https://goo.gl/forms/wSxYfXEnpnCC14pI3
+/ich-bin-botschafterin  https://goo.gl/forms/wSxYfXEnpnCC14pI3
 
 # other
 /blogs                  /blog
 /tools                  https://docs.google.com/document/d/1TvD8SAAfE6PgBgcxp3OzTDcEI69_fFNBCf2aoisjJxc/edit?usp=sharing
 /chat  			 https://join.slack.com/t/code-design-camp/shared_invite/enQtMjk3MTg0NzQ2MjI5LWVlOGJjYzNjMDZmYzRiYmYwMzc3ZmQ5ZTQyMTM1YWEzZmVjMjAzNGM3NDE4MjBlZDE0OThiZTZjMzkxNDk2ZmQ
-
