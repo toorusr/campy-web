@@ -123,7 +123,7 @@
 
 </div>
 
-<div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Förderer</div>
+<div class="text-5xl mt-8 text-white font-bold uppercase font-sans tracking-wide">Förderer</div>
 
 <div class="bg-white rounded p-8 mt-8">
 
@@ -163,7 +163,7 @@
             @endforeach
 </div></div>
 
-<div class="text-5xl mt-8 text-white font-bold uppercase font-mono tracking-wide">Partner</div>
+<div class="text-5xl mt-8 text-white font-bold uppercase font-sans tracking-wide">Partner</div>
 
 <div class="bg-white rounded p-8 mt-8">
 
