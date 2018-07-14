@@ -12,20 +12,20 @@
                 <div class="text-xl mt-4">Sie können uns die Spende entweder überweisen (↓) oder direkt über das Formular (→).</div>
 
                 <div id="name" class="mt-8">
-                    <label for="name" class="block font-bold lg:text-xl uppercase font-mono tracking-wider mb-2 pl-2">Empfänger</label>
-                    <div name="name" type="text" class="h-16 sm:h-auto overflow-x-scroll bg-pink-dark border-1 border-grey-lighter p-4 lg:text-xl font-mono opacity-100 uppercase tracking-wider text-white">Code+Design Initiative e.V.</div>
+                    <label for="name" class="block font-bold lg:text-xl uppercase font-sans tracking-wider mb-2 pl-2">Empfänger</label>
+                    <div name="name" type="text" class="h-16 sm:h-auto overflow-x-scroll bg-pink-dark border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wider text-white">Code+Design Initiative e.V.</div>
                 </div>
                 <div id="iban" class="mt-8">
-                    <label for="iban" class="block font-bold lg:text-xl uppercase font-mono tracking-wide mb-2 pl-2">IBAN</label>
-                    <div name="iban" class="h-16 sm:h-auto overflow-x-scroll bg-pink-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-mono opacity-100 uppercase tracking-wider w-full"><span class="mr-4">DE24</span><span class="mr-4">1005</span><span class="mr-4">0000</span><span class="mr-4">0190</span><span class="mr-4">6076</span>29</div>
+                    <label for="iban" class="block font-bold lg:text-xl uppercase font-sans tracking-wide mb-2 pl-2">IBAN</label>
+                    <div name="iban" class="h-16 sm:h-auto overflow-x-scroll bg-pink-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wider w-full"><span class="mr-4">DE24</span><span class="mr-4">1005</span><span class="mr-4">0000</span><span class="mr-4">0190</span><span class="mr-4">6076</span>29</div>
                 </div>
                 <div id="bic" class="mt-8">
-                    <label for="bic" class="block font-bold lg:text-xl uppercase font-mono tracking-wider mb-2 pl-2">BIC</label>
-                    <div name="bic" type="text" class="h-16 sm:h-auto flex items-center overflow-x-scroll bg-pink-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-mono opacity-100 uppercase tracking-wider w-full">BELADEBEXXX</div>
+                    <label for="bic" class="block font-bold lg:text-xl uppercase font-sans tracking-wider mb-2 pl-2">BIC</label>
+                    <div name="bic" type="text" class="h-16 sm:h-auto flex items-center overflow-x-scroll bg-pink-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wider w-full">BELADEBEXXX</div>
                 </div>
                 <div id="Verwendungszweck" class="mt-8 mb-4">
-                    <label for="Verwendungszweck" class="block font-bold lg:text-xl uppercase font-mono tracking-wider mb-2 pl-2">Verwendungszweck</label>
-                    <div name="Verwendungszweck" type="text" class="overflow-x-scroll hover:shadow-lg bg-pink-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-mono opacity-100 uppercase tracking-wide w-full">Spende Jugendliche fuer Digitales begeistern</div>
+                    <label for="Verwendungszweck" class="block font-bold lg:text-xl uppercase font-sans tracking-wider mb-2 pl-2">Verwendungszweck</label>
+                    <div name="Verwendungszweck" type="text" class="overflow-x-scroll hover:shadow-lg bg-pink-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wide w-full">Spende Jugendliche fuer Digitales begeistern</div>
                 </div>
 </div>
 
