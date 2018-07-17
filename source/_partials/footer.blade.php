@@ -91,5 +91,5 @@ OT+=ML.charAt(MI.charCodeAt(j)-48);
 </div>
 <div class="bg-grey-lightest text-grey-dark p-8 leading-normal text-center">
   <p>Die Code+Design Initiative e.V. ist ein gemeinnütziger Verein zur Berufs- und Studienorientierung im Bereich Informatik und Design.</p>
-Vereinsregister VR 35667 B | Code+Design Initiative e.V. c/o CODE Education GmbH – Rheinsberger Straße 76/77, Berlin
+<p>Vereinsregister VR 35667 B | Code+Design Initiative e.V., Lohmühlenstr. 65, 12435 Berlin</p>
 </div>

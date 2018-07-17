@@ -7,8 +7,8 @@
         <div class="text-lg leading-normal w-1/2">
             <p class="mb-8">Angaben gemäß § 5 TMG:<br/>
             Code+Design e.V.<br/>
-            Rheinsberger Straße 76/77<br/>
-            10115 Berlin</p>
+            Lohmühlenstr. 65<br/>
+            12435 Berlin</p>
 
             <p class="mb-8">Vertreten durch:<br/>
             Vorstände: Thomas Bachem, Manuel Dolderer</p>
@@ -22,7 +22,8 @@
 
             <p class="mb-8">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br/>
             Betz, Martin<br/>
-            Rheinsberger Straße 76/77<br/>
+            Factory Berlin<br/>
+            Lohmühlenstr. 65<br/>
             10115 Berlin</p>
 
             <p class="mb-8">Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
