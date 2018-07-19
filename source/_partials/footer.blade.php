@@ -62,17 +62,8 @@
               <button type="submit" class="hidden"></button>
             </form>
             <div>
-              <p>Klicke einfach auf den Link und schicke die Mail ab. Dann bekommst du unseren Newsletter.</p><br>
-             <script type="text/javascript" language="javascript">
-
-ML="o.cC\"bsf2l0yn@g&p%B;iDtea?r:6ud>/=3NHw jm<h";
-MI="YHVZJG7Q4XHD9F0KZG990=20NG1NG6D><I6M5WG2FQSGU69GFFGJA8:H50<<DGJG<?HX@C50N;QTH990A83A8:D2ZA8:XA3RABL2ZFGA8:>GJ<GA8:NG<A8:30NGA8BEG6D><A8:SGU69GFFGJA8:H50<<DGJG<4OSGU69GFFGJVH50<<DGJG<YPHO";
-OT="";
-for(j=0;j<MI.length;j++){
-OT+=ML.charAt(MI.charCodeAt(j)-48);
-}document.write(OT);
-//
-</script>
+              @include('_partials.newsletter')<br>
+             
 
 
 
