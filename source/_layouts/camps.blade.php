@@ -30,6 +30,10 @@
         {{ $page->location }}
         @endslot
 
+        @slot('locationlink')
+        {{ $page->locationlink }}
+        @endslot
+
         @slot('timestart')
         {{ $page->time_start }}
         @endslot
