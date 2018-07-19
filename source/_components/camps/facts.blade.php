@@ -11,7 +11,7 @@
         <dt class="font-bold">Betreuung</dt>
         <dd class="mb-4">Erfahrene Coaches im Bereich Web, App, Games</dd>
         <dt class="font-bold">Location</dt>
-        <dd class="mb-4">{{ $location }}</dd>
+        <dd class="mb-4"><a href="{{ $locationlink }}" target="_blank">{{ $location }}</a></dd>
         <dt class="font-bold"></dt>
         <dd class="mb-4"></dd>
         <dt class="font-bold">Unkostenbeitrag</dt>
@@ -21,7 +21,7 @@
         <dt class="font-bold">Inklusive Versorgung</dt>
         <dd class="mb-4">Jeden Tag {{ $meals }}</dd>
         <dt class="font-bold">Laptopausleihe</dt>
-        <dd class="mb-4">Bei Bedarf: {{ $costlaptop }} Unkostenbeitrag (Windows-Laptop)</dd>
+        <dd class="mb-4">{{ $costlaptop }}</dd>
         <dt class="font-bold"></dt>
         <dd class="mb-4"></dd>
     </dl>
