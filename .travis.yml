@@ -3,7 +3,6 @@ language: php
 php:
   - 7.2
 before_install:
-  - cd CodeDesignInitiative/cdweb1801
   - php -r "readfile('https://getcomposer.org/installer');" | php
   - php composer.phar install
   - ./vendor/bin/jigsaw build production
