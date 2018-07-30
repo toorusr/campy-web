@@ -5,7 +5,7 @@
     <div class="text-white text-3xl mb-4">Sei als Coach dabei</div>
 
     <div class="bg-white p-4">
-        <div class="flex">
+        <div class="lg:flex">
             <div class="flex-1">
                 <iframe class="w-full" width="560" height="315" src="https://player.vimeo.com/video/282290294" frameborder="0" allowfullscreen></iframe>
             </div>
