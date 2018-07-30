@@ -8,6 +8,21 @@
     <div class="bg-white p-4">
         <dl class="mt-4 text-lg">
 
+            <dt class="font-bold">Warum sollte ich als Coach mitmachen?</dt>
+            <dd class="mb-4">
+                <ul>
+                    <li>Helfe der nächsten Generation von Techies!</li>
+                    <li>Wir hätten uns früher so ein Camp gewünscht, es gab Null Angebot für digital Interessierte…</li>
+                    <li>Die Jugendlichen sind super dankbar für die Unterstützung</li>
+                    <li>Interessante Projekte: Die Jugendlichen haben Ideen die erfrischen</li>
+                    <li>Du triffst andere engagierte Coaches aus verschiedenen Bereichen</li>
+                    
+                </ul>
+            </dd>
+
+            <dt class="font-bold">Ist die Coach-Tätigkeit bezahlt?</dt>
+            <dd class="mb-4">Unsere Coaches sind zu 90% ehrenamtlich dabei, weil sie der Community zurückgeben wollen. Selten können wir für Coaches die Anreise und Übernachtung tragen.</dd>
+
             <dt class="font-bold">Was ist meine Rolle als Coach?</dt>
             <dd class="mb-4">
                 <ul>
