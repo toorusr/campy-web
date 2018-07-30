@@ -75,7 +75,7 @@
                 </div>
                 </div>
 
-                <div class="text-2xl text-bold text-center mt-4 mb-4"><a href="/coach/anmelden" class="bg-black text-white p-4">Als Coach anmelden</a></div>
+                <div class="text-2xl text-bold text-center mt-8 mb-4"><a href="/coach/anmelden" class="bg-black text-white p-4">Als Coach anmelden</a></div>
         
         <div class="mt-8">
             <h3 class="text-center text-xl">Camps</h3>
