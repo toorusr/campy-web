@@ -31,10 +31,10 @@
 </div>
 
 <div class="mt-4">
-    <h3>Wie passiert (aus Coach-Sicht) auf den Camps?</h3>
+    <h3>Was passiert (aus Coach-Sicht) auf den Camps?</h3>
     <ul>
         <li><em>1. Tag</em>: Begeistern und Beraten: Du begeistert die Jugendlichen für Tech, indem du ihnen präsentierst, was du gerne machst (Open Source, Firmenprojekte…). Du unterstützt als Coach die Teams dabei, die für sie richtige Technologie zu wählen und Lernmaterial zu finden</li>
-        <li><em>Folgetage</em>: Die Coaches bieten pro Camptag je 1,5h Sprechstunden bei Problemen in den Projekten (Technologie, Lernen, Team) an. Außerdem organisieren sie Workshops à 1,5h zu Themen im Bereich Web, Mobile, Games.</li>
+        <li><em>Folgetage</em>: Die Coaches bieten pro Camptag je 1,5h Sprechstunden bei Problemen in den Projekten (Technologie, Lernen, Team) an. Außerdem organisieren sie interaktive Workshops à 1,5h zu Themen im Bereich Web, Mobile, Games.</li>
     </ul>
 </div> 
 
