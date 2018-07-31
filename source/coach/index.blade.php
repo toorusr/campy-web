@@ -9,7 +9,7 @@
             <div class="flex-1">
                 <iframe class="w-full" width="560" height="315" src="https://player.vimeo.com/video/282290294" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="flex-1">
+            <div class="flex-1 lg:ml-4">
                <div class="mt-4">
             <h3>Worum geht's?</h3>
             <ul>
