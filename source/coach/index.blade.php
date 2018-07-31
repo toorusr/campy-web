@@ -13,7 +13,7 @@
                <div class="mt-4">
             <h3>Worum geht's?</h3>
             <ul>
-                <li>Auf den Code+Design Camps arbeiten 50-75 Jugendlichen an Produkten, die sie selbst mitbringen</li>
+                <li>Auf den Code+Design Camps arbeiten 50-75 Jugendlichen an Projektideen, die sie selbst mitbringen</li>
             <li>Ziel der Camps ist es, Jugendliche ohne und mit Vorerfahrung für die IT-Berufe zu begeistern</li></ul>
         </div>
         <div class="mt-4">
@@ -21,7 +21,8 @@
             <p>Coaches auf den Code+Design Camps…</p>
             <ul>
 
-                <li><em>begleiten</em> Jugendliche bei ihren Projekten im Bereich Web, App, Gaming und/oder Hardware</li>
+                <li><em>begleiten</em> Jugendliche bei ihren Projekten im Bereich Web, App, Gaming, Hardware und/oder Design</li>
+                <li>helfen bei <em>Teambildung und Projektmanagement</em></li>
                 <li><em>inspirieren</em> als Praktiker aus der Tech-Branche – egal ob als Profi oder Student, Angestellter oder Selbstständiger</li>
             </ul>
         </div>
@@ -33,7 +34,7 @@
 <div class="mt-4">
     <h3>Was passiert (aus Coach-Sicht) auf den Camps?</h3>
     <ul>
-        <li><em>1. Tag</em>: Begeistern und Beraten: Du begeistert die Jugendlichen für Tech, indem du ihnen präsentierst, was du gerne machst (Open Source, Firmenprojekte…). Du unterstützt als Coach die Teams dabei, die für sie richtige Technologie zu wählen und Lernmaterial zu finden</li>
+        <li><em>1. Tag</em>: Begeistern und Beraten: Du begeisterst Jugendliche für Tech, indem du ihnen präsentierst, was du gerne machst (Open Source, Firmenprojekte…). Du unterstützt als Coach Teams dabei, die für sie richtige Technologie zu wählen und Lernmaterial zu finden</li>
         <li><em>Folgetage</em>: Die Coaches bieten pro Camptag je 1,5h Sprechstunden bei Problemen in den Projekten (Technologie, Lernen, Team) an. Außerdem organisieren sie interaktive Workshops à 1,5h zu Themen im Bereich Web, Mobile, Games.</li>
     </ul>
 </div> 
@@ -82,8 +83,10 @@
             <p class="text-center text-sm">Vorläufige Camp-Pläne</p>
             <p class="text-center text-xl mb-2 mt-8"><a href="/camps/stuttgart/1808">Stuttgart, 06.-11.08.18</a></p>
             @component('_components.img') @slot('src') /img/coach/stu1808a.png @endslot @slot('alt') Code+Design Stuttgart @endslot @endcomponent
+            <p class="text-sm">*grün = zu diesem Zeitpunkt werden Coaches aktiv</p>
 
             <p class="text-center text-xl mb-2"><a href="/camps/stuttgart2/1808">Stuttgart, 13.-18.08.18</a></p>
             @component('_components.img') @slot('src') /img/coach/stu1808b.png @endslot @slot('alt') Code+Design Stuttgart @endslot @endcomponent
+            <p class="text-sm">*grün = zu diesem Zeitpunkt werden Coaches aktiv</p>
         </div>
 @endsection
