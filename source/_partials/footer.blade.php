@@ -52,6 +52,14 @@
           {{-- <li class="hover:text-yellow text-grey-darker">Mediadaten</li> --}}
       </ul>
 
+      <div class="mt-6"><a href="#" class="text-grey-darkest no-underline border-b-2 border-yellow">Unterstützen</a>
+         <ul class="list-reset leading-normal mt-2">
+           <li class="text-grey-darker"><a href="/coach" class="no-underline hover:text-yellow-dark text-grey-darker">Coach auf Camp</a></li>
+           <li class="text-grey-darker"><a href="/initiative/spenden" class="no-underline hover:text-yellow-dark text-grey-darker">Spenden</a></li>
+           <li class="text-grey-darker"><a href="kontakt" class="no-underline hover:text-yellow-dark text-grey-darker">Ehrenamtlich tätig werden</a></li>
+         </ul>
+      </div>
+
 
   </div>
     <div class="md:w-1/2 md:mt-0 mt-8 h-auto">
