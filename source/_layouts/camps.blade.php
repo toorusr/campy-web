@@ -150,7 +150,7 @@
                                       @endslot
       
                                       @slot('width')
-                                      w-64
+                                      {{ $partner->width or "w-32"}}
                                       @endslot
                                                                       
                                    @endcomponent
@@ -190,6 +190,10 @@
       
                                       @slot('width')
                                       w-32
+                                      @endslot
+
+                                      @slot('style')
+                                      width: 20rem;
                                       @endslot
                                                                       
                                    @endcomponent
