@@ -1,6 +1,6 @@
 ---
 extends: _layouts.partners
-src: 'https://pbs.twimg.com/profile_images/528496449944702978/AGw8fCqX_400x400.jpeg'
+src: '/img/blog/sevenval.png'
 resource: https://www.sevenval.com/blog/5267/mein-tag-als-coach-beim-codedesign-camp-koln/
 medium: Sevenval
 channel: sevenval.de
