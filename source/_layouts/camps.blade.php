@@ -119,9 +119,6 @@
 
     @include('_partials.update')
 
-    
-
-    @yield('content')
 
   </div>
 
