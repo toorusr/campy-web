@@ -222,12 +222,12 @@
 @if ($page->form)
 <style>
   [id^='hs'] * {
-    font-family: "Hans Grotesque";
+    font-family: "Source Sans Pro";
     font-size: 16px;
   }
 
   [class^='hs'] * {
-    font-family: "Hans Grotesque";
+    font-family: "Source Sans Pro";
     font-size: 16px;
   }
 
