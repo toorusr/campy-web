@@ -8,4 +8,4 @@ question: 'Was sind die genauen Zeiten des Camps?'
 
 - Montag, 22.10., 13-18 Uhr: Workshops und Talks
 - Dienstag, 23.10. - Freitag 26.10, 10-20 Uhr: Camp
-- Samstag, 26.10., 11-16 Uhr: Workshops und Talks
+- Samstag, 27.10., 11-16 Uhr: Workshops und Talks
