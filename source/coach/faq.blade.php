@@ -32,6 +32,28 @@
                 </ul>
  </dd>
 
+        <dt class="font-bold" id="programming-languages">Muss ich einen Workshop leiten?</dt>
+        <dd class="mb-4">Nein, das ist natürlich freiwillig.</dd>
+
+        <dt class="font-bold" id="programming-languages">Muss ich eine Gruppe betreuen?</dt>
+        <dd class="mb-4">Nur wenn du glaubst, dass dir das liegt und du Lust auf diese Aufgabe hast.</dd>
+
+        <dt class="font-bold" id="programming-languages">Kann ich zwischendurch mal kurz weg?</dt>
+        <dd class="mb-4">Klar! Schreibe aber bitte den Teilnehmern auf Slack, wann du wieder da bist.</dd>
+
+        <dt class="font-bold" id="programming-languages">Kriege ich Fahrtkosten und Übernachtung erstattet?</dt>
+        <dd class="mb-4">Wir haben ein sehr kleines Budget für diese Auslagen. Sprich uns an, wenn du Unterstützung brauchst.</dd>
+
+        <dt class="font-bold" id="programming-languages">Kann ich Teilnehmer für meine Firma anwerben?</dt>
+        <dd class="mb-4">Jein. Das Camp ist keine Werbeveranstaltung. Die Teilnehmer sollen erstmal ein tolles Camp haben und ausprobieren und lernen können. Wenn sie mit dir ins Gespräch kommen und etwa nach einem Praktikumsplatz fragen, kannst du diesen aber natürlich anbieten.</dd>
+
+        <dt class="font-bold" id="programming-languages">Muss ich von Anfang bis Ende dabei sein?</dt>
+        <dd class="mb-4">Natürlich nicht. Du bist Ehrenamtler, du kommst, wenn du kannst. Du kannst das bei der Anmeldung sehr differenziert angeben.</dd>
+
+        <dt class="font-bold" id="programming-languages">Wen spreche ich für Orga-Fragen an?</dt>
+        <dd class="mb-4">Vor dem Camp: <a href="mailto:hello@code.design">hello@code.design</a>; Auf dem Camp: Die Campleitung stellt sich am Anfang vor.</dd>
+
+
             <dt class="font-bold" id="programming-languages">Welche Programmiersprachen werden benutzt?</dt>
         <dd class="mb-4">Es gibt keine festen Programmiersprachen. Die Gruppen suchen sich selbst die Technologien aus. Oft verwendet werden: Python, PHP, JavaScript, Java (für Gaming und Apps). Die Jugendlichen orientieren sich aber auch an den Coaches und deren Kompetenzen.</dd>
 
