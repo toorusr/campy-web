@@ -67,7 +67,7 @@ Spenden
 <style>
 
 [class*='donation'] * {
-    font-family: "Hans Grotesque" !important;
+    font-family: "Source Sans Pro" !important;
 }
 
 .iframe-donation-headline {
@@ -75,11 +75,11 @@ Spenden
 }
 
 donations-form-donation-details-header {
-    font-family: "Hans Grotesque";
+    font-family: "Source Sans Pro";
 }
 
 iframe * {
-    font-family: "Hans Grotesque";
+    font-family: "Source Sans Pro";
 }
 
 #new_donation_process > fieldset > div.iframe-donation-headline {
