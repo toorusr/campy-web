@@ -4,7 +4,7 @@ name: telekom
 logo: telekom.svg
 tier: partner
 strength: 4000
-camps: bon1808,bon1810
+camps: bon1808,due1810
 short:
 ---
 
