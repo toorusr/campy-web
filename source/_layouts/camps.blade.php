@@ -134,7 +134,7 @@
             @if($partner->tier == 'silver' or $partner->tier == 'gold' or $partner->tier == 'bronze')
                    <div class="p-4"><div class="flex flex-col items-center">
                    
-                                   <div class="h-64 flex flex-col justify-center">
+                                   <div class="flex flex-col justify-center">
                                    <a href="{{ $partner->website}}">
                                     @component('_components.img')
                                                                                                   
@@ -147,7 +147,11 @@
                                       @endslot
       
                                       @slot('width')
-                                      {{ $partner->width or "w-32"}}
+                                      {{ $partner->width or ''}}
+                                      @endslot
+                                      
+                                      @slot('height')
+                                      {{ $partner->height or "h-16"}}
                                       @endslot
                                                                       
                                    @endcomponent
@@ -190,7 +194,7 @@
                                       @endslot
 
                                       @slot('style')
-                                      width: 20rem;
+                                      
                                       @endslot
                                                                       
                                    @endcomponent

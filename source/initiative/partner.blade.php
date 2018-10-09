@@ -13,20 +13,24 @@
             @foreach ($partners->filter->hasTier('patron')->sortByDesc('strength') as $partner)
                    <div class="p-4"><div class="flex flex-col items-center">
                    
-                                   <div class="h-32 flex flex-col justify-center">
+                                   <div class="flex flex-col justify-center">
                                     @component('_components.img')
                                                                                                   
                                       @slot('src')
-                                      /img/partner/{{ $partner->logo }}
+                                      /img/partner/{{ $partner->logo or '' }}
                                       @endslot
                                   
                                       @slot('alt')
-                                      {{ $partner->name }}
+                                      {{ $partner->name or '' }}
                                       @endslot
       
                                       @slot('width')
-                                      w-32
-                                      @endslot
+                                     {{ $partner->width or '32' }}
+                                     @endslot
+
+                                     @slot('height')
+                                     {{ $partner->height or '' }}
+                                     @endslot
                                                                       
                                     @endcomponent
                                    </div>
@@ -45,7 +49,7 @@
             @foreach ($partners->filter->hasTier('gold')->sortByDesc('strength') as $partner)
                    <div class="p-4"><div class="flex flex-col items-center">
                    
-                                   <div class="h-32 flex flex-col justify-center">
+                                   <div class="flex flex-col justify-center">
                                     <a href="{{ $partner->website }}" href="_blank">
                                    @component('_components.img')
                                                                
@@ -58,7 +62,11 @@
                                        @endslot
        
                                        @slot('width')
-                                       w-32
+                                       {{ $partner->width or '32' }}
+                                       @endslot
+
+                                       @slot('height')
+                                       {{ $partner->height or '' }}
                                        @endslot
                                    
                                    @endcomponent
@@ -72,7 +80,7 @@
             @foreach ($partners->filter->hasTier('silver')->sortByDesc('strength') as $partner)
                    <div class="p-4"><div class="flex flex-col items-center">
                    
-                                   <div class="h-32 flex flex-col justify-center">
+                                   <div class="flex flex-col justify-center">
                                     <a href="{{ $partner->website }}" href="_blank">
                                    @component('_components.img')
                                                                
@@ -85,7 +93,11 @@
                                        @endslot
        
                                        @slot('width')
-                                       w-32
+                                       {{ $partner->width or '32' }}
+                                       @endslot
+
+                                       @slot('height')
+                                       {{ $partner->height or '' }}
                                        @endslot
                                    
                                    @endcomponent
@@ -113,7 +125,11 @@
                                        @endslot
        
                                        @slot('width')
-                                       w-32
+                                       {{ $partner->width or '32' }}
+                                       @endslot
+
+                                       @slot('height')
+                                       {{ $partner->height or '' }}
                                        @endslot
                                    
                                    @endcomponent
