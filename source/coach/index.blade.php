@@ -47,7 +47,7 @@
     <div class="flex">
         <a href="https://goo.gl/forms/1lgs9qHXtZ6Yutb12" target="_blank" class="inline-block mt-4 mb-4 bg-purple p-4 text-white">Als Coach in Leipzig mitmachen</a>
         <a href="https://goo.gl/forms/8OxMfNosVhsNb67M2" target="_blank" class="ml-4 inline-block mt-4 mb-4 bg-purple p-4 text-white">Als Coach in Düsseldorf mitmachen</a>
-        <a href="https://goo.gl/forms/8OxMfNosVhsNb67M2" target="_blank" class="ml-4 inline-block mt-4 mb-4 bg-purple p-4 text-white">Als Coach in Berlin (01.-04.11.) mitmachen</a>
+        <a href="https://goo.gl/forms/hlTpNeTUeeHvcb3M2" target="_blank" class="ml-4 inline-block mt-4 mb-4 bg-purple p-4 text-white">Als Coach in Berlin (01.-04.11.) mitmachen</a>
     </div>
     
 </div>
