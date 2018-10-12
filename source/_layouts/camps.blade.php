@@ -10,7 +10,7 @@
     Dieses Camp ist leider schon vorbei…
 </div>
 @endif
-   <h1 class="text-white">Komm' zum Camp in {{ $page->city }} ({{ date('d.m.', $page->date_start) }} bis {{ date('d.m.y', $page->date_end) }})</h1>
+   <h1 class="text-white">Komm' zum Camp in {{ $page->city or '' }} ({{ date('d.m.', $page->date_start) }} bis {{ date('d.m.y', $page->date_end) }})</h1>
 
 
 <div class="md:flex mt-4">
@@ -18,48 +18,52 @@
 
     <header>
       @if ($page->youtube)
-          <div id='plyr-youtube' data-type="youtube" data-video-id="{{ $page->youtube }}"></div>
+          <div id='plyr-youtube' data-type="youtube" data-video-id="{{ $page->youtube or '' }}"></div>
         @else
-          <div><img src="/img/{{ $page->headerimage }}" alt=""></div>
+          <div><img src="/img/{{ $page->headerimage or '' }}" alt=""></div>
         @endif
     </header>
 
 
     @component('_components.camps.facts')
         @slot('location')
-        {{ $page->location }}
+        {{ $page->location or '' }}
         @endslot
 
         @slot('locationlink')
-        {{ $page->locationlink }}
+        {{ $page->locationlink or '' }}
         @endslot
 
         @slot('timestart')
-        {{ $page->time_start }}
+        {{ $page->time_start or '' }}
         @endslot
 
         @slot('timeend')
-        {{ $page->time_end }}
+        {{ $page->time_end or '' }}
         @endslot
 
         @slot('from')
+        @if (! empty($page->date_start))
         {{ date('d.m.', $page->date_start) }}
+        @endif
         @endslot
 
         @slot('to')
+        @if (! empty($page->date_end))
         {{ date('d.m.y', $page->date_end) }}
+        @endif
         @endslot
 
         @slot('days')
-        {{ $page->days }}
+        {{ $page->days or '' }}
         @endslot
 
         @slot('cost')
-        {{ $page->cost }}
+        {{ $page->cost or '' }}
         @endslot
 
         @slot('costlaptop')
-        {{ $page->costlaptop }}
+        {{ $page->costlaptop or '' }}
         @endslot
 
         @slot('meals')
@@ -72,15 +76,19 @@
 @if ($page->teaser === 'yes')
     @component('_components.camps.teaser')
         @slot('location')
-        {{ $page->location }}
+        {{ $page->location or '' }}
         @endslot
 
         @slot('from')
+        @if (! empty($page->date_start))
         {{ date('d.m.y', $page->date_start) }}
+        @endif
         @endslot
 
         @slot('to')
+        @if (! empty($page->date_end))
         {{ date('d.m.y', $page->date_end) }}
+        @endif
         @endslot
 
         @slot('city')
@@ -88,11 +96,11 @@
         @endslot
 
         @slot('holidays')
-        {{ $page->holidays }}
+        {{ $page->holidays or '' }}
         @endslot
 
         @slot('days')
-        {{ $page->days }}
+        {{ $page->days or '' }}
         @endslot
 
 
