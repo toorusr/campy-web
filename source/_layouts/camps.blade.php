@@ -31,39 +31,35 @@
         @endslot
 
         @slot('locationlink')
-        {{ $page->locationlink or '' }}
+        {{ $page->locationlink }}
         @endslot
 
         @slot('timestart')
-        {{ $page->time_start or '' }}
+        {{ $page->time_start }}
         @endslot
 
         @slot('timeend')
-        {{ $page->time_end or '' }}
+        {{ $page->time_end }}
         @endslot
 
         @slot('from')
-        @if (! empty($page->date_start))
         {{ date('d.m.', $page->date_start) }}
-        @endif
         @endslot
 
         @slot('to')
-        @if (! empty($page->date_end))
         {{ date('d.m.y', $page->date_end) }}
-        @endif
         @endslot
 
         @slot('days')
-        {{ $page->days or '' }}
+        {{ $page->days }}
         @endslot
 
         @slot('cost')
-        {{ $page->cost or '' }}
+        {{ $page->cost }}
         @endslot
 
         @slot('costlaptop')
-        {{ $page->costlaptop or '' }}
+        {{ $page->costlaptop }}
         @endslot
 
         @slot('meals')
@@ -76,19 +72,15 @@
 @if ($page->teaser === 'yes')
     @component('_components.camps.teaser')
         @slot('location')
-        {{ $page->location or '' }}
+        {{ $page->location }}
         @endslot
 
         @slot('from')
-        @if (! empty($page->date_start))
         {{ date('d.m.y', $page->date_start) }}
-        @endif
         @endslot
 
         @slot('to')
-        @if (! empty($page->date_end))
         {{ date('d.m.y', $page->date_end) }}
-        @endif
         @endslot
 
         @slot('city')
@@ -96,11 +88,11 @@
         @endslot
 
         @slot('holidays')
-        {{ $page->holidays or '' }}
+        {{ $page->holidays }}
         @endslot
 
         @slot('days')
-        {{ $page->days or '' }}
+        {{ $page->days }}
         @endslot
 
 
