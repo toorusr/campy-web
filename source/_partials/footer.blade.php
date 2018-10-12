@@ -37,7 +37,7 @@
 
     <div class="text-purple-light mb-2 mt-4">Vergangene Camps</div>
       <ul class="list-reset leading-normal">
-          <li class="hover:text-purple-light text-grey-darker"><a href="/camps/berlin/1710" class="no-underline hover:text-purple text-grey-darker">Berlin Oktober 2017</a></li>
+          <li class="hover:text-purple-light text-grey-darker"><a href="/camps/#past_events" class="no-underline hover:text-purple text-grey-darker">Alle vergangenen Events</a></li>
       </ul>
       
     </ul>

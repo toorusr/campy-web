@@ -33,7 +33,7 @@
 </ul>
                         
 
-                <p class="text-2xl mt-8 mb-2">Vergangene Camps</p>
+                <p class="text-2xl mt-8 mb-2" id="past_events">Vergangene Camps</p>
                 <ul class="-ml-4 leading-normal text-lg">
     @foreach ($camps->where('active', 'no') as $camp)
     <li><a href="{{ $camp->getUrl() }}">{{ $camp->city }}, {{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }}</a></li>
