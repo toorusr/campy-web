@@ -20,8 +20,10 @@
         </dd>
         <dt class="font-bold">Inklusive Versorgung</dt>
         <dd class="mb-4">Jeden Tag {{ $meals }}</dd>
+        @if($laptopfree == 'no')
         <dt class="font-bold">Laptopausleihe</dt>
         <dd class="mb-4">{{ $costlaptop }}</dd>
+        @endif
         <dt class="font-bold"></dt>
         <dd class="mb-4"></dd>
     </dl>

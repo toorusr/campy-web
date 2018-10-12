@@ -72,6 +72,9 @@
         {{ $page->type }}
         @endslot
 
+        @slot('laptopfree')
+        {{ $page->laptopfree }}
+        @endslot
 
     @endcomponent
 
