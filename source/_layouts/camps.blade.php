@@ -7,10 +7,12 @@
 <div class="p-8 bg-prime @if ($page->active === 'no') border-t-4 border-pink @endif">
   @if ($page->active === 'no')
 <div class="text-pink-lighter">
-    Dieses Camp ist leider schon vorbei…
+    Dieses {{ $page->type }} ist leider schon vorbei…
 </div>
 @endif
-   <h1 class="text-white">Komm' zum Camp in {{ $page->city }} ({{ date('d.m.', $page->date_start) }} bis {{ date('d.m.y', $page->date_end) }})</h1>
+   <h1 class="text-white">Komm' zum {{ $page->type }} in {{ $page->city }} 
+    @if ($page->days === 1) ({{ date('d.m.', $page->date_start) }}) @else 
+    ({{ date('d.m.', $page->date_start) }} bis {{ date('d.m.y', $page->date_end) }}) @endif</h1>
 
 
 <div class="md:flex mt-4">
@@ -66,6 +68,10 @@
         {{ $page->meals }}
         @endslot
 
+        @slot('type')
+        {{ $page->type }}
+        @endslot
+
 
     @endcomponent
 
@@ -98,11 +104,12 @@
 
     @endcomponent
 @else
-  @yield('content')
+  {!! $page->getContent() !!}
+{{--   @yield('content')--}}
 @endif
 
     @if ($page->active === 'yes')
-    @include('_partials.campy')
+    @include('_partials.campy', ['type' => $page->type ])
     @endif
 
     @include('_partials.timetable', ['width' => 'w-1/2'])
@@ -111,7 +118,7 @@
   <div class="md:w-1/3 bg-white rounded p-4 md:ml-4 mt-4 md:mt-0">
     
     <div class="mb-4">@if ($page->active === 'yes')
-    @include('_partials.campy')
+    @include('_partials.campy', ['type' => $page->type ])
     @endif</div>
 
 
@@ -279,5 +286,5 @@
 
 
 @section('title')
-Camp | {{ $page->city }} ({{ date('d.m.', $page->date_start) }} - {{ date('d.m.y', $page->date_end) }})
+{{ $page->type }} | {{ $page->city }} @if ($page->days > 1)({{ date('d.m.', $page->date_start) }} - {{ date('d.m.y', $page->date_end) }} @else {{ date('d.m.', $page->date_start) }} @endif)
 @endsection
