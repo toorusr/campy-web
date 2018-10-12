@@ -10,6 +10,7 @@
           <li class="hover:text-green text-grey-darker"><a href="/initiative/spenden" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Spenden</a></li>
 		  <li class="hover:text-green text-grey-darker"><a href="/blog" class="no-underline hover:text-green text-grey-darker" class="no-underline hover:text-green text-grey-darker">Blog</a></li>
           <li class="hover:text-green text-grey-darker"><a href="/initiative/stimmen" class="no-underline hover:text-green text-grey-darker">Stimmen</a></li>
+          <li class="hover:text-blue-light text-grey-darker"><a href="/initiative/philosophie" class="text-grey-darker no-underline hover:text-blue">Philosophie</a></li>
           <li class="hover:text-green text-grey-darker"><a href="/kontakt" class="no-underline hover:text-green text-grey-darker">Kontakt</a></li>
 {{--           <li class="hover:text-green text-grey-darker">Videos</li>
  --}}          <li class="hover:text-green text-grey-darker"><a href="/impressum" class="no-underline hover:text-green text-grey-darker">Impressum</a></li>
@@ -41,7 +42,7 @@
 
     <div class="text-blue-light mb-2 mt-4"><span class="border-b-2 border-blue text-grey-darkest">Philosophie</span></div>
     <ul class="list-reset leading-normal">
-      <li class="hover:text-blue-light text-grey-darker"><a href="/camps/philosophie" class="text-grey-darker no-underline hover:text-blue">Lesen</a></li>
+      
     </ul>
   </div>
   <div class="md:w-1/2 h-auto md:mt-0 mt-8">
