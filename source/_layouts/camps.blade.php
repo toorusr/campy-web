@@ -230,33 +230,6 @@
 <link rel="stylesheet" href="/css/plyr.css">
 @endif
 
-@if ($page->form)
-<style>
-  [id^='hs'] * {
-    font-family: "Source Sans Pro";
-    font-size: 16px;
-  }
-
-  [class^='hs'] * {
-    font-family: "Source Sans Pro";
-    font-size: 16px;
-  }
-
-  .hs-button {
-    background-color: {{ $page->color }} !important;
-    border: 0 !important;
-  }
-
-  #hsForm_5133d262-3f8c-4bc7-8323-3c7f52507dc8 > div > div.actions > input {
-    font-size: 16px !important;
-    background-image: none !important;
-    text-shadow: none;
-    padding: 12px !important;
-  }
-
-</style>
-@endif
-
 @if ($page->color)
 <style>
   .bg-prime {
@@ -276,10 +249,6 @@
         plyr.setup("#plyr-youtube");
 
     </script>
-@endif
-
-@if ($page->form)
-<script src="//js.hsforms.net/forms/v2.js"></script>
 @endif
 
 @endsection
