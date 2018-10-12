@@ -10,7 +10,7 @@
     Dieses Camp ist leider schon vorbei…
 </div>
 @endif
-   <h1 class="text-white">Komm' zum Camp in {{ $page->city or '' }} ({{ date('d.m.', $page->date_start) }} bis {{ date('d.m.y', $page->date_end) }})</h1>
+   <h1 class="text-white">Komm' zum Camp in {{ $page->city }} ({{ date('d.m.', $page->date_start) }} bis {{ date('d.m.y', $page->date_end) }})</h1>
 
 
 <div class="md:flex mt-4">
@@ -18,16 +18,16 @@
 
     <header>
       @if ($page->youtube)
-          <div id='plyr-youtube' data-type="youtube" data-video-id="{{ $page->youtube or '' }}"></div>
+          <div id='plyr-youtube' data-type="youtube" data-video-id="{{ $page->youtube }}"></div>
         @else
-          <div><img src="/img/{{ $page->headerimage or '' }}" alt=""></div>
+          <div><img src="/img/{{ $page->headerimage }}" alt=""></div>
         @endif
     </header>
 
 
     @component('_components.camps.facts')
         @slot('location')
-        {{ $page->location or '' }}
+        {{ $page->location }}
         @endslot
 
         @slot('locationlink')
