@@ -134,6 +134,7 @@
 
 </div>
 
+@if($page->supporters == 'yes')
 <div class="text-5xl mt-8 text-white font-bold uppercase font-sans tracking-wide">Förderer</div>
 
 <div class="bg-white rounded p-8 mt-8">
@@ -157,7 +158,7 @@
                                       @endslot
       
                                       @slot('width')
-                                      {{ $partner->width or ''}}
+                                      {{ $partner->width }}
                                       @endslot
                                       
                                       @slot('height')
@@ -177,7 +178,9 @@
             @endif
             @endforeach
 </div></div>
+@endif
 
+@if($page->partners == 'yes')
 <div class="text-5xl mt-8 text-white font-bold uppercase font-sans tracking-wide">Partner</div>
 
 <div class="bg-white rounded p-8 mt-8">
@@ -220,6 +223,7 @@
                 @endif
             @endforeach
 </div></div>
+@endif
 
 @endsection
 
