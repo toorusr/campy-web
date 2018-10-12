@@ -17,7 +17,7 @@
                                     @component('_components.img')
                                                                                                   
                                       @slot('src')
-                                      /img/partner/{{ $partner->logo or '' }}
+                                      /img/partner/{{ $partner->logo}}
                                       @endslot
                                   
                                       @slot('alt')
@@ -25,11 +25,11 @@
                                       @endslot
       
                                       @slot('width')
-                                     {{ $partner->width or '32' }}
+                                     {{ $partner->width }}
                                      @endslot
 
                                      @slot('height')
-                                     {{ $partner->height or '' }}
+                                     {{ $partner->height or 'h-16' }}
                                      @endslot
                                                                       
                                     @endcomponent
@@ -62,11 +62,11 @@
                                        @endslot
        
                                        @slot('width')
-                                       {{ $partner->width or '32' }}
+                                       {{ $partner->width }}
                                        @endslot
 
                                        @slot('height')
-                                       {{ $partner->height or '' }}
+                                       {{ $partner->height or 'h-16' }}
                                        @endslot
                                    
                                    @endcomponent
@@ -93,11 +93,11 @@
                                        @endslot
        
                                        @slot('width')
-                                       {{ $partner->width or '32' }}
+                                       {{ $partner->width}}
                                        @endslot
 
                                        @slot('height')
-                                       {{ $partner->height or '' }}
+                                       {{ $partner->height or 'h-16' }}
                                        @endslot
                                    
                                    @endcomponent
@@ -125,11 +125,11 @@
                                        @endslot
        
                                        @slot('width')
-                                       {{ $partner->width or '32' }}
+                                       {{ $partner->width }}
                                        @endslot
 
                                        @slot('height')
-                                       {{ $partner->height or '' }}
+                                       {{ $partner->height or 'h-16' }}
                                        @endslot
                                    
                                    @endcomponent
