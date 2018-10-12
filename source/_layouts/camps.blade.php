@@ -203,11 +203,11 @@
                                       @endslot
       
                                       @slot('width')
-                                      w-32
+                                      {{ $partner->width }}
                                       @endslot
-
-                                      @slot('style')
                                       
+                                      @slot('height')
+                                      {{ $partner->height or "h-16"}}
                                       @endslot
                                                                       
                                    @endcomponent
