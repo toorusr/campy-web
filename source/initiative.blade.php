@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8 bg-green">
+<main class="p-8 bg-purple">
 <div class="text-white text-3xl mb-4">Die Code+Design Initiative</div>
 <div class="bg-white rounded p-4">
 

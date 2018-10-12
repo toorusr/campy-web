@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<div class="p-4 bg-green">
+<div class="p-4 bg-purple">
     <div class="text-white text-3xl mb-4">Sei als Coach dabei</div>
 
     <div class="bg-white p-4">

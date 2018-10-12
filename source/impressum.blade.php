@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8 bg-green">
+<main class="p-8 bg-purple">
     <div class="text-white text-3xl mb-4">Impressum</div>
     <div class="bg-white rounded p-8">
         <div class="text-lg leading-normal w-1/2">

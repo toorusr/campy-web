@@ -38,7 +38,7 @@
           </td>
           <td class="p-1">Ideen finden und entwickeln</td>
         </tr>
-        <tr class="bg-yellow-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">13:00</span>
           </td>
           <td class="p-1">Mittagessen</td>
@@ -63,12 +63,12 @@
           </td>
           <td class="p-1">Projektarbeit</td>
         </tr>
-        <tr class="bg-yellow-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">18:00</span>
           </td>
           <td class="p-1">Abendessen</td>
         </tr>
-        <tr class="bg-red-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">19:00</span>
           </td>
           <td class="p-1">Workshops</td>
@@ -103,12 +103,12 @@
           </td>
           <td class="p-1">Projektarbeit</td>
         </tr>
-        <tr class="bg-red-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">12:00</span>
           </td>
           <td class="p-1">Workshops</td>
         </tr>
-        <tr class="bg-yellow-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">13:00</span>
           </td>
           <td class="p-1">Mittagessen</td>
@@ -128,12 +128,12 @@
           </td>
           <td class="p-1">Projektarbeit</td>
         </tr>
-        <tr class="bg-red-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">17:00</span>
           </td>
           <td class="p-1">Workshops / Impulsvortrag</td>
         </tr>
-        <tr class="bg-yellow-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">18:00</span>
           </td>
           <td class="p-1">Abendessen</td>
@@ -178,7 +178,7 @@
           </td>
           <td class="p-1">Projektarbeit / Zwischenpräsentationen</td>
         </tr>
-        <tr class="bg-yellow-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">13:00</span>
           </td>
           <td class="p-1">Mittagessen</td>
@@ -193,7 +193,7 @@
           </td>
           <td class="p-1">Projektarbeit / Zwischenpräsentation</td>
         </tr>
-        <tr class="bg-red-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">16:00</span>
           </td>
           <td class="p-1">Workshops</td>
@@ -203,7 +203,7 @@
           </td>
           <td class="p-1">Projektarbeit / Zwischenpräsentationen</td>
         </tr>
-        <tr class="bg-yellow-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">18:00</span>
           </td>
           <td class="p-1">Abendessen</td>
@@ -243,7 +243,7 @@
           </td>
           <td class="p-1">Projektarbeit / Camp-Verbesserungsworkshop</td>
         </tr>
-        <tr class="bg-yellow-lightest">
+        <tr class="bg-purple-lightest">
           <td class="p-1"><span class="font-bold">12:00</span>
           </td>
           <td class="p-1">Mittagessen</td>

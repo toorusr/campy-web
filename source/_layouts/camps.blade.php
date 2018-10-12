@@ -4,9 +4,9 @@
 
 
 
-<div class="p-8 bg-prime @if ($page->active === 'no') border-t-4 border-pink @endif">
+<div class="p-8 bg-purple @if ($page->active === 'no') border-t-4 border-purple @endif">
   @if ($page->active === 'no')
-<div class="text-pink-lighter">
+<div class="text-purple-lighter">
     Dieses {{ $page->type }} ist leider schon vorbei…
 </div>
 @endif
@@ -231,14 +231,6 @@
 
 @if ($page->youtube)
 <link rel="stylesheet" href="/css/plyr.css">
-@endif
-
-@if ($page->color)
-<style>
-  .bg-prime {
-    background-color: {{ $page->color }};
-  }
-</style>
 @endif
 
 @endsection

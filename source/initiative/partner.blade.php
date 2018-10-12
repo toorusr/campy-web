@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8 bg-green">
+<main class="p-8 bg-purple">
 
 
    <div class="bg-white rounded p-8">
