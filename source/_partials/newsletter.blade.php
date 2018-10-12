@@ -11,7 +11,7 @@
     <p>Abonniere unseren Newsletter</p>
 <div class="mc-field-group mt-2">
     <label for="mce-EMAIL" class="italic">E-Mail Adresse </label>
-    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+    <input type="email" value="" name="EMAIL" class="requipurple email" id="mce-EMAIL">
 </div>
     <div id="mce-responses" class="clear">
         <div class="response" id="mce-error-response" style="display:none"></div>

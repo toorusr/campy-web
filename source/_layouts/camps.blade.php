@@ -4,9 +4,9 @@
 
 
 
-<div class="p-8 bg-purple @if ($page->active === 'no') border-t-4 border-pink @endif">
+<div class="p-8 bg-purple @if ($page->active === 'no') border-t-4 border-purple @endif">
   @if ($page->active === 'no')
-<div class="text-pink-lighter">
+<div class="text-purple-lighter">
     Dieses {{ $page->type }} ist leider schon vorbei…
 </div>
 @endif

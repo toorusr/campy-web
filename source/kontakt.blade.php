@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8 bg-green">
+<main class="p-8 bg-purple">
     <div class="text-3xl mb-4 text-white">Kontakt</div>
     <div class="p-8 rounded bg-white">
         <form name="kontakt" action="/kontaktiert" netlify-honeypot="ierene" netlify>
@@ -11,11 +11,11 @@
                         <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-first-name">
                             Vorname <span class="text-grey">*</span>
                         </label>
-                        <input class="appearance-none block w-full bg-grey-lighter text-grey-darker rounded py-3 px-4 mb-3" id="grid-first-name" type="text" placeholder="Vera" name="vorname" required>
+                        <input class="appearance-none block w-full bg-grey-lighter text-grey-darker rounded py-3 px-4 mb-3" id="grid-first-name" type="text" placeholder="Vera" name="vorname" requipurple>
                         <input type="text" name="ierene" hidden>
                     </div>
                     <div class="md:w-1/2 px-3">
-                        <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-last-name" required>
+                        <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-last-name" requipurple>
                             Nachname
                         </label>
                         <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-last-name" type="text" placeholder="Molnár" name="nachname">
@@ -27,7 +27,7 @@
                             E-Mail <span class="text-grey">*</span>
                         </label>
                         <div class="relative">
-                            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-zip" type="email" name="email" required>
+                            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-zip" type="email" name="email" requipurple>
                         </div>
                     </div>
                     <div class="md:w-1/2 px-3">
@@ -64,7 +64,7 @@
             <div class="ml-8">
                 @component('_components.button-submit')
                     @slot('colorback')
-                        green
+                        purple
                     @endslot
                     @slot('colorfront')
                         white

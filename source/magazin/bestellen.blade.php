@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8 bg-yellow">
+<main class="p-8 bg-purple">
 
     <div class="text-3xl mb-4">Das Code+Design Magazin</div>
 
@@ -17,11 +17,11 @@
             <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-first-name">
                 Vorname
             </label>
-            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker rounded py-3 px-4 mb-3" id="grid-first-name" type="text" placeholder="Grace" name="vorname" required>
+            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker rounded py-3 px-4 mb-3" id="grid-first-name" type="text" placeholder="Grace" name="vorname" requipurple>
             <input type="text" name="hene" hidden>
         </div>
         <div class="md:w-1/2 px-3">
-            <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-last-name" required>
+            <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-last-name" requipurple>
                 Nachname
             </label>
             <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-last-name" type="text" placeholder="Hopper" name="nachname">
@@ -32,19 +32,19 @@
             <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-password">
                 Straße und Hausnummer
             </label>
-            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" id="grid-password" type="text" name="anschrift" required>
+            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" id="grid-password" type="text" name="anschrift" requipurple>
         </div>
         <div class="md:w-1/3 px-3">
             <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-zip">
                 PLZ
             </label>
-            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-zip" type="text" name="plz" required>
+            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-zip" type="text" name="plz" requipurple>
         </div>
         <div class="md:w-1/3 px-3 mb-6 md:mb-0">
             <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-city">
                 Ort
             </label>
-            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-city" type="text" name="ort" required>
+            <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-city" type="text" name="ort" requipurple>
         </div>
     </div>
     <div class="-mx-3 md:flex mb-2">
@@ -53,7 +53,7 @@
                 Anzahl
             </label>
             <div class="relative">
-                <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-zip" type="number" name="anzahl" required>
+                <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-zip" type="number" name="anzahl" requipurple>
             </div>
         </div>
         
@@ -82,7 +82,7 @@
 
 <div class="p-8">@component('_components.button-submit')
     @slot('colorback')
-    yellow
+    purple
     @endslot
     @slot('colorfront')
     white
