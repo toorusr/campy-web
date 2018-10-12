@@ -18,12 +18,12 @@
       </ul>
   </div>
   <div class="md:w-1/2 h-auto md:mt-0 mt-8">
-      <div class="mb-2 "><span class="border-b-2 border-purple text-grey-darkest">Aktuelle Camps</span></div>
+      <div class="mb-2 "><span class="border-b-2 border-purple text-grey-darkest">Aktuelle Events</span></div>
 
       <ul class="list-reset leading-normal">
           @foreach ($camps as $camp)
              @if ($camp->active === 'yes')
-                  <li class="hover:text-purple text-grey-darker"><a href="{{  $camp->getUrl() }}" class="no-underline hover:text-purple text-grey-darker">{{  $camp->city }}, {{ date('d.', $camp->date_start) }}-{{ date('d.m.y', $camp->date_end) }}</a></li>
+                  <li class="hover:text-purple text-grey-darker"><a href="{{  $camp->getUrl() }}" class="no-underline hover:text-purple text-grey-darker">{{  $camp->city }}, @if ($camp->days > 1){{ date('d.m.y', $camp->date_start) }}-{{ date('d.m.y', $camp->date_end) }}@else {{ date('d.m.y', $camp->date_start) }} @endif </a></li>
             @endif
           @endforeach
       </ul>
@@ -39,9 +39,6 @@
       <ul class="list-reset leading-normal">
           <li class="hover:text-purple-light text-grey-darker"><a href="/camps/berlin/1710" class="no-underline hover:text-purple text-grey-darker">Berlin Oktober 2017</a></li>
       </ul>
-
-    <div class="text-blue-light mb-2 mt-4"><span class="border-b-2 border-blue text-grey-darkest">Philosophie</span></div>
-    <ul class="list-reset leading-normal">
       
     </ul>
   </div>
