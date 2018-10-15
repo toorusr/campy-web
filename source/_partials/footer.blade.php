@@ -4,6 +4,7 @@
       <div class="mb-2 "><span class="border-b-2 border-purple">Code+Design</span></div>
       <ul class="list-reset leading-normal">
           <li class="hover:text-purple text-grey-darker"><a href="/initiative" class="no-underline hover:text-purple text-grey-darker" class="no-underline hover:text-purple text-grey-darker">Initiative</a></li>
+          <li class="hover:text-purple text-grey-darker"><a href="/initiative/jobs" class="no-underline hover:text-purple text-grey-darker" class="no-underline hover:text-purple text-grey-darker">Jobs</a></li>
 {{--           <li class="hover:text-purple text-grey-darker">Ansatz</li>
           <li class="hover:text-purple text-grey-darker">Personen</li> --}}
           <li class="hover:text-purple text-grey-darker"><a href="/initiative/partner" class="no-underline hover:text-purple text-grey-darker" class="no-underline hover:text-purple text-grey-darker">Partner</a></li>
