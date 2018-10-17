@@ -17,11 +17,11 @@
         Event
       </label>
         <select class="block appearance-none w-full bg-white border border-grey-lighter py-3 px-4 pr-8 rounded leading-tight text-lg focus:outline-none focus:bg-white focus:border-grey" id="event" name="event">
-          <option value="1">Leipzig, 18.-21.10.</option>
-        <option value="9">Düsseldorf, 22.-27.10.</option>
-        <option value="12">Frankfurt, 31.10.</option>
-        <option value="11">Berlin, 01.-04.11.</option>
-        <option value="13">München, 21.11.</option>
+          <option value="1" @if ($camp_id == 1) selected @endif>Leipzig, 18.-21.10.</option>
+        <option value="9" @if ($camp_id == 9) selected @endif>Düsseldorf, 22.-27.10.</option>
+        <option value="12" @if ($camp_id == 12) selected @endif>Frankfurt, 31.10.</option>
+        <option value="11" @if ($camp_id == 11) selected @endif>Berlin, 01.-04.11.</option>
+        <option value="13" @if ($camp_id == 13) selected @endif>München, 21.11.</option>
         </select>
         <div class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker">
           <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>

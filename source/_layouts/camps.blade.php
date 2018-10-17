@@ -112,7 +112,7 @@
 @endif
 
     @if ($page->active === 'yes')
-    @include('_partials.campy', ['type' => $page->type ])
+    @include('_partials.campy', ['type' => $page->type, 'camp_id' => $page->camp_id ])
     @endif
 
     @include('_partials.timetable', ['width' => 'w-1/2'])
@@ -121,7 +121,7 @@
   <div class="md:w-1/3 bg-white rounded p-4 md:ml-4 mt-4 md:mt-0">
     
     <div class="mb-4">@if ($page->active === 'yes')
-    @include('_partials.campy', ['type' => $page->type ])
+    @include('_partials.campy', ['type' => $page->type, 'camp_id' => $page->camp_id ])
     @endif</div>
 
 
