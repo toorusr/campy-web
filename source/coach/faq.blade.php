@@ -107,7 +107,7 @@
                 <li>Ermutige die Lernenden, selbstständig zu sein und zu experimentieren.</li>
                 <li>Wir diskutieren nicht darüber, welche Programmiersprache, Methoden oder Technologien "besser" sind.</li>
                 <li>
-                    Die Tastatur der Lernenden ist aus Lava. (Du verlierst ie Lernenden, wenn du die Tastatur übernimmst).
+                    Die Tastatur der Lernenden ist aus Lava. (Du verlierst die Lernenden, wenn du die Tastatur übernimmst).
                 </li>
             </ul>
 
@@ -128,7 +128,7 @@
         <dt class="font-bold">Wie läuft die Berufsorientierung ab?</dt>
         <dd class="mb-4">
             <ul>
-                <li>Am einem der letzten Abende haben wir eine Berufsorientierungs-Session, da die meisten Jugendlichen keine Ahnung haben, welche tollen Job-Opportunities sie erwarten.</li>
+                <li>An einem der letzten Abende haben wir eine Berufsorientierungs-Session, da die meisten Jugendlichen keine Ahnung haben, welche tollen Job-Opportunities sie erwarten.</li>
                 <li>Die Berufsorientierung besteht aus 2 Teilen: 1 Podiumsrunde und 1 Kleingruppen. Auf dem Podium stehen 5 Coaches, 1 Teamer moderiert. Er fragt 4 Fragen, jeder hat pro Frage 1 Minute für eine Antwort:</li>
                 <li>Wer bist du? Was machst du? Wo?</li>
                 <li>Wie sieht dein Arbeitsalltag aus?</li>
