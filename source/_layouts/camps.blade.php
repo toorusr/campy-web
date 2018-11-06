@@ -162,7 +162,7 @@
                                       @endslot
                                       
                                       @slot('height')
-                                      {{ $partner->height or "h-16"}}
+                                      {{ $partner->height ?? 'h-16'}}
                                       @endslot
                                                                       
                                    @endcomponent
