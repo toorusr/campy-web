@@ -1,5 +1,6 @@
 .DS_Store
 build_production/
+build_local/
 node_modules/
 source/.DS_Store
 source/files/.DS_Store
