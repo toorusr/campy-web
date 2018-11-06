@@ -21,7 +21,7 @@
                                       @endslot
                                   
                                       @slot('alt')
-                                      {{ $partner->name or '' }}
+                                      {{ $partner->name ?? '' }}
                                       @endslot
       
                                       @slot('width')
@@ -29,7 +29,7 @@
                                      @endslot
 
                                      @slot('height')
-                                     {{ $partner->height or 'h-16' }}
+                                     {{ $partner->height ?? 'h-16' }}
                                      @endslot
                                                                       
                                     @endcomponent
@@ -66,7 +66,7 @@
                                        @endslot
 
                                        @slot('height')
-                                       {{ $partner->height or 'h-16' }}
+                                       {{ $partner->height ?? 'h-16' }}
                                        @endslot
                                    
                                    @endcomponent
@@ -97,7 +97,7 @@
                                        @endslot
 
                                        @slot('height')
-                                       {{ $partner->height or 'h-16' }}
+                                       {{ $partner->height ?? 'h-16' }}
                                        @endslot
                                    
                                    @endcomponent
@@ -129,7 +129,7 @@
                                        @endslot
 
                                        @slot('height')
-                                       {{ $partner->height or 'h-16' }}
+                                       {{ $partner->height ?? 'h-16' }}
                                        @endslot
                                    
                                    @endcomponent
@@ -163,7 +163,11 @@
                                        @endslot
        
                                        @slot('width')
-                                       w-32
+                                       {{ $partner->width }}
+                                       @endslot
+
+                                       @slot('height')
+                                        h-16
                                        @endslot
                                    
                                    @endcomponent
@@ -197,7 +201,11 @@
                                       @endslot
       
                                       @slot('width')
-                                      w-32
+                                      {{ $partner->width }}
+                                      @endslot
+
+                                      @slot('height')
+                                      h-16
                                       @endslot
                                                                       
                                    @endcomponent

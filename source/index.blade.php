@@ -2,7 +2,11 @@
 <main class="p-2 sm:p-4 md:p-8 bg-purple text-xl">
     <div class="text-white text-3xl mb-4">Code+Design: Wir begeistern für digitale Berufe!</div>
     <div class="bg-white rounded p-6">
-        @component('_components.img') @slot('src') /img/header03.jpg @endslot @slot('alt') Code+Design Camp @endslot @endcomponent
+        @component('_components.img') 
+            @slot('src') /img/header03.jpg @endslot 
+            @slot('alt') Code+Design Camp @endslot 
+            @slot('width') w-full @endslot 
+        @endcomponent
 
         <div class="lg:flex p-4">
             <div class="mb-4 h-auto lg:w-1/3">
