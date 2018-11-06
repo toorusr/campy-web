@@ -1,5 +1,9 @@
-/build_local/
-/node_modules/
-/vendor/
-/build_production/
 .DS_Store
+build_production/
+node_modules/
+source/.DS_Store
+source/files/.DS_Store
+source/img/.DS_Store
+source/img/camps/.DS_Store
+source/img/partner/.DS_Store
+vendor/

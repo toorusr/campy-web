@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8 bg-green">
+<main class="p-8 bg-purple">
     <div class="text-3xl mb-4 text-white">Coaches</div>
     <div class="p-8 rounded bg-white">
         <div class="flex flex-wrap">

@@ -4,13 +4,15 @@
 
 
 
-<div class="p-8 bg-prime @if ($page->active === 'no') border-t-4 border-pink @endif">
+<div class="p-8 bg-purple @if ($page->active === 'no') border-t-4 border-purple @endif">
   @if ($page->active === 'no')
-<div class="text-pink-lighter">
-    Dieses Camp ist leider schon vorbei…
+<div class="text-purple-lighter">
+    Dieses {{ $page->type }} ist leider schon vorbei…
 </div>
 @endif
-   <h1 class="text-white">Komm' zum Camp in {{ $page->city }} ({{ date('d.m.', $page->date_start) }} bis {{ date('d.m.y', $page->date_end) }})</h1>
+   <h1 class="text-white">Komm' zum {{ $page->type }} in {{ $page->city }} 
+    @if ($page->days === 1) ({{ date('d.m.', $page->date_start) }}) @else 
+    ({{ date('d.m.', $page->date_start) }} bis {{ date('d.m.y', $page->date_end) }}) @endif</h1>
 
 
 <div class="md:flex mt-4">
@@ -66,6 +68,13 @@
         {{ $page->meals }}
         @endslot
 
+        @slot('type')
+        {{ $page->type }}
+        @endslot
+
+        @slot('laptopfree')
+        {{ $page->laptopfree }}
+        @endslot
 
     @endcomponent
 
@@ -98,11 +107,12 @@
 
     @endcomponent
 @else
-  @yield('content')
+  {!! $page->getContent() !!}
+{{--   @yield('content')--}}
 @endif
 
     @if ($page->active === 'yes')
-    @include('_partials.campy')
+    @include('_partials.campy', ['type' => $page->type, 'camp_id' => $page->camp_id ])
     @endif
 
     @include('_partials.timetable', ['width' => 'w-1/2'])
@@ -111,7 +121,7 @@
   <div class="md:w-1/3 bg-white rounded p-4 md:ml-4 mt-4 md:mt-0">
     
     <div class="mb-4">@if ($page->active === 'yes')
-    @include('_partials.campy')
+    @include('_partials.campy', ['type' => $page->type, 'camp_id' => $page->camp_id ])
     @endif</div>
 
 
@@ -119,14 +129,12 @@
 
     @include('_partials.update')
 
-    
-
-    @yield('content')
 
   </div>
 
 </div>
 
+@if($page->supporters == 'yes')
 <div class="text-5xl mt-8 text-white font-bold uppercase font-sans tracking-wide">Förderer</div>
 
 <div class="bg-white rounded p-8 mt-8">
@@ -137,7 +145,7 @@
             @if($partner->tier == 'silver' or $partner->tier == 'gold' or $partner->tier == 'bronze')
                    <div class="p-4"><div class="flex flex-col items-center">
                    
-                                   <div class="h-64 flex flex-col justify-center">
+                                   <div class="flex flex-col justify-center">
                                    <a href="{{ $partner->website}}">
                                     @component('_components.img')
                                                                                                   
@@ -150,7 +158,11 @@
                                       @endslot
       
                                       @slot('width')
-                                      {{ $partner->width or "w-32"}}
+                                      {{ $partner->width }}
+                                      @endslot
+                                      
+                                      @slot('height')
+                                      {{ $partner->height or "h-16"}}
                                       @endslot
                                                                       
                                    @endcomponent
@@ -166,7 +178,9 @@
             @endif
             @endforeach
 </div></div>
+@endif
 
+@if($page->partners == 'yes')
 <div class="text-5xl mt-8 text-white font-bold uppercase font-sans tracking-wide">Partner</div>
 
 <div class="bg-white rounded p-8 mt-8">
@@ -189,11 +203,11 @@
                                       @endslot
       
                                       @slot('width')
-                                      w-32
+                                      {{ $partner->width }}
                                       @endslot
-
-                                      @slot('style')
-                                      width: 20rem;
+                                      
+                                      @slot('height')
+                                      {{ $partner->height or "h-16"}}
                                       @endslot
                                                                       
                                    @endcomponent
@@ -209,6 +223,7 @@
                 @endif
             @endforeach
 </div></div>
+@endif
 
 @endsection
 
@@ -220,41 +235,6 @@
 
 @if ($page->youtube)
 <link rel="stylesheet" href="/css/plyr.css">
-@endif
-
-@if ($page->form)
-<style>
-  [id^='hs'] * {
-    font-family: "Hans Grotesque";
-    font-size: 16px;
-  }
-
-  [class^='hs'] * {
-    font-family: "Hans Grotesque";
-    font-size: 16px;
-  }
-
-  .hs-button {
-    background-color: {{ $page->color }} !important;
-    border: 0 !important;
-  }
-
-  #hsForm_5133d262-3f8c-4bc7-8323-3c7f52507dc8 > div > div.actions > input {
-    font-size: 16px !important;
-    background-image: none !important;
-    text-shadow: none;
-    padding: 12px !important;
-  }
-
-</style>
-@endif
-
-@if ($page->color)
-<style>
-  .bg-prime {
-    background-color: {{ $page->color }};
-  }
-</style>
 @endif
 
 @endsection
@@ -270,13 +250,9 @@
     </script>
 @endif
 
-@if ($page->form)
-<script src="//js.hsforms.net/forms/v2.js"></script>
-@endif
-
 @endsection
 
 
 @section('title')
-Camp | {{ $page->city }} ({{ date('d.m.', $page->date_start) }} - {{ date('d.m.y', $page->date_end) }})
+{{ $page->type }} | {{ $page->city }} @if ($page->days > 1)({{ date('d.m.', $page->date_start) }} - {{ date('d.m.y', $page->date_end) }} @else {{ date('d.m.', $page->date_start) }} @endif)
 @endsection

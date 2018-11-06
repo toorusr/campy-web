@@ -9,17 +9,17 @@
 
       <a href="/camps" class="no-underline text-black inline md:block mt-4 md:inline-block md:mt-0 border-b-2 border-purple mr-4 p-7">Camps</a>
       
-      <a href="/magazin" class="no-underline text-black inline block mt-4 md:inline-block md:mt-0 border-yellow border-b-2 mr-4 p-7">
+      <a href="/magazin" class="no-underline text-black inline block mt-4 md:inline-block md:mt-0 border-purple border-b-2 mr-4 p-7">
         Magazin
       </a>
-      <a href="/initiative" class="no-underline text-black inline block mt-4 md:inline-block border-green border-b-2 md:mt-0 mr-4 p-7">
+      <a href="/initiative" class="no-underline text-black inline block mt-4 md:inline-block border-purple border-b-2 md:mt-0 mr-4 p-7">
         Initiative
       </a>
     </div>
     <div class="hidden md:block">
       @component('_components.button')
         @slot('colorback')
-        pink
+        purple
         @endslot
         @slot('colorfront')
         white

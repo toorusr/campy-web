@@ -1,4 +1,4 @@
-<div class="mt-4 border-2 rounded p-4 mb-4 bg-grey-light flex">
+<div class="mt-4 border-2 rounded p-4 mb-4 bg-grey-light sm:flex">
     
 
     @component('_components.button')
@@ -14,7 +14,7 @@
         Spenden
     @endcomponent
 
-<p class="ml-4">Willst du uns helfen, Jugendliche für digitale Berufe zu begeistern und zu qualifizeren?
+<p class="sm:ml-4">Willst du uns helfen, Jugendliche für digitale Berufe zu begeistern und zu qualifizeren?
         Eine Spende hilft uns, wir können als gemeinnütziger Verein Spendenbescheinigungen ausstellen.</p>
 
 </div>

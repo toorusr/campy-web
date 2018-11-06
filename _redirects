@@ -6,10 +6,10 @@
 
 # camps
 /camp			/camps
-/berlin*                /camps/berlin/1802
+/berlin*                /camps/berlin/1811
 /hamburg*               /camps/hamburg/1803
-/duesseldorf*           /camps/duesseldorf/1803
-/d%C3%BCsseldorf*       /camps/duesseldorf/1803
+/duesseldorf*           /camps/duesseldorf/1810
+/d%C3%BCsseldorf*       /camps/duesseldorf/1810
 /koeln*                 /camps/koeln/1805
 /k%C3%B6ln*		/camps/koeln/1805
 /munchen /camps/muenchen/1808
@@ -24,6 +24,7 @@
 /camps/camp-in-koeln-2018*	/camps/koeln/1805
 /camps/camp-hamburg-1803*   	/camps/hamburg/1803
 /camps/camp-duesseldorf-1803* 	/camps/duesseldorf/1803
+/frankfurt*                      /camps/frankfurt/1810
 
 # videos
 /video/berlin-ostern-17 https://drive.google.com/open?id=0B9VFy06nCNOfZU1mQmJiMTdFVEk

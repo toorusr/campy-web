@@ -16,7 +16,7 @@
         <dd class="mb-4">Gehe besser davon aus, dass es auf dem Camp laut und hektisch wird. Bringe dir Kopfhörer mit, über die du Musik, <a href="https://calmyleon.com" target="_blank">beruhigende Geräusche</a> oder <a href="https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php" target="_blank">Rauschen</a>  hörst. Bei manchen Camps haben wir in der Location auch ruhigere Ecken. Das können wir aber nicht garantieren.</dd>
         
           <dt class="font-bold">Hat das Camp einen festen Zeitplan?</dt>
-        <dd class="mb-4"> "Wenn ihr einen klaren Ablauf gewohnt seid, dann seid ihr hier falsch. Bei dem Camp haben wir die Möglichkeit selber unseren Zeitplan zu bestimmen, dabei war es umso besser, dass uns erfahrene Coaches halfen. Ich selber habe viele Erfahrungen anderer Teilnehmer mitgenommen.".</dd>
+        <dd class="mb-4">Wenn ihr einen ganz klaren Stundenplan benötigt, ist das Camp wahrscheinlich nicht geeignet. Bei dem Camp bestimmen die Teilnehmer selber den Zeitplan zu. Erfahrene Coaches helfen dabei, dass alle ihre Ziele erreichen und viel lernen.</dd>
         
     </dl>
 

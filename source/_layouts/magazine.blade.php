@@ -2,7 +2,7 @@
 
 @section('body')
 
-<main class="bg-yellow">
+<main class="bg-purple">
 
 <div class="text-2xl">{{ $page->title }}</div>
 <p class="text-sm">{{ $page->publication_date}}</p>

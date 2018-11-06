@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<main class="p-8 bg-pink ">
+<main class="p-8 bg-purple ">
 
   <div class="text-white text-3xl mb-4">Spenden</div>
 
@@ -13,19 +13,19 @@
 
                 <div id="name" class="mt-8">
                     <label for="name" class="block font-bold lg:text-xl uppercase font-sans tracking-wider mb-2 pl-2">Empfänger</label>
-                    <div name="name" type="text" class="h-16 sm:h-auto overflow-x-scroll bg-pink-dark border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wider text-white">Code+Design Initiative e.V.</div>
+                    <div name="name" type="text" class="h-16 sm:h-auto overflow-x-scroll bg-purple-dark border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wider text-white">Code+Design Initiative e.V.</div>
                 </div>
                 <div id="iban" class="mt-8">
                     <label for="iban" class="block font-bold lg:text-xl uppercase font-sans tracking-wide mb-2 pl-2">IBAN</label>
-                    <div name="iban" class="h-16 sm:h-auto overflow-x-scroll bg-pink-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wider w-full"><span class="mr-4">DE24</span><span class="mr-4">1005</span><span class="mr-4">0000</span><span class="mr-4">0190</span><span class="mr-4">6076</span>29</div>
+                    <div name="iban" class="h-16 sm:h-auto overflow-x-scroll bg-purple-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wider w-full"><span class="mr-4">DE24</span><span class="mr-4">1005</span><span class="mr-4">0000</span><span class="mr-4">0190</span><span class="mr-4">6076</span>29</div>
                 </div>
                 <div id="bic" class="mt-8">
                     <label for="bic" class="block font-bold lg:text-xl uppercase font-sans tracking-wider mb-2 pl-2">BIC</label>
-                    <div name="bic" type="text" class="h-16 sm:h-auto flex items-center overflow-x-scroll bg-pink-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wider w-full">BELADEBEXXX</div>
+                    <div name="bic" type="text" class="h-16 sm:h-auto flex items-center overflow-x-scroll bg-purple-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wider w-full">BELADEBEXXX</div>
                 </div>
                 <div id="Verwendungszweck" class="mt-8 mb-4">
                     <label for="Verwendungszweck" class="block font-bold lg:text-xl uppercase font-sans tracking-wider mb-2 pl-2">Verwendungszweck</label>
-                    <div name="Verwendungszweck" type="text" class="overflow-x-scroll hover:shadow-lg bg-pink-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wide w-full">Spende Jugendliche fuer Digitales begeistern</div>
+                    <div name="Verwendungszweck" type="text" class="overflow-x-scroll hover:shadow-lg bg-purple-dark text-white border-1 border-grey-lighter p-4 lg:text-xl font-sans opacity-100 uppercase tracking-wide w-full">Spende Jugendliche fuer Digitales begeistern</div>
                 </div>
 </div>
 
@@ -67,7 +67,7 @@ Spenden
 <style>
 
 [class*='donation'] * {
-    font-family: "Hans Grotesque" !important;
+    font-family: "Source Sans Pro" !important;
 }
 
 .iframe-donation-headline {
@@ -75,11 +75,11 @@ Spenden
 }
 
 donations-form-donation-details-header {
-    font-family: "Hans Grotesque";
+    font-family: "Source Sans Pro";
 }
 
 iframe * {
-    font-family: "Hans Grotesque";
+    font-family: "Source Sans Pro";
 }
 
 #new_donation_process > fieldset > div.iframe-donation-headline {

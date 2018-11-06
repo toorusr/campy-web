@@ -2,7 +2,7 @@
 
 @section('body')
 
-<div class="p-4 bg-green">
+<div class="p-4 bg-purple">
     <div class="text-white text-3xl mb-4">Sei als Coach dabei – Fragen und Antworten</div>
 
     <div class="bg-white p-4">
@@ -31,6 +31,28 @@
                     <li>Wir laden dich ein, dich aktiv am Code+Design Camp zu beteiligen. Wenn du Vorschläge zur Verbesserung des Lagers hast: Mach es zu deinem Camp!</li>
                 </ul>
  </dd>
+
+        <dt class="font-bold" id="programming-languages">Muss ich einen Workshop leiten?</dt>
+        <dd class="mb-4">Nein, das ist natürlich freiwillig.</dd>
+
+        <dt class="font-bold" id="programming-languages">Muss ich eine Gruppe betreuen?</dt>
+        <dd class="mb-4">Nur wenn du glaubst, dass dir das liegt und du Lust auf diese Aufgabe hast.</dd>
+
+        <dt class="font-bold" id="programming-languages">Kann ich zwischendurch mal kurz weg?</dt>
+        <dd class="mb-4">Klar! Schreibe aber bitte den Teilnehmern auf Slack, wann du wieder da bist.</dd>
+
+        <dt class="font-bold" id="programming-languages">Kriege ich Fahrtkosten und Übernachtung erstattet?</dt>
+        <dd class="mb-4">Wir haben ein sehr kleines Budget für diese Auslagen. Sprich uns an, wenn du Unterstützung brauchst.</dd>
+
+        <dt class="font-bold" id="programming-languages">Kann ich Teilnehmer für meine Firma anwerben?</dt>
+        <dd class="mb-4">Jein. Das Camp ist keine Werbeveranstaltung. Die Teilnehmer sollen erstmal ein tolles Camp haben und ausprobieren und lernen können. Wenn sie mit dir ins Gespräch kommen und etwa nach einem Praktikumsplatz fragen, kannst du diesen aber natürlich anbieten.</dd>
+
+        <dt class="font-bold" id="programming-languages">Muss ich von Anfang bis Ende dabei sein?</dt>
+        <dd class="mb-4">Natürlich nicht. Du bist Ehrenamtler, du kommst, wenn du kannst. Du kannst das bei der Anmeldung sehr differenziert angeben.</dd>
+
+        <dt class="font-bold" id="programming-languages">Wen spreche ich für Orga-Fragen an?</dt>
+        <dd class="mb-4">Vor dem Camp: <a href="mailto:hello@code.design">hello@code.design</a>; Auf dem Camp: Die Campleitung stellt sich am Anfang vor.</dd>
+
 
             <dt class="font-bold" id="programming-languages">Welche Programmiersprachen werden benutzt?</dt>
         <dd class="mb-4">Es gibt keine festen Programmiersprachen. Die Gruppen suchen sich selbst die Technologien aus. Oft verwendet werden: Python, PHP, JavaScript, Java (für Gaming und Apps). Die Jugendlichen orientieren sich aber auch an den Coaches und deren Kompetenzen.</dd>
@@ -85,7 +107,7 @@
                 <li>Ermutige die Lernenden, selbstständig zu sein und zu experimentieren.</li>
                 <li>Wir diskutieren nicht darüber, welche Programmiersprache, Methoden oder Technologien "besser" sind.</li>
                 <li>
-                    Die Tastatur der Lernenden ist aus Lava. (Du verlierst ie Lernenden, wenn du die Tastatur übernimmst).
+                    Die Tastatur der Lernenden ist aus Lava. (Du verlierst die Lernenden, wenn du die Tastatur übernimmst).
                 </li>
             </ul>
 
@@ -106,7 +128,7 @@
         <dt class="font-bold">Wie läuft die Berufsorientierung ab?</dt>
         <dd class="mb-4">
             <ul>
-                <li>Am einem der letzten Abende haben wir eine Berufsorientierungs-Session, da die meisten Jugendlichen keine Ahnung haben, welche tollen Job-Opportunities sie erwarten.</li>
+                <li>An einem der letzten Abende haben wir eine Berufsorientierungs-Session, da die meisten Jugendlichen keine Ahnung haben, welche tollen Job-Opportunities sie erwarten.</li>
                 <li>Die Berufsorientierung besteht aus 2 Teilen: 1 Podiumsrunde und 1 Kleingruppen. Auf dem Podium stehen 5 Coaches, 1 Teamer moderiert. Er fragt 4 Fragen, jeder hat pro Frage 1 Minute für eine Antwort:</li>
                 <li>Wer bist du? Was machst du? Wo?</li>
                 <li>Wie sieht dein Arbeitsalltag aus?</li>
