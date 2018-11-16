@@ -125,6 +125,11 @@
 
         </dd>
 
+        <dt class="font-bold">Werde ich als Coach bezahlt?</dt>
+        <dd class="mb-4">
+            Code+Design als kleiner gemeinnütziger Verein hat nur das Ziel, Jugendliche für digitale Berufe zu begeistern. Wir dürfen keine Gewinne machen und müssen alle unsere Aktivitäten auf den Vereinszweck ausrichten. Die Events, die wir ausrichten, sind sehr teuer und aufwändig. Auch benötigen wir für die Organisation der Events und der Geschäftsstelle einen Hauptamtler, für den wir Gehalt zahlen müssen. Da wir bisher keine Zuschüsse durch Bund, Länder oder Kommunen bekommen, sind wir auf Sponsoring durch Unternehmen angewiesen, um unsere Kosten zu decken.
+        </dd>
+
         <dt class="font-bold">Wie läuft die Berufsorientierung ab?</dt>
         <dd class="mb-4">
             <ul>
