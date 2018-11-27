@@ -21,10 +21,9 @@
             Registernummer: VR 35667 B</p>
 
             <p class="mb-8">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br/>
-            Betz, Martin<br/>
-            Factory Berlin<br/>
-            Lohmühlenstr. 65<br/>
-            10115 Berlin</p>
+            Thomas Bachem, Manuel Dolderer<br/>
+            Lohmühlenstraße 65<br/>
+            12435 Berlin</p>
 
             <p class="mb-8">Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
             </p>
