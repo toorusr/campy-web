@@ -1,6 +1,7 @@
 <div class="mt-4 border-2 rounded p-4 mb-4 bg-grey-light">
     <div class="text-2xl mb-4 text-grey-darkest">Die nächsten Camps</div>
     <div class="md:flex md:flex-wrap">
+        <p>Wir planen gerade unsere Aktivitäten für 2019! Sobald es Termine gibt, erfahrt ihr sie hier und im Newsletter</p>
         @foreach ($camps->where('active', 'yes') as $camp)
         
         <div class="flex-1 p-1">
