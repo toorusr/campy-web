@@ -36,11 +36,11 @@
                         </label>
                         <div class="relative">
                             <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded" id="grid-state" name="anliegen">
+                                <option value="frage">Ich habe eine Frage</option>
                                 <option value="coach">Ich möchte euch als Coach helfen</option>
                                 <option value="coach">Ich möchte euch auf dem Camp helfen</option>
                                 <option value="spende">Ich möchte euch mit Geld- oder Sachspende unterstützen</option>
                                 <option value="sponsor">Ich möchte euch sponsorn</option>
-                                <option value="frage">Ich habe eine Frage</option>
                                 <option value="sonstiges">Sonstiges</option>
                             </select>
                             <div class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker">
