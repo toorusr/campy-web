@@ -28,6 +28,7 @@
             </div>
         </div>
         @include('_partials.upcoming')
+        @include('_partials.interest')
         @include('_partials.testimonials')
     </div>
 </main>
