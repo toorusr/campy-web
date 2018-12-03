@@ -15,18 +15,15 @@
                 @endslot
             @endcomponent
             <div class="mt-4">
-                <div class="text-2xl font-bold">2016/2017 - Ausgabe 1</div>
+                <div class="text-2xl font-bold">2018/2019 - Ausgabe 2</div>
                 <div class="text-lg">
-                    Die neuen Rockstars: Neun Vorbilder zeigen, worauf es ankommt, um Coder*in zu werden
-                    Einblicke in unbekannte Berufe: Was macht eigentlich eine UI-Designerin?
-                    Irgendwas mit Computer: Berufe für Coder*innen kurz erklärt
-                    In fünf Schritten zur eigenen App
+                    Hallo, Computer: Mensch und Maschine verstehen sich immer besser + Big Data, DIY-Spracherkennung, Welcher IT-Typ bin ich?
                 </div>
             </div>
             <div class="mt-4">
                 @component('_components.button')
                     @slot('link')
-                        files/code-design-magazine-001.pdf
+                        files/code-design-magazine-002.pdf
                     @endslot
                     @slot('colorback')
                         purple
@@ -54,7 +51,10 @@
             <div class="mt-4">
                 <div class="text-2xl font-bold">2016/2017 - Ausgabe 1</div>
                 <div class="text-lg">
-                    Hallo, Computer: Mensch und Maschine verstehen sich immer besser + Big Data, DIY-Spracherkennung, Welcher IT-Typ bin ich?
+                    Die neuen Rockstars: Neun Vorbilder zeigen, worauf es ankommt, um Coder*in zu werden
+-                   Einblicke in unbekannte Berufe: Was macht eigentlich eine UI-Designerin?
+-                   Irgendwas mit Computer: Berufe für Coder*innen kurz erklärt
+-                   In fünf Schritten zur eigenen App
                 </div>
             </div>
             <div class="mt-4">
