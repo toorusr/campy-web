@@ -8,10 +8,10 @@
         <div class="mt-4">
             @component('_components.img')
                 @slot('src')
-                    /img/magazin/magazin-001.jpg
+                    /img/magazin/magazin-002.jpg
                 @endslot
                 @slot('alt')
-                    Das Magazin
+                    Das Magazin #2
                 @endslot
             @endcomponent
             <div class="mt-4">
