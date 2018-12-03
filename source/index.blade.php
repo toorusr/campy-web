@@ -10,8 +10,8 @@
 
         <div class="lg:flex p-4">
             <div class="mb-4 h-auto lg:w-1/3">
-                <div class="text-3xl mb-4"><a href="/camps" class="no-underline text-grey-darkest"><span class="border-b-2 border-purple">Die Camps</span></a></div>
-                <p class="mb-4 hyphens leading-normal">Auf den Code+Design Camps wollen wir dir und vielen anderen Jugendlichen die Chance geben, an spannenden Hard- und Softwareprojekten zu arbeiten und unter der Anleitung von professionellen Coaches neue Technologien kennenzulernen und deine Fähigkeiten weiterzuentwickeln.</p>
+                <div class="text-3xl mb-4"><a href="/camps" class="no-underline text-grey-darkest"><span class="border-b-2 border-purple">Die Events</span></a></div>
+                <p class="mb-4 hyphens leading-normal">Die Code+Design Events sind Mitmachevents für Jugendliche zwischen 15 und 20. Du bringst eigene Ideen und Kreativität mit und könnt mit anderen Jugendlichen digitale Produkte entwickeln – von Apps über Webseiten bis zu Games. Es ist egal, ob du Vorkenntnisse hast oder nicht. Du bekommst Unterstützung durch erfahrene Coaches.</p>
                 @component('_components.button') @slot('colorback') purple @endslot @slot('colorfront') white @endslot @slot('link') camps @endslot @slot('width') w-64 @endslot Alle Camps @endcomponent
             </div>
             <div class="mb-4 lg:ml-8 lg:w-1/3">
