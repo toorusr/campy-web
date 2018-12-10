@@ -7,10 +7,12 @@
 
    <div class="p-8 rounded bg-white">
 
+    <div class="ml-8 bg-pink p-4 text-white text-lg">Betriebsurlaub vom 13.12.18-04.01.19! Wir bearbeiten sämtliche Anfragen erst wieder ab 07.01.19</div>
+
     <div class="ml-8 text-2xl">Magazin kostenlos bestellen!</div>
-       
+
     <form name="magazin-bestellung" action="/magazin/bestellt" netlify-honeypot="hene" netlify>
-        
+
 <div class="rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
     <div class="-mx-3 md:flex mb-6">
         <div class="md:w-1/3 px-3 mb-6 md:mb-0">
