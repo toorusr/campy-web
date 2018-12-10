@@ -4,6 +4,7 @@
 <main class="p-8 bg-purple">
     <div class="text-3xl mb-4 text-white">Kontakt</div>
     <div class="p-8 rounded bg-white">
+        <div class="ml-8 bg-pink p-4 text-white text-lg">Betriebsurlaub vom 13.12.18-04.01.19! Wir bearbeiten sämtliche Anfragen erst wieder ab 07.01.19</div>
         <form name="kontakt" action="/kontaktiert" netlify-honeypot="ierene" netlify>
             <div class="rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
                 <div class="-mx-3 md:flex mb-6">
