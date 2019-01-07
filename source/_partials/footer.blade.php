@@ -90,5 +90,4 @@
 <div class="bg-grey-lightest text-grey-dark p-8 leading-normal text-center">
   <p>Die Code+Design Initiative e.V. ist ein gemeinnütziger Verein zur Berufs- und Studienorientierung im Bereich Informatik und Design.</p>
 <p>Vereinsregister VR 35667 B | Code+Design Initiative e.V., Lohmühlenstr. 65, 12435 Berlin</p>
-<div class="mt-4 bg-pink p-4 text-white text-lg">Betriebsurlaub vom 13.12.18-04.01.19! Wir bearbeiten sämtliche Anfragen erst wieder ab 07.01.19</div>
 </div>

@@ -4,7 +4,6 @@
 <main class="p-8 bg-purple">
     <div class="text-white text-3xl mb-4">Impressum</div>
     <div class="bg-white rounded p-8">
-        <div class="ml-8 bg-pink p-4 text-white text-lg">Betriebsurlaub vom 13.12.18-04.01.19! Wir bearbeiten sämtliche Anfragen erst wieder ab 07.01.19</div>
         <div class="text-lg leading-normal w-1/2">
             <p class="mb-8">Angaben gemäß § 5 TMG:<br/>
             Code+Design e.V.<br/>
