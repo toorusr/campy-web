@@ -5,7 +5,7 @@
           $testimonials->splice(3)
       @endphp
       @foreach ($testimonials as $testimonial)
-          <div>
+          <div @if(! $loop->first) class="md:ml-2 mt-2 md:mt-0" @endif>
               @component('_components.card')
                   @slot('src')
                       {{$testimonial->src}}
