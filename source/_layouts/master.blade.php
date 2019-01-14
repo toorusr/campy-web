@@ -46,7 +46,7 @@
         }(window,document,"Smooch","596dbeee3154052401f51a2c");
     </script>
     </head>
-    <body class="antialiased">
+    <body class="font-sans antialiased">
 
         @include('_partials.navbar')
         <main>
