@@ -5,13 +5,13 @@
 /camps/coach            /coach
 
 # camps
-/camp			        /camps
+/camp   		        /camps
 /berlin*                /camps
 /hamburg*               /camps
 /duesseldorf*           /camps
 /d%C3%BCsseldorf*       /camps
 /koeln*                 /camps
-/k%C3%B6ln*		        /camps
+/k%C3%B6ln*	            /camps
 /munchen*               /camps
 /muenchen*              /camps
 /m%C3%BCnchen*          /camps
@@ -47,7 +47,7 @@
 # other
 /blogs                  /blog
 /tools                  https://github.com/CodeDesignInitiative/awesome-coding-and-designing
-/chat  			        https://join.slack.com/t/code-design-camp/shared_invite/enQtMjk3MTg0NzQ2MjI5LWVlOGJjYzNjMDZmYzRiYmYwMzc3ZmQ5ZTQyMTM1YWEzZmVjMjAzNGM3NDE4MjBlZDE0OThiZTZjMzkxNDk2ZmQ
+/chat  	     	       https://join.slack.com/t/code-design-camp/shared_invite/enQtMjk3MTg0NzQ2MjI5LWVlOGJjYzNjMDZmYzRiYmYwMzc3ZmQ5ZTQyMTM1YWEzZmVjMjAzNGM3NDE4MjBlZDE0OThiZTZjMzkxNDk2ZmQ
 # /sei-camp-reporter      https://airtable.com/shrkkPRr2dVsm9Ogk
 /twitter                https://twitter.com/codeunddesign
 /instagram              https://www.instagram.com/codeunddesign/
