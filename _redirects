@@ -5,26 +5,25 @@
 /camps/coach            /coach
 
 # camps
-/camp			/camps
-/berlin*                /camps/berlin/1811
-/hamburg*               /camps/hamburg/1803
-/duesseldorf*           /camps/duesseldorf/1810
-/d%C3%BCsseldorf*       /camps/duesseldorf/1810
-/koeln*                 /camps/koeln/1805
-/k%C3%B6ln*		/camps/koeln/1805
-/munchen /camps/muenchen/1808
-/muenchen /camps/muenchen/1808
+/camp			        /camps
+/berlin*                /camps
+/hamburg*               /camps
+/duesseldorf*           /camps
+/d%C3%BCsseldorf*       /camps
+/koeln*                 /camps
+/k%C3%B6ln*		        /camps
+/munchen*               /camps
+/muenchen*              /camps
+/m%C3%BCnchen*          /camps
+/stuttgart*             /camps
+/stuggi*                /camps
+/bochum*                /camps
+/leipzig*               /camps
+/frankfurt*             /camps
+
+# files
 /muenchen-poster        /files/muenchen-poster.pdf
 /muenchen-pm            /files/muenchen-pm.pdf
-/m%C3%BCnchen /camps/muenchen/1808
-/stuttgart /camps/stuttgart2/1808
-/stuggi /camps/stuttgart2/1808
-/bochum /camps/bochum/1809
-/leipzig /camps/leipzig/1810
-/camps/camp-in-koeln-2018*	/camps/koeln/1805
-/camps/camp-hamburg-1803*   	/camps/hamburg/1803
-/camps/camp-duesseldorf-1803* 	/camps/duesseldorf/1803
-/frankfurt*                      /camps/frankfurt/1810
 
 # videos
 /video/berlin-ostern-17 https://drive.google.com/open?id=0B9VFy06nCNOfZU1mQmJiMTdFVEk
@@ -38,24 +37,24 @@
 /ich-bin-botschafterin  https://goo.gl/forms/wSxYfXEnpnCC14pI3
 
 #camp tools
-/kompetenzen              https://airtable.com/shrLWAlbT4O62yQa1/tblcWqdVWJN2QJzqM
-/gruppen                  https://airtable.com/shrYQyA4jyy6qu7p4/tblOcNV7YAh0zhCqf
-/feedback                 https://airtable.com/shrqwod7mKCA5hb0k
-/liste                     https://github.com/CodeDesignInitiative/awesome-coding-and-designing/blob/master/README.md
-/schwarzesbrett         https://docs.google.com/presentation/d/e/2PACX-1vQi6sZTWa8QN9qr5dgvRXHbO8vWfo4pxu9GdeteV9_TNbpdqYQGsyhHqsqB3Waq9ix-2W9AZsZON7xe/pub?start=false&loop=false&delayms=60000
-/ichkann                https://airtable.com/shrr3SSZgo38Mfen1
+# /kompetenzen            https://airtable.com/shrLWAlbT4O62yQa1/tblcWqdVWJN2QJzqM
+# /gruppen                https://airtable.com/shrYQyA4jyy6qu7p4/tblOcNV7YAh0zhCqf
+# /feedback               https://airtable.com/shrqwod7mKCA5hb0k
+# /liste                  https://github.com/CodeDesignInitiative/awesome-coding-and-designing/blob/master/README.md
+# /schwarzesbrett         https://docs.google.com/presentation/d/e/2PACX-1vQi6sZTWa8QN9qr5dgvRXHbO8vWfo4pxu9GdeteV9_TNbpdqYQGsyhHqsqB3Waq9ix-2W9AZsZON7xe/pub?start=false&loop=false&delayms=60000
+# /ichkann                https://airtable.com/shrr3SSZgo38Mfen1
 
 # other
 /blogs                  /blog
 /tools                  https://github.com/CodeDesignInitiative/awesome-coding-and-designing
-/chat  			 https://join.slack.com/t/code-design-camp/shared_invite/enQtMjk3MTg0NzQ2MjI5LWVlOGJjYzNjMDZmYzRiYmYwMzc3ZmQ5ZTQyMTM1YWEzZmVjMjAzNGM3NDE4MjBlZDE0OThiZTZjMzkxNDk2ZmQ
-/sei-camp-reporter      https://airtable.com/shrkkPRr2dVsm9Ogk
+/chat  			        https://join.slack.com/t/code-design-camp/shared_invite/enQtMjk3MTg0NzQ2MjI5LWVlOGJjYzNjMDZmYzRiYmYwMzc3ZmQ5ZTQyMTM1YWEzZmVjMjAzNGM3NDE4MjBlZDE0OThiZTZjMzkxNDk2ZmQ
+# /sei-camp-reporter      https://airtable.com/shrkkPRr2dVsm9Ogk
 /twitter                https://twitter.com/codeunddesign
 /instagram              https://www.instagram.com/codeunddesign/
 /campy                  https://cdcamp.de/
 /linkedin               https://www.linkedin.com/company/code-and-design/
 /github                 https://github.com/CodeDesignInitiative/
-/community              https://docs.google.com/document/d/1apQKZKee2YmjpZtycIzNYRH0ZDkYqymgBLfcIsTHMxU/edit?usp=sharing
+# /community              https://docs.google.com/document/d/1apQKZKee2YmjpZtycIzNYRH0ZDkYqymgBLfcIsTHMxU/edit?usp=sharing
 
 
 # magazin
