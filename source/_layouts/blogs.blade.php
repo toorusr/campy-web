@@ -11,26 +11,12 @@
 			<div class="md:w-1/2 m-full">
 				@if ($page->getPrevious())
 					@component('_components.blog-button')
-						@slot('colorback')
-						white
-						@endslot
-						@slot('colorfront')
-						purple
-						@endslot
-						@slot('maincolor')
-						transparent
-						@endslot
-						@slot('textcolor')
-						white
-						@endslot
-						@slot('bordercolor')
-						transparent
-						@endslot
-						@slot('link')
-						{{$page->getPrevious()->getUrl()}}
-						@endslot
-						@slot('width')
-						@endslot
+						@slot('colorback') white @endslot
+						@slot('colorfront') purple @endslot
+						@slot('maincolor') transparent @endslot
+						@slot('textcolor') white @endslot
+						@slot('bordercolor') transparent @endslot
+						@slot('link') {{$page->getPrevious()->getUrl()}} @endslot
 						Vorheriger Blog-Eintrag
 					@endcomponent
 				@endif
@@ -38,26 +24,12 @@
 			<div class="md:w-1/2 m-full">
 				@if ($page->getNext())
 					@component('_components.blog-button')
-						@slot('colorback')
-						white
-						@endslot
-						@slot('colorfront')
-						purple
-						@endslot
-						@slot('maincolor')
-						transparent
-						@endslot
-						@slot('textcolor')
-						white
-						@endslot
-						@slot('bordercolor')
-						transparent
-						@endslot
-						@slot('link')
-						{{$page->getNext()->getUrl()}}
-						@endslot
-						@slot('width')
-						@endslot
+						@slot('colorback') white @endslot
+						@slot('colorfront') purple @endslot
+						@slot('maincolor') transparent @endslot
+						@slot('textcolor') white @endslot
+						@slot('bordercolor') transparent @endslot
+						@slot('link') {{$page->getNext()->getUrl()}} @endslot
 						Nächster Blog-Eintrag
 					@endcomponent
 				@endif
@@ -77,9 +49,9 @@
 						@if($page->youtube <> '')
 							<div id="plyr-youtube" class="w-full" data-type="youtube" data-video-id="{{$page->youtube}}"></div>
 						@else
-						@if($page->image <> '')
-							<img src="{{$page->image}}" alt="" />
-						@endif
+                            @if($page->image <> '')
+                                <img src="{{$page->image}}" alt="" />
+                            @endif
 						@endif
                     </div>
                 </div>
@@ -91,10 +63,9 @@
 
 @section('scripts')
 <script src="https://cdn.plyr.io/2.0.18/plyr.js"></script>
-    <script>
-        plyr.setup("#plyr-youtube");
-
-    </script>
+<script>
+    plyr.setup("#plyr-youtube");
+</script>
 @endsection
 
 @section('meta')
