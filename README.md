@@ -26,10 +26,8 @@ Here is how to do that.
 ```bash    
 git clone git@github.com:CodeDesignInitiative/cdweb1801.git
 cd cdweb1801
-composer install
-./vendor/bin/jigsaw build production
-cd build_production
-# open the index.html in browser
+composer install && npm install
+npm run watch
 ```
 *Most probably your browser will protest and say that the site is insecure. In Chrome just type `badidea` and proceed, in Firefox ignore all warnings and visit page.*
 
