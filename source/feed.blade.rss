@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Code+Design</title>
+  <link>https://code.design</link>
+  <description>Jugendliche für digitale Technologien und Berufe begeistern</description>
+  <language>de-de</language>
+
+  @foreach ($updates as $update)
+  <item>
+    <title>{{ $update->camp }} - {{ $update->question }}</title>
+    <link>{{ $update->getUrl() }}</link>
+    <pubDate>{{ date('d.m.Y', $update->published_at) }}</pubDate>
+    <description>{{ $update->question }}</description>
+    <category>{{ $update->camp }}</category>
+  </item>
+  @endforeach
+</channel>
+
+</rss>
