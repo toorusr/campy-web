@@ -4,7 +4,7 @@ return [
     'fulldate' => function ($shortdate) {
         return date('l d.m.Y', $shortdate);
     },
-    'baseUrl' => '',
+    'baseUrl' => 'https://code.design',
     'contact' => 'Martin Betz',
     'production' => false,
     'collections' => [
