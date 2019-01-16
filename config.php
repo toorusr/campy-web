@@ -4,7 +4,7 @@ return [
     'fulldate' => function ($shortdate) {
         return date('l d.m.Y', $shortdate);
     },
-    'baseUrl' => '',
+    'baseUrl' => 'https://code.design',
     'contact' => 'Martin Betz',
     'production' => false,
     'collections' => [
@@ -24,7 +24,7 @@ return [
             }
         ],
         'partners' => [
-            'path' => 'partner/{name}',
+            'path' => 'partner/{-name}',
             'hasTier' => function ($page, $tier) {
                 return collect(explode(',', $page->tier))->contains($tier);
             },
