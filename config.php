@@ -24,7 +24,7 @@ return [
             }
         ],
         'partners' => [
-            'path' => 'partner/{name}',
+            'path' => 'partner/{-name}',
             'hasTier' => function ($page, $tier) {
                 return collect(explode(',', $page->tier))->contains($tier);
             },
