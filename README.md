@@ -1,5 +1,5 @@
 This website is built using a static web page generator.
-It is generated via a Travis build (= virtual machine) and sent as static files to a fast web page.
+It is generated on Netlify and hosted there as static web page.
 
 This is a community website, you are welcome to contribute.
 [Learn how to contribute](https://github.com/CodeDesignInitiative/cdweb1801/blob/master/CONTRIBUTING.md).
