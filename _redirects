@@ -1,5 +1,9 @@
 # Redirects from what the browser requests to what we serve
 
+# Domain Redirects
+http://code.camp/* https://code.design/camps
+https://code.camp/* https://code.design/camps
+
 # coaches
 /coach-infos*           https://docs.google.com/presentation/d/1x0Ik5OG6bGKkiQiew-ijjaZlQEEQgyQm3NFTq5fc88w/present?slide=id.p3
 /camps/coach            /coach
