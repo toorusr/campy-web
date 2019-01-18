@@ -115,13 +115,13 @@
                 @if ($partner->tier == 'patron' or $partner->tier == 'partner' )
                     <div class="p-4">
                         <div class="flex flex-col items-center">
-                            <div class="h-32 flex flex-col justify-center">
+                            <div class="flex flex-col justify-center">
                                 <a href="{{ $partner->website}}">
                                     @component('_components.img')
                                         @slot('src') /img/partner/{{ $partner->logo }} @endslot
                                         @slot('alt') {{ $partner->name }} @endslot
                                         @slot('width') {{ $partner->width }} @endslot
-                                        @slot('height') {{ $partner->height or "h-16"}} @endslot
+                                        @slot('height') {{ $partner->height ?? 'h-16'}} @endslot
                                     @endcomponent
                                 </a>
                             </div>

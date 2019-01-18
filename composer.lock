@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "657d66ac3cb53856f417d9d77f65cc58",
+    "content-hash": "395a2f0ea0b5cefa087ff4de43e4f583",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -213,7 +213,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.7.20",
+            "version": "v5.7.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -258,16 +258,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.7.20",
+            "version": "v5.7.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "758927e5e925c1d442a1faaa1356675ceba0194c"
+                "reference": "3d67e2d7c9087ae3a2a53d9b102697e5f482d6d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/758927e5e925c1d442a1faaa1356675ceba0194c",
-                "reference": "758927e5e925c1d442a1faaa1356675ceba0194c",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/3d67e2d7c9087ae3a2a53d9b102697e5f482d6d0",
+                "reference": "3d67e2d7c9087ae3a2a53d9b102697e5f482d6d0",
                 "shasum": ""
             },
             "require": {
@@ -298,11 +298,11 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2018-11-15T13:49:08+00:00"
+            "time": "2019-01-09T10:34:49+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v5.7.20",
+            "version": "v5.7.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -347,7 +347,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.7.20",
+            "version": "v5.7.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -458,7 +458,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v5.7.20",
+            "version": "v5.7.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -805,6 +805,51 @@
                 "simple-cache"
             ],
             "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "samdark/sitemap",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samdark/sitemap.git",
+                "reference": "c897f7a9cb0882e34169359a5f1f715e05b34d67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samdark/sitemap/zipball/c897f7a9cb0882e34169359a5f1f715e05b34d67",
+                "reference": "c897f7a9cb0882e34169359a5f1f715e05b34d67",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlwriter": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "samdark\\sitemap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/"
+                }
+            ],
+            "description": "Sitemap and sitemap index builder",
+            "homepage": "https://github.com/samdark/sitemap",
+            "keywords": [
+                "Sitemap"
+            ],
+            "time": "2018-02-02T09:27:13+00:00"
         },
         {
             "name": "symfony/console",
