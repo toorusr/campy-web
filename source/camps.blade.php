@@ -27,18 +27,26 @@
 
                 <p class="text-2xl mt-8 mb-2">Kommende Camps</p>
                 <ul class="-ml-4 leading-normal text-lg">
-    @foreach ($camps->where('active', 'yes') as $camp)
-    <li><a href="{{ $camp->getUrl() }}">{{ $camp->city }}, {{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }}</a></li>
-    @endforeach
-</ul>
-                        
+                    @foreach ($camps->where('active', 'yes') as $camp)
+                        <li>
+                            <a href="{{ $camp->getUrl() }}">
+                                {{ $camp->city }}, {{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }}
+                            </a>
+                        </li>
+                    @endforeach
+                </ul>
+
 
                 <p class="text-2xl mt-8 mb-2" id="past_events">Vergangene Camps</p>
                 <ul class="-ml-4 leading-normal text-lg">
-    @foreach ($camps->where('active', 'no') as $camp)
-    <li><a href="{{ $camp->getUrl() }}">{{ $camp->city }}, {{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }}</a></li>
-    @endforeach
-</ul> 
+                    @foreach ($camps->where('active', 'no') as $camp)
+                        <li>
+                            <a href="{{ $camp->getUrl() }}">
+                                {{ $camp->city }}, {{ date('d.m.', $camp->date_start) }} bis {{ date('d.m.y', $camp->date_end) }}
+                            </a>
+                        </li>
+                    @endforeach
+                </ul>
                 {{-- <img src="/img/camps/002.jpg" alt=""> --}}
             </div>
         </div>
@@ -48,32 +56,20 @@
         <div class="md:flex mt-8">
             <div class="md:w-1/3">
                 @component('_components.img')
-                    @slot('src')
-                        /img/camps/002.jpg
-                    @endslot
-                    @slot('alt')
-                        Jugendliche schauen auf Monitor
-                    @endslot
+                    @slot('src') /img/camps/002.jpg @endslot
+                    @slot('alt') Jugendliche schauen auf Monitor @endslot
                 @endcomponent
             </div>
             <div class="md:w-1/3">
                 @component('_components.img')
-                    @slot('src')
-                        /img/camps/004.jpg
-                    @endslot
-                    @slot('alt')
-                        Jugendliche begutachten Raspberry Pi
-                    @endslot
+                    @slot('src') /img/camps/004.jpg @endslot
+                    @slot('alt') Jugendliche begutachten Raspberry Pi @endslot
                 @endcomponent
             </div>
             <div class="md:w-1/3">
                 @component('_components.img')
-                    @slot('src')
-                        /img/camps/005.jpg
-                    @endslot
-                    @slot('alt')
-                        Mädchen arbeiten am Computer
-                    @endslot
+                    @slot('src') /img/camps/005.jpg @endslot
+                    @slot('alt') Mädchen arbeiten am Computer @endslot
                 @endcomponent
             </div>
 
@@ -93,7 +89,7 @@
 @endsection
 
 @section('scripts')
-<script src="https://cdn.plyr.io/2.0.18/plyr.js"></script>
+    <script src="https://cdn.plyr.io/2.0.18/plyr.js"></script>
     <script>
         plyr.setup("#plyr-youtube");
     </script>

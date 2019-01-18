@@ -63,17 +63,9 @@
             </div>
             <div class="ml-8">
                 @component('_components.button-submit')
-                    @slot('colorback')
-                        purple
-                    @endslot
-                    @slot('colorfront')
-                        white
-                    @endslot
-                    @slot('link')
-                        #
-                    @endslot
-                    @slot('width')
-                    @endslot
+                    @slot('colorback') purple @endslot
+                    @slot('colorfront') white @endslot
+                    @slot('link') # @endslot
                     Senden
                 @endcomponent
             </div>
