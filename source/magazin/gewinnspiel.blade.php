@@ -8,7 +8,9 @@
     <div class="p-8 rounded bg-white">
         <div class="ml-8 text-2xl">Beim Gewinnspiel mitmachen</div>
 
-        <form name="magazin-2-gewinnspiel" action="/magazin/gewinnspiel-mitgemacht" netlify-honeypot="hene" netlify>
+        <form action="https://cdcamp.de/api/gewinnspiel" method="POST">
+
+            <input type="hidden" name="return_path" value="https://code.design/TODO">
 
             <div class="rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
                 <div class="-mx-3 md:flex mb-6">
@@ -25,9 +27,6 @@
                         </label>
                         <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4" id="grid-last-name" type="email" placeholder="luckywinner@code.design" name="email">
                     </div>
-                </div>
-                <div class="-mx-3 md:flex mb-2">
-                    <div data-netlify-recaptcha></div>
                 </div>
             </div>
 
