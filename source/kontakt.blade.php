@@ -4,7 +4,10 @@
 <main class="p-8 bg-purple">
     <div class="text-3xl mb-4 text-white">Kontakt</div>
     <div class="p-8 rounded bg-white">
-        <form name="kontakt" action="/kontaktiert" netlify-honeypot="ierene" netlify>
+        <form action="https://cdcamp.de/api/kontakt" method="POST">
+
+            <input type="hidden" name="return_path" value="https://code.design/TODO">
+
             <div class="rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
                 <div class="-mx-3 md:flex mb-6">
                     <div class="md:w-1/2 px-3 mb-6 md:mb-0">
@@ -58,7 +61,6 @@
                       </label>
                       <textarea class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3" name="nachricht" rows="10"></textarea>
                     </div>
-                    <div data-netlify-recaptcha></div>
                 </div>
             </div>
             <div class="ml-8">
