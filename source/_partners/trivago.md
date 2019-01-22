@@ -5,5 +5,5 @@ logo: trivago.svg
 tier: silver
 camps: koe1706
 short:
+website: https://www.trivago.de/
 ---
-

@@ -7,5 +7,5 @@ strength: 4000
 camps: bon1808,due1810
 short:
 height: h-16
+website: https://www.telekom.com/de
 ---
-
