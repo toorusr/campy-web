@@ -19,25 +19,31 @@
             </ul>
         </div>
         <div class="md:w-1/2 h-auto md:mt-0 mt-8">
-            <div class="mb-2 "><span class="border-b-2 border-purple text-grey-darkest">Aktuelle Events</span></div>
+            <div class="mb-2"><span class="border-b-2 border-purple text-grey-darkest">Aktuelle Events</span></div>
 
             <ul class="list-reset leading-normal">
+                @php $counter = 0; @endphp
                 @foreach ($camps as $camp)
                     @if ($camp->active === 'yes')
+                        @php $counter++; @endphp
                         <li class="hover:text-purple text-grey-darker"><a href="{{  $camp->getUrl() }}" class="no-underline hover:text-purple text-grey-darker">{{  $camp->city }}, @if ($camp->days > 1){{ date('d.m.y', $camp->date_start) }}-{{ date('d.m.y', $camp->date_end) }}@else {{ date('d.m.y', $camp->date_start) }} @endif </a></li>
                     @endif
                 @endforeach
+
+                @if($counter == 0)
+                    <li class="text-grey-darker">Keine aktiven Camps</li>
+                @else
+                    <li class="hover:text-purple text-grey-darker"><a href="/teilnahmebedingungen" class="no-underline hover:text-purple text-grey-darker">Teilnahmebedingungen</a></li>
+                @endif
             </ul>
-            {{-- <ul class="list-reset leading-normal">
-                <li class="hover:text-purple text-grey-darker"><a href="/camps/berlin/1802/" class="no-underline hover:text-purple text-grey-darker">Berlin, 08.-11.02.2018</a></li>
-                <li class="hover:text-purple text-grey-darker"><a href="/camps/hamburg/1803/" class="no-underline hover:text-purple text-grey-darker">Hamburg, 08.-11.03.2018</a></li>
-                <li class="hover:text-purple text-grey-darker"><a href="/camps/duesseldorf/1803/" class="no-underline hover:text-purple text-grey-darker">Düsseldorf, 16.-18.03.2018</a></li>
-                <li class="hover:text-purple text-grey-darker"><a href="/teilnahmebedingungen" class="no-underline hover:text-purple text-grey-darker">Teilnahmebedingungen</a></li>
 
-            </ul> --}}
-
-            <div class="text-purple-light mb-2 mt-4">Vergangene Camps</div>
+            <div class="mb-2 mt-4"><span class="border-b-2 border-purple text-grey-darkest">Vergangene Camps</span></div>
                 <ul class="list-reset leading-normal">
+                    @foreach ($camps->reverse() as $camp)
+                        @if ($loop->iteration <= 4)
+                            <li class="hover:text-purple text-grey-darker"><a href="{{ $camp->getUrl() }}" class="no-underline hover:text-purple text-grey-darker">{{  $camp->city }}, @if ($camp->days > 1){{ date('d.m.y', $camp->date_start) }}-{{ date('d.m.y', $camp->date_end) }}@else {{ date('d.m.y', $camp->date_start) }} @endif </a></li>
+                        @endif
+                    @endforeach
                     <li class="hover:text-purple-light text-grey-darker"><a href="/camps/#past_events" class="no-underline hover:text-purple text-grey-darker">Alle vergangenen Events</a></li>
                 </ul>
             </div>
