@@ -1,7 +1,9 @@
 <div class="bg-grey-light p-4 rounded">
     <h3 class="mb-4">Interesse dabeizusein?</h3>
-    <form class="w-full" name="interest" method="POST" netlify-honeypot="cookie" netlify>
-        <input type="text" name="cookie" hidden>
+    <form action="https://cdcamp.de/api/interest" method="POST">
+
+        <input type="hidden" name="return_path" value="https://code.design/TODO">
+
         <div class="flex flex-wrap -mx-3 mb-2">
             <div class="flex-1 px-3 mb-6 md:mb-0">
                 <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-city">
@@ -38,7 +40,6 @@
                     </div>
                 </div>
             </div>
-            <div data-netlify-recaptcha></div>
             <div class="self-end">
                 <button class="px-3 mb-6 md:mb-0  py-3 text-grey-darkest mr-4 rounded bg-grey  hover:bg-grey-dark">Senden</button>
             </div>
