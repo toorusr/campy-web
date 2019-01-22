@@ -7,7 +7,9 @@
 
     <div class="p-8 rounded bg-white">
         <div class="ml-8 text-2xl">Magazin kostenlos bestellen!</div>
-        <form name="magazin-bestellung" action="/magazin/bestellt" netlify-honeypot="hene" netlify>
+        <form name="magazin-bestellung" action="https://cdcamp.de/api/magazin">
+
+            <input type="hidden" name="return_path" value="https://code.design/TODO">
 
             <div class="rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
                 <div class="-mx-3 md:flex mb-6">
@@ -80,8 +82,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div data-netlify-recaptcha></div>
                 </div>
             </div>
 
