@@ -10,6 +10,7 @@
         <form name="magazin-bestellung" action="https://cdcamp.de/api/magazin">
 
             <input type="hidden" name="return_path" value="https://code.design/TODO">
+            <input type="hidden" name="error_path" value="https://code.design/TODO">
 
             <div class="rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
                 <div class="-mx-3 md:flex mb-6">
@@ -68,7 +69,7 @@
                             Bestellgrund
                         </label>
                         <div class="relative">
-                            <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded" id="grid-state">
+                            <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded" id="grid-state" name="reason">
                                 <option value="selbst">Ich möchte es selbst lesen</option>
                                 <option value="kinder">Ich möchte es meinen Kindern geben</option>
                                 <option value="schueler">Ich möchte es meinen Schülern geben</option>
