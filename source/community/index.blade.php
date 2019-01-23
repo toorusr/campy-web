@@ -15,7 +15,7 @@
             <h2 class="mt-6 mb-2">Was ist unsere Mission</h2>
 
             <p class="text-lg">
-            Die Mission von Code+Design ist es, Jugendliche für digitale Berufe zu begeistern und zu qualifizieren. Dafür geben wir dir und vielen anderen Jugendlichen die Chance, an spannenden Events mitzuwirken – Camps, Meetups und neue Formate.
+            Die Mission von Code+Design ist es, Jugendliche für digitale Berufe zu begeistern und zu qualifizieren. Dafür geben wir dir und vielen anderen Jugendlichen die Chance, an spannenden Events mitzuwirken – Camps, Meetups und neue Formate. Wir waren alle selbst mal AnfängerInnen und wollen deshalb unsere eigene Begeisterung und unser Wissen weitergeben!
             </p>
 
             <p class="text-lg">
