@@ -9,7 +9,7 @@
                 <a href="https://docs.google.com/document/d/1apQKZKee2YmjpZtycIzNYRH0ZDkYqymgBLfcIsTHMxU/edit#bookmark=id.xsrxfeqs777z" target="_blank">
                     <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     class="lazyload mb-4"
-                    data-srcset="/img/community/ladder.png" alt="Community Programm Ladder" width="350px"/>
+                    data-srcset="/img/community/ladder2.png" alt="Community Programm Ladder" width="350px"/>
                 </a>
             </div>
             <h2 class="mt-6 mb-2">Was ist unsere Mission</h2>
