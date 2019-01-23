@@ -5,7 +5,7 @@
 
     <div class="text-white text-3xl mb-4">Spenden</div>
 
-    <div class="flex">
+    <div class="flex flex-wrap">
         <div id="form" class="lg:w-1/2 w-full rounded bg-white p-4">
 
             <div class="text-xl">
@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <div id="betterplace" class="lg:w-1/2 w-full bg-white p-4">
+        <div id="betterplace" class="text-center lg:w-1/2 w-full bg-white p-4">
             <script type="text/javascript">
             /* Configure at https://www.betterplace.org/de/projects/59504-code-design-jugendliche-fur-digitale-berufe-begeistern/manage/iframe_donation_form/new */
             var _bp_iframe        = _bp_iframe || {};
