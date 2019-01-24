@@ -2,7 +2,7 @@ This website is built using a static web page generator.
 It is generated on Netlify and hosted there as static web page.
 
 This is a community website, you are welcome to contribute.
-[Learn how to contribute](https://github.com/CodeDesignInitiative/cdweb1801/blob/master/CONTRIBUTING.md).
+[Learn how to contribute](https://github.com/CodeDesignInitiative/campy-web/blob/master/CONTRIBUTING.md).
 
 ## Tools used:
 
@@ -24,7 +24,7 @@ If you want to develop a feature or fix a bug, you need to run a local copy of t
 Here is how to do that.
 
 ```bash    
-git clone git@github.com:CodeDesignInitiative/cdweb1801.git
+git clone git@github.com:CodeDesignInitiative/campy-web.git
 cd cdweb1801
 composer install && npm install
 npm run watch
@@ -42,7 +42,7 @@ Here is how to add yourself (or an other person) as a coach to the website.
 1. Fork this repository and clone it to your local device and create a new branch for your addition
 ```bash
 # using git
-git clone https://github.com/YOUR_USERNAME/cdweb1801 # replace YOUR_USERNAME with your username
+git clone https://github.com/YOUR_USERNAME/campy-web # replace YOUR_USERNAME with your username
 git checkout -b add-coach-muster # replace muster with your name
 ```
 2. Make sure that you (or the person you want to add) are/is allready known as a coach.
