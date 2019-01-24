@@ -4,8 +4,9 @@
 
     <form action="https://cdcamp.de/api/camp_registration" method="POST">
 
-        <input type="hidden" name="return_path" value="https://code.design/TODO">
-        <input type="hidden" name="error_path" value="https://code.design/TODO">
+        <input type="hidden" name="token" value="">
+        <input type="hidden" name="return_path" value="https://code.design/anfrage">
+        <input type="hidden" name="error_path" value="{{ $page->getPath() }}">
 
         <div class="w-full mt-4">
             <label for="mobile" class="block mb-2">Handynummer</label>

@@ -10,8 +10,9 @@
 
         <form action="https://cdcamp.de/api/gewinnspiel" method="POST">
 
-            <input type="hidden" name="return_path" value="https://code.design/TODO">
-            <input type="hidden" name="error_path" value="https://code.design/TODO">
+            <input type="hidden" name="token" value="">
+            <input type="hidden" name="return_path" value="https://code.design/anfrage">
+            <input type="hidden" name="error_path" value="{{ $page->getPath() }}">
 
             <div class="rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
                 <div class="-mx-3 md:flex mb-6">

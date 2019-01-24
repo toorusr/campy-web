@@ -2,8 +2,9 @@
     <h3 class="mb-4">Interesse dabeizusein?</h3>
     <form action="https://cdcamp.de/api/interest" method="POST">
 
-        <input type="hidden" name="return_path" value="https://code.design/TODO">
-        <input type="hidden" name="error_path" value="https://code.design/TODO">
+        <input type="hidden" name="token" value="">
+        <input type="hidden" name="return_path" value="https://code.design/anfrage">
+        <input type="hidden" name="error_path" value="{{ $page->getPath() }}">
 
         <div class="flex flex-wrap -mx-3 mb-2">
             <div class="flex-1 px-3 mb-6 md:mb-0">
