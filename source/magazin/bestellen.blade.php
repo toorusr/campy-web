@@ -7,7 +7,11 @@
 
     <div class="p-8 rounded bg-white">
         <div class="ml-8 text-2xl">Magazin kostenlos bestellen!</div>
-        <form name="magazin-bestellung" action="/magazin/bestellt" netlify-honeypot="hene" netlify>
+        <form name="magazin-bestellung" action="https://cdcamp.de/api/magazin">
+
+            <input type="hidden" name="token" value="">
+            <input type="hidden" name="return_path" value="https://code.design/anfrage">
+            <input type="hidden" name="error_path" value="{{ $page->getPath() }}">
 
             <div class="rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
                 <div class="-mx-3 md:flex mb-6">
@@ -66,7 +70,7 @@
                             Bestellgrund
                         </label>
                         <div class="relative">
-                            <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded" id="grid-state">
+                            <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded" id="grid-state" name="reason">
                                 <option value="selbst">Ich möchte es selbst lesen</option>
                                 <option value="kinder">Ich möchte es meinen Kindern geben</option>
                                 <option value="schueler">Ich möchte es meinen Schülern geben</option>
@@ -80,8 +84,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div data-netlify-recaptcha></div>
                 </div>
             </div>
 
