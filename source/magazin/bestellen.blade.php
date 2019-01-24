@@ -7,7 +7,7 @@
 
     <div class="p-8 rounded bg-white">
         <div class="ml-8 text-2xl">Magazin kostenlos bestellen!</div>
-        <form name="magazin-bestellung" action="https://cdcamp.de/api/magazin">
+        <form name="magazin-bestellung" action="https://cdcamp.de/api/magazin" method="POST">
 
             <input type="hidden" name="token" value="">
             <input type="hidden" name="return_path" value="https://code.design/anfrage">
